@@ -1,0 +1,22 @@
+Bacadulu.txt
+
+Berikut ini langkah-langkah yang diperlukan untuk menambahkan file setting beberapa kota 
+yang sempat didownload oleh kru Al-Manar:
+1. Dengan Windows Explorer, akses file-file yang ada di folder 
+   [CD-ROM]:\bahan\5. SOFTWARE\2. PROGRAM GRATIS\IslamicFinder\Athan\city\
+2. Pilih/Select semua file yang ada dalam folder ini KECUALI file "SelectedCity" 
+   dan "selectedAthan".
+3. Copy file-file ini ke dalam folder instalasi Athan. Secara default akan ada di 
+   C:\Program Files\Athan\city\
+4. Selanjutnya, untuk mengubah setting Lokasi dan waktu shalat, dari Program Athan 
+   (biasanya ada di System Tray, kotak pojok kanan bawah monitor atau dari Start Menu), 
+   pilih Change City > Pilih kota yang dikehendaki > Save.
+
+5. Anda juga dapat mengubah setting suara adzan dengan memilih Checkbox suara adzan di
+   bagian kanan tampilan Program Athan.
+
+Kami mohon maaf karena baru men-download beberapa kota tambahan saja. Bila kota anda 
+belum tercantum, anda dapat mendapatkannya sendiri dengan mengakses 
+www.islamicfinder.org :)
+
+Selamat menikmati!

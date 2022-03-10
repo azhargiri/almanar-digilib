@@ -1,0 +1,104 @@
+Setup Factory 5.0 Installation Log
+==================================
+Date/Time: 30-Mar-04  09:27:15 PM
+
+[Execute Commands 0]
+
+[File Operations 0]
+
+[Execute Commands 1]
+
+[File Operations 1]
+
+[Installing from Archive]
+Installing C:\Program Files\Athan\Athan.exe
+Installing C:\Program Files\Athan\help.html
+Installing C:\Program Files\Athan\Newchanges.txt
+Installing C:\Program Files\Athan\city\Makkah
+Installing C:\Program Files\Athan\city\selectedCity
+Installing C:\Program Files\Athan\city\cityList
+Installing C:\Program Files\Athan\city\selectedAthan
+Installing C:\Program Files\Athan\city\version.txt
+Installing C:\Program Files\Athan\images\logo1.gif
+Installing C:\Program Files\Athan\images\logo.jpg
+Installing C:\Program Files\Athan\images\madina.gif
+Installing C:\Program Files\Athan\images\makkah.gif
+Installing C:\Program Files\Athan\images\harrow.cur
+Installing C:\Program Files\Athan\images\wait.cur
+Installing C:\Program Files\Athan\images\makkah.ico
+Installing C:\Program Files\Athan\images\makkah32-256.ico
+Installing C:\Program Files\Athan\sound\alaqsa.wav
+Installing C:\Program Files\Athan\sound\makkah.wav
+Installing C:\Program Files\Athan\sound\madina.wav
+Installing C:\Program Files\Athan\sound\madina_fajr.wav
+Installing C:\Program Files\Athan\sound\dua.wav
+Installing C:\Program Files\Athan\calendar\1424.html
+Installing C:\Program Files\Athan\calendar\1425.html
+Installing C:\Program Files\Athan\calendar\1426.html
+Installing C:\Program Files\Athan\calendar\1427.html
+Installing C:\Program Files\Athan\calendar\1428.html
+Installing C:\Program Files\Athan\calendar\2003.html
+Installing C:\Program Files\Athan\calendar\2004.html
+Installing C:\Program Files\Athan\calendar\2005.html
+Installing C:\Program Files\Athan\calendar\2006.html
+Installing C:\Program Files\Athan\calendar\2007.html
+Installing C:\WINDOWS\System32\athan\shdocvw.dll
+Installing C:\WINDOWS\System32\athan\msinet.ocx
+Installing C:\WINDOWS\System32\athan\comdlg32.ocx
+Installing C:\Program Files\Athan\MSVBVM60.dll
+Installing C:\WINDOWS\System32\athan\OleAut32.dll
+Installing C:\WINDOWS\System32\athan\OlePro32.dll
+Installing C:\WINDOWS\System32\athan\AsycFilt.dll
+Installing C:\WINDOWS\System32\athan\StdOle2.tlb
+Installing C:\WINDOWS\System32\athan\ComCat.dll
+Installing C:\Program Files\Athan\images\print_en.gif
+
+[Installing External]
+
+[Register Fonts]
+
+[File Registration]
+Usage Count C:\WINDOWS\System32\athan\shdocvw.dll, 1
+DLLRegisterServer C:\WINDOWS\System32\athan\shdocvw.dll, Failure in LoadLibrary() (127)
+Usage Count C:\WINDOWS\System32\athan\msinet.ocx, 1
+DLLRegisterServer C:\WINDOWS\System32\athan\msinet.ocx, OK (0)
+Usage Count C:\WINDOWS\System32\athan\comdlg32.ocx, 1
+DLLRegisterServer C:\WINDOWS\System32\athan\comdlg32.ocx, OK (0)
+Usage Count C:\Program Files\Athan\MSVBVM60.dll, 1
+DLLRegisterServer C:\Program Files\Athan\MSVBVM60.dll, OK (0)
+Usage Count C:\WINDOWS\System32\athan\OleAut32.dll, 1
+DLLRegisterServer C:\WINDOWS\System32\athan\OleAut32.dll, OK (0)
+Usage Count C:\WINDOWS\System32\athan\OlePro32.dll, 1
+DLLRegisterServer C:\WINDOWS\System32\athan\OlePro32.dll, OK (0)
+Usage Count C:\WINDOWS\System32\athan\AsycFilt.dll, 1
+Usage Count C:\WINDOWS\System32\athan\StdOle2.tlb, 1
+Usage Count C:\WINDOWS\System32\athan\ComCat.dll, 1
+DLLRegisterServer C:\WINDOWS\System32\athan\ComCat.dll, OK (0)
+
+[Uninstall]
+C:\WINDOWS\iun503.exe C:\Program Files\Athan\irunin.ini
+
+[Registry Commands]
+
+[Text File Commands]
+
+[INI File Commands]
+
+[Shortcut Commands]
+
+[Program Icons]
+C:\Documents and Settings\All Users\Start Menu\Programs\Athan\Athan.lnk
+C:\Documents and Settings\GOEN\Desktop\Athan.lnk
+
+[Execute Commands 2]
+0, Athan.exe Athan.exe C:\Program Files\Athan
+
+[File Operations 2]
+
+[Execute Commands 3]
+
+[File Operations 3]
+
+Setup completed normally.
+
+

@@ -1,0 +1,26 @@
+Version 1.0.1
+Fix the bug for non-engliash based language.
+
+version 1.0.2 
+Athan window do not show on desktop at startup.
+Add Fajr Athan.
+Change time to 24 hour format.
+
+version 1.0.3
+Prayer change daily without restart software or computer.
+Add two more Athans.
+Add 2003 Hijri calendar.
+Add save button in change city window.
+Remove lower botton from main window.
+Add clickable email in about us.
+Put drop down menu in monthly prayer time in menu.
+when click on athan icon then it show on top of other windows if even it is open and not visible.
+
+Version 1.5
+Download 4 years prayer times.
+Add 5 years of hijri and gregorian calendars.
+Add upgrade option.
+Add Question at top of the help.
+Option to change prayer time to 12 & 24 hours format.
+Decrease the size of Madina Athan and Fjar Athan.
+Put Aqsa Athan in the software.

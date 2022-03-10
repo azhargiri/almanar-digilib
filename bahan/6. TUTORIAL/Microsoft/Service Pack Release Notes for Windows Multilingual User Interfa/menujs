@@ -1,0 +1,200 @@
+
+
+function mnpMenuDir()
+{
+	return "LTR";
+}
+
+function mnpMenuCT()
+{
+	
+	return false;
+}
+
+function m71cdd250c0515ff1d3faf0cab259c3ff()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Get World-Ready: Overview', '/globaldev/getWR/default.mspx', '', '', '_S1_Node2_S1_Node1');
+	this.items[n++] = new mnpPage('Globalization Step-by-Step', '/globaldev/getwr/steps/wrguide.mspx', '', 'mc1c569426ce2eaec5334b436f34f40c6', '_S1_Node2_S1_Node2');
+	this.items[n++] = new mnpPage('.NET Internationalization', '/globaldev/getwr/dotneti18n.mspx', '', '', '_S1_Node2_S1_Node3');
+	this.items[n++] = new mnpPage('Windows CE .NET Internationalization', '/globaldev/getwr/wincei18n.mspx', '', '', '_S1_Node2_S1_Node4');
+	this.items[n++] = new mnpPage('You are Not World-Ready If...', '/globaldev/getWR/nwr/notworldready.mspx', '', 'me84bc0f15808d8e6fffb226e12f6e173', '_S1_Node2_S1_Node5');
+	this.items[n++] = new mnpPage('Developing Intl. Software, 2nd. Ed.', '/globaldev/getWR/DIS_v2/default.mspx', '', '', '_S1_Node2_S1_Node6');
+	this.items[n++] = new mnpPage('Developing Intl. Software, 1st. Ed.', '/globaldev/dis_v1/disv1.asp', '', '', '_S1_Node2_S1_Node7');
+}
+
+function mc1c569426ce2eaec5334b436f34f40c6()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpLabel('Internationalization');
+	this.items[n++] = new mnpPage('Understanding Internationalization', '/globaldev/getwr/steps/wrg_g11n.mspx', '', '', '_S1_Node2_S1_Node2_S1_Node1');
+	this.items[n++] = new mnpLabel('Data Encoding');
+	this.items[n++] = new mnpPage('Unicode Enabled', '/globaldev/getwr/steps/wrg_unicode.mspx', '', '', '_S1_Node2_S1_Node2_S2_Node1');
+	this.items[n++] = new mnpPage('Encodings &amp; Code Pages', '/globaldev/getWR/steps/wrg_codepage.mspx', '', '', '_S1_Node2_S1_Node2_S2_Node2');
+	this.items[n++] = new mnpLabel('Locale/Cultural Awareness');
+	this.items[n++] = new mnpPage('Use Locale Model', '/globaldev/getWR/steps/WRG_lclmdl.mspx', '', '', '_S1_Node2_S1_Node2_S3_Node1');
+	this.items[n++] = new mnpPage('Sorting &amp; String Comparison', '/globaldev/getwr/steps/wrg_sort.mspx', '', '', '_S1_Node2_S1_Node2_S3_Node2');
+	this.items[n++] = new mnpPage('Calendar Differences', '/globaldev/getWR/steps/wrg_clndr.mspx', '', '', '_S1_Node2_S1_Node2_S3_Node3');
+	this.items[n++] = new mnpPage('Date Formatting', '/globaldev/getWR/steps/wrg_date.mspx', '', '', '_S1_Node2_S1_Node2_S3_Node4');
+	this.items[n++] = new mnpPage('Time Formatting', '/globaldev/getwr/steps/wrg_time.mspx', '', '', '_S1_Node2_S1_Node2_S3_Node5');
+	this.items[n++] = new mnpPage('Currency Formatting', '/globaldev/getWR/steps/wrg_crncy.mspx', '', '', '_S1_Node2_S1_Node2_S3_Node6');
+	this.items[n++] = new mnpPage('Number Formatting', '/globaldev/getwr/steps/wrg_nmbr.mspx', '', '', '_S1_Node2_S1_Node2_S3_Node7');
+	this.items[n++] = new mnpPage('Addresses', '/globaldev/getWR/steps/wrg_addrs.mspx', '', '', '_S1_Node2_S1_Node2_S3_Node8');
+	this.items[n++] = new mnpPage('Telephone Numbers', '/globaldev/getwr/steps/wrg_telnum.mspx', '', '', '_S1_Node2_S1_Node2_S3_Node9');
+	this.items[n++] = new mnpPage('Paper Size', '/globaldev/getwr/steps/wrg_paper.mspx', '', '', '_S1_Node2_S1_Node2_S3_Node10');
+	this.items[n++] = new mnpPage('Units of Measurement', '/globaldev/getwr/steps/wrg_uofms.mspx', '', '', '_S1_Node2_S1_Node2_S3_Node11');
+	this.items[n++] = new mnpLabel('Input, Display, &amp; Output');
+	this.items[n++] = new mnpPage('Input, Display, &amp; Output Overview', '/globaldev/getwr/steps/wrg_ido.mspx', '', '', '_S1_Node2_S1_Node2_S4_Node1');
+	this.items[n++] = new mnpPage('Capitalization, Uppercasing &amp; Lowercasing', '/globaldev/getwr/steps/wrg_ulcase.mspx', '', '', '_S1_Node2_S1_Node2_S4_Node2');
+	this.items[n++] = new mnpPage('Fonts', '/globaldev/getwr/steps/wrg_font.mspx', '', '', '_S1_Node2_S1_Node2_S4_Node3');
+	this.items[n++] = new mnpPage('Keyboards &amp; IMEs', '/globaldev/getWR/steps/WRG_kybrd.mspx', '', '', '_S1_Node2_S1_Node2_S4_Node4');
+	this.items[n++] = new mnpPage('Line &amp; Word Breaking', '/globaldev/getwr/steps/wrg_linebrk.mspx', '', '', '_S1_Node2_S1_Node2_S4_Node5');
+	this.items[n++] = new mnpPage('Complex Scripts', '/globaldev/getWR/steps/wrg_cscripts.mspx', '', '', '_S1_Node2_S1_Node2_S4_Node6');
+	this.items[n++] = new mnpPage('Console Globalization', '/globaldev/getWR/steps/wrg_console.mspx', '', '', '_S1_Node2_S1_Node2_S4_Node7');
+	this.items[n++] = new mnpLabel('Multilingual User Interface');
+	this.items[n++] = new mnpPage('How to MUI', '/globaldev/getwr/steps/wrg_mui.mspx', '', '', '_S1_Node2_S1_Node2_S5_Node1');
+	this.items[n++] = new mnpLabel('Localizability');
+	this.items[n++] = new mnpPage('Localizability Overview', '/globaldev/getwr/steps/wrg_localizability.mspx', '', '', '_S1_Node2_S1_Node2_S6_Node1');
+	this.items[n++] = new mnpPage('Isolate Localizable Resources', '/globaldev/getwr/steps/wrg_locresources.mspx', '', '', '_S1_Node2_S1_Node2_S6_Node2');
+	this.items[n++] = new mnpPage('String Handling', '/globaldev/getwr/steps/wrg_string.mspx', '', '', '_S1_Node2_S1_Node2_S6_Node3');
+	this.items[n++] = new mnpPage('Mirroring', '/globaldev/getwr/steps/WRG_mirror.mspx', '', '', '_S1_Node2_S1_Node2_S6_Node4');
+	this.items[n++] = new mnpPage('UI Considerations', '/globaldev/getwr/steps/wrg_uiloc.mspx', '', '', '_S1_Node2_S1_Node2_S6_Node5');
+}
+
+function me84bc0f15808d8e6fffb226e12f6e173()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Part I', '/globaldev/getwr/nwr/nwrpartI.mspx', '', '', '_S1_Node2_S1_Node5_S1_Node1');
+	this.items[n++] = new mnpPage('Part II', '/globaldev/getwr/nwr/nwrpartII.mspx', '', '', '_S1_Node2_S1_Node5_S1_Node2');
+	this.items[n++] = new mnpPage('Part III', '/globaldev/getwr/nwr/nwrpartIII.mspx', '', '', '_S1_Node2_S1_Node5_S1_Node3');
+	this.items[n++] = new mnpPage('Part IV', '/globaldev/getwr/nwr/nwrpartIV.mspx', '', '', '_S1_Node2_S1_Node5_S1_Node4');
+	this.items[n++] = new mnpPage('Part V', '/globaldev/getwr/nwr/nwrpartV.mspx', '', '', '_S1_Node2_S1_Node5_S1_Node5');
+	this.items[n++] = new mnpPage('Part VI', '/globaldev/getwr/nwr/nwrpartVI.mspx', '', '', '_S1_Node2_S1_Node5_S1_Node6');
+	this.items[n++] = new mnpPage('Part VII', '/globaldev/getwr/nwr/nwrpartVII.mspx', '', '', '_S1_Node2_S1_Node5_S1_Node7');
+	this.items[n++] = new mnpPage('Part VIII', '/globaldev/getwr/nwr/nwrpartVIII.mspx', '', '', '_S1_Node2_S1_Node5_S1_Node8');
+}
+
+function m165a929167138a27073dc2452abfd30e()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Dr. International: Overview', '/globaldev/DrIntl/default.mspx', '', '', '_S2_Node1_S1_Node1');
+	this.items[n++] = new mnpPage('Dr. Intl. Columns', '/globaldev/DrIntl/columns/default.mspx', '', 'm9839f83d18f71028f9f5634d131fe592', '_S2_Node1_S1_Node2');
+	this.items[n++] = new mnpPage('FAQs', '/globaldev/DrIntl/faqs/faqs.mspx', '', 'm947ef42315d9dc6bf08a3a104f802eef', '_S2_Node1_S2_Node1');
+	this.items[n++] = new mnpPage('Ask Dr. International', '/globaldev/drintl/askdrintl.aspx', '', '', '_S2_Node1_S3_Node1');
+}
+
+function m9839f83d18f71028f9f5634d131fe592()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Dr. Intl. 1', '/globaldev/DrIntl/columns/001/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node1');
+	this.items[n++] = new mnpPage('Dr. Intl. 2', '/globaldev/DrIntl/columns/002/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node2');
+	this.items[n++] = new mnpPage('Dr. Intl. 3', '/globaldev/DrIntl/columns/003/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node3');
+	this.items[n++] = new mnpPage('Dr. Intl. 4', '/globaldev/DrIntl/columns/004/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node4');
+	this.items[n++] = new mnpPage('Dr. Intl. 5', '/globaldev/DrIntl/columns/005/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node5');
+	this.items[n++] = new mnpPage('Dr. Intl. 6', '/globaldev/DrIntl/columns/006/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node6');
+	this.items[n++] = new mnpPage('Dr. Intl. 7', '/globaldev/drintl/columns/007/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node7');
+	this.items[n++] = new mnpPage('Dr. Intl. 8', '/globaldev/drintl/columns/008/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node8');
+	this.items[n++] = new mnpPage('Dr. Intl. 9', '/globaldev/drintl/columns/009/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node9');
+	this.items[n++] = new mnpPage('Dr. Intl. 10', '/globaldev/DrIntl/columns/010/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node10');
+	this.items[n++] = new mnpPage('Dr. Intl. 11', '/globaldev/DrIntl/columns/011/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node11');
+	this.items[n++] = new mnpPage('Dr. Intl. 12', '/globaldev/DrIntl/columns/012/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node12');
+	this.items[n++] = new mnpPage('Dr. Intl. 13', '/globaldev/DrIntl/columns/013/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node13');
+	this.items[n++] = new mnpPage('Dr. Intl. 14', '/globaldev/DrIntl/columns/014/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node14');
+	this.items[n++] = new mnpPage('Dr. Intl. 15', '/globaldev/DrIntl/columns/015/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node15');
+	this.items[n++] = new mnpPage('Dr. Intl. 16', '/globaldev/DrIntl/columns/016/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node16');
+	this.items[n++] = new mnpPage('Dr. Intl. 17', '/globaldev/DrIntl/columns/017/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node17');
+	this.items[n++] = new mnpPage('Dr. Intl. 18', '/globaldev/DrIntl/columns/018/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node18');
+	this.items[n++] = new mnpPage('Dr. Intl. 19', '/globaldev/DrIntl/columns/019/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node19');
+	this.items[n++] = new mnpPage('Dr. Intl. 20', '/globaldev/DrIntl/columns/020/default.mspx', '', '', '_S2_Node1_S1_Node2_S1_Node20');
+}
+
+function m947ef42315d9dc6bf08a3a104f802eef()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Complex Scripts', '/globaldev/DrIntl/faqs/Complex.mspx', '', '', '_S2_Node1_S1_Node3_S1_Node1');
+	this.items[n++] = new mnpPage('Input Method Managers/Editors', '/globaldev/DrIntl/faqs/ime.mspx', '', '', '_S2_Node1_S1_Node3_S1_Node2');
+	this.items[n++] = new mnpPage('Locales', '/globaldev/DrIntl/faqs/Locales.mspx', '', '', '_S2_Node1_S1_Node3_S1_Node3');
+	this.items[n++] = new mnpPage('Windows 2000', '/globaldev/DrIntl/faqs/win2k.mspx', '', '', '_S2_Node1_S1_Node3_S1_Node4');
+	this.items[n++] = new mnpPage('Windows XP', '/globaldev/DrIntl/faqs/winxp.mspx', '', '', '_S2_Node1_S1_Node3_S1_Node5');
+	this.items[n++] = new mnpPage('Windows LIP', '/globaldev/DrIntl/faqs/LIPFaq.mspx', '', '', '_S2_Node1_S1_Node3_S1_Node6');
+	this.items[n++] = new mnpPage('Windows MUI', '/globaldev/DrIntl/faqs/MUIFaq.mspx', '', '', '_S2_Node1_S1_Node3_S1_Node7');
+	this.items[n++] = new mnpPage('Keyboards', '/globaldev/DrIntl/faqs/kbdfaq.mspx', '', '', '_S2_Node1_S1_Node3_S1_Node8');
+}
+
+function m6ed7ac01166b6a996f8bb25f9a4304b8()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Hands-On: Overview', '/globaldev/handson/default.mspx', '', '', '_S3_Node1_S1_Node1');
+	this.items[n++] = new mnpPage('Application Compatibility in Windows MUI', '/globaldev/handson/dev/AppCompatInMUI.mspx', '', '', '_S3_Node1_S1_Node2');
+	this.items[n++] = new mnpPage('Authoring HTML for Middle Eastern Content', '/globaldev/handson/dev/Mideast.mspx', '', '', '_S3_Node1_S1_Node3');
+	this.items[n++] = new mnpPage('Fonts in Windows XP', '/globaldev/handson/dev/font_install_xp.aspx', '', '', '_S3_Node1_S1_Node4');
+	this.items[n++] = new mnpPage('International Features in Microsoft SQL Server 2000 ', 'http://msdn.microsoft.com/library/default.asp?URL=/library/techart/IntlFeaturesInSQLServer2000.htm', '', '', '_S3_Node1_S1_Node5');
+	this.items[n++] = new mnpPage('MS Layer for Unicode on Windows 95/98/ME Systems', '/globaldev/handson/dev/mslu_announce.mspx', '', '', '_S3_Node1_S1_Node6');
+	this.items[n++] = new mnpPage('Application and Windows XP MUI', '/globaldev/regions/DH-Application and Windows XP MUI.mspx', '', '', '_S3_Node1_S1_Node7');
+	this.items[n++] = new mnpPage('Multilanguage Support in Windows 2000', '/globaldev/handson/dev/multilang.mspx', '', '', '_S3_Node1_S1_Node8');
+	this.items[n++] = new mnpPage('Language-Specific APIs', '/globaldev/handson/dev/newapis.mspx', '', '', '_S3_Node1_S1_Node9');
+	this.items[n++] = new mnpPage('Testing Software for World-Readiness', '/globaldev/handson/dev/wrtesting.mspx', '', '', '_S3_Node1_S1_Node10');
+	this.items[n++] = new mnpPage('Unicode &amp; Keyboards on Windows', '/globaldev/handson/dev/inputinwin.mspx', '', '', '_S3_Node1_S1_Node11');
+	this.items[n++] = new mnpPage('Windows XP International Support', '/globaldev/handson/dev/winxpintl.mspx', '', '', '_S3_Node1_S1_Node12');
+	this.items[n++] = new mnpPage('Writing Multilingual UI Applications', '/globaldev/handson/dev/muiapp.mspx', '', '', '_S3_Node1_S1_Node13');
+	this.items[n++] = new mnpPage('Enabling Intl. Support in Windows XP/Server 2003', '/globaldev/handson/user/xpintlsupp.mspx', '', '', '_S3_Node1_S1_Node14');
+	this.items[n++] = new mnpPage('Enabling Intl. Support in Windows 2000', '/globaldev/handson/user/2kintlsupp.mspx', '', '', '_S3_Node1_S1_Node15');
+	this.items[n++] = new mnpPage('Enabling Intl. Support in Legacy Operating Systems', '/globaldev/regions/downlevel_intl.mspx', '', '', '_S3_Node1_S1_Node16');
+	this.items[n++] = new mnpPage('International Support in Outlook Express', '/globaldev/handson/user/OE_setting1.mspx', '', '', '_S3_Node1_S1_Node17');
+	this.items[n++] = new mnpPage('Welsh Support in Windows XP SP2', '/globaldev/handson/user/welsh.mspx', '', '', '_S3_Node1_S1_Node18');
+	this.items[n++] = new mnpPage('Welsh Support in Windows XP SP2 (Welsh)', '/globaldev/handson/user/welsh_loc.mspx', '', '', '_S3_Node1_S1_Node19');
+	this.items[n++] = new mnpPage('What is/How to Use IMEs?', '/globaldev/handson/user/IME_Paper.mspx', '', '', '_S3_Node1_S1_Node20');
+}
+
+function mc32167d8fbc479d7b7b43a2fbd04b5a8()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('References: Overview', '/globaldev/reference/default.mspx', '', '', '_S4_Node1_S1_Node1');
+	this.items[n++] = new mnpPage('Code Pages', '/globaldev/reference/cphome.mspx', '', '', '_S4_Node1_S1_Node2');
+	this.items[n++] = new mnpPage('Glossaries', '/globaldev/reference/glosshome.mspx', '', '', '_S4_Node1_S2_Node1');
+	this.items[n++] = new mnpPage('Keyboard Layouts', '/globaldev/reference/keyboards.aspx', '', '', '_S4_Node1_S3_Node1');
+	this.items[n++] = new mnpPage('Links', '/globaldev/reference/links.mspx', '', '', '_S4_Node1_S3_Node2');
+	this.items[n++] = new mnpPage('Locales &amp; Languages/Setup', '/globaldev/reference/loclanghome.mspx', '', '', '_S4_Node1_S3_Node3');
+	this.items[n++] = new mnpPage('Localized Operating Systems', '/globaldev/reference/oslocversion.mspx', '', '', '_S4_Node1_S4_Node1');
+	this.items[n++] = new mnpPage('MUI/LIP Knowledge Center', '/globaldev/reference/muizone.mspx', '', '', '_S4_Node1_S4_Node2');
+	this.items[n++] = new mnpPage('Presentations', '/globaldev/reference/presentations/presentations.mspx', '', '', '_S4_Node1_S4_Node3');
+	this.items[n++] = new mnpPage('List of LCID Values as Assigned by Microsoft', '/globaldev/reference/lcid-all.mspx', '', '', '_S4_Node1_S5_Node1');
+}
+
+function m781314c303483654912d4e2199f239bb()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Tools &amp; Utilities: Overview', '/globaldev/tools/tools.mspx', '', '', '_S5_Node1_S1_Node1');
+	this.items[n++] = new mnpPage('AppLocale', '/globaldev/tools/apploc.mspx', '', '', '_S5_Node1_S1_Node2');
+	this.items[n++] = new mnpPage('Keyboard Layout Creator', '/globaldev/tools/msklc.mspx', '', '', '_S5_Node1_S1_Node3');
+	this.items[n++] = new mnpPage('StringGen', '/globaldev/tools/strgen.mspx', '', '', '_S5_Node1_S1_Node4');
+	this.items[n++] = new mnpPage('World-Ready App', '/globaldev/tools/wrapp.mspx', '', '', '_S5_Node1_S1_Node5');
+}
+
+function mb16ebf7dc2e85d17e43f8fbc36504aee()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Perspectives: Overview', '/globaldev/perspectives/default.mspx', '', '', '_S6_Node1_S1_Node1');
+	this.items[n++] = new mnpPage('Entering Greek Polytonic', '/globaldev/perspectives/polytonic.mspx', '', '', '_S6_Node1_S1_Node2');
+	this.items[n++] = new mnpPage('A scribe out of Windows', '/globaldev/perspectives/HieroglyphicScript.mspx', '', '', '_S6_Node1_S1_Node3');
+	this.items[n++] = new mnpPage('TEST', '/globaldev/test/default.aspx', '', '', '_S6_Node1_S1_Node4');
+}
+
+function m05ea4ecc3047e39e4a43ee4661e09628()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('This Site', '/globaldev/about.mspx', '', '', '_S7_Node1_S1_Node1');
+	this.items[n++] = new mnpPage('What\'s New', '/globaldev/whatsnew.mspx', '', '', '_S7_Node1_S1_Node2');
+}
+

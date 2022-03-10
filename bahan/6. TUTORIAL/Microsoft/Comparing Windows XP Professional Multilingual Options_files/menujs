@@ -1,0 +1,270 @@
+
+
+function mnpMenuDir()
+{
+	return "LTR";
+}
+
+function mnpMenuCT()
+{
+	
+	return false;
+}
+
+function m717e01f5d0d04cbf8780cf133a62ee36()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Products &amp; Technologies: Overview', '/technet/prodtechnol/default.mspx', '', '', '_S1_Node1_S1_Node1');
+	this.items[n++] = new mnpPage('Server Operating Systems', '/technet/prodtechnol/serveros.mspx', '', 'm9be704ff0cbb4ee19c40d6494fec4c4f', '_S1_Node1_S1_Node2');
+	this.items[n++] = new mnpPage('Servers', '/technet/prodtechnol/servers.mspx', '', 'm52079b56d0b94ad6865e4551b38377ca', '_S1_Node1_S1_Node3');
+	this.items[n++] = new mnpPage('Desktop Operating Systems', '/technet/prodtechnol/desktopos.mspx', '', 'mb5299326c85d4e869a5258a163150459', '_S1_Node1_S1_Node4');
+	this.items[n++] = new mnpPage('Desktop Products &amp; Technologies', '/technet/prodtechnol/desktoppt.mspx', '', 'm788546b32e70437fa679bbbd9faea042', '_S1_Node1_S1_Node5');
+	this.items[n++] = new mnpPage('Embedded Operating Systems', '/technet/prodtechnol/embeddedos.mspx', '', 'm32f1e55c2df1406da67988a28de84c67', '_S1_Node1_S1_Node6');
+}
+
+function m9be704ff0cbb4ee19c40d6494fec4c4f()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Server Operating Systems: Overview', '/technet/prodtechnol/serveros.mspx', '', '', '_S1_Node1_S1_Node2_S1_Node1');
+	this.items[n++] = new mnpPage('Windows Server 2003', '/technet/prodtechnol/windowsserver2003/default.mspx', '', '', '_S1_Node1_S1_Node2_S1_Node2');
+	this.items[n++] = new mnpPage('Windows 2000 Server', '/technet/prodtechnol/windows2000serv/default.mspx', '', '', '_S1_Node1_S1_Node2_S1_Node3');
+	this.items[n++] = new mnpPage('Windows NT Server 4.0', '/technet/prodtechnol/WinNTAS/default.mspx', '', '', '_S1_Node1_S1_Node2_S1_Node4');
+	this.items[n++] = new mnpPage('Windows NT Server 4.0, Terminal Server Edition', '/technet/prodtechnol/TermSrv/default.mspx', '', '', '_S1_Node1_S1_Node2_S1_Node5');
+	this.items[n++] = new mnpPage('Small Business Server', '/technet/prodtechnol/sbs/default.mspx', '', '', '_S1_Node1_S1_Node2_S1_Node6');
+}
+
+function m52079b56d0b94ad6865e4551b38377ca()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Servers: Overview', '/technet/prodtechnol/servers.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node1');
+	this.items[n++] = new mnpPage('Application Center', '/technet/prodtechnol/acs/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node2');
+	this.items[n++] = new mnpPage('BackOffice Server', '/technet/prodtechnol/bosi/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node3');
+	this.items[n++] = new mnpPage('BizTalk Server', '/technet/prodtechnol/biztalk/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node4');
+	this.items[n++] = new mnpPage('Commerce Server', '/technet/prodtechnol/comm/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node5');
+	this.items[n++] = new mnpPage('Content Management Server', '/technet/prodtechnol/cms/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node6');
+	this.items[n++] = new mnpPage('Exchange Server', '/technet/prodtechnol/exchange/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node7');
+	this.items[n++] = new mnpPage('Host Integration Server', '/technet/prodtechnol/host/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node8');
+	this.items[n++] = new mnpPage('Identity Integration Server', '/technet/prodtechnol/miis/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node9');
+	this.items[n++] = new mnpPage('ISA Server', '/technet/prodtechnol/isa/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node10');
+	this.items[n++] = new mnpPage('Live Communications Server', '/technet/prodtechnol/office/livecomm2003/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node11');
+	this.items[n++] = new mnpPage('MapPoint Location Server', '/technet/prodtechnol/mls/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node12');
+	this.items[n++] = new mnpPage('Microsoft Operations Manager', '/technet/prodtechnol/mom/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node13');
+	this.items[n++] = new mnpPage('Microsoft Project', '/technet/prodtechnol/project/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node14');
+	this.items[n++] = new mnpPage('Mobile Information Server', '/technet/prodtechnol/mis/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node15');
+	this.items[n++] = new mnpPage('SharePoint Products &amp; Technologies', '/technet/prodtechnol/sppt/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node16');
+	this.items[n++] = new mnpPage('Site Server Commerce Edition', '/technet/prodtechnol/sscomm/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node17');
+	this.items[n++] = new mnpPage('Small Business Server', '/technet/prodtechnol/sbs/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node18');
+	this.items[n++] = new mnpPage('SQL Server', '/technet/prodtechnol/sql/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node19');
+	this.items[n++] = new mnpPage('Systems Management Server', '/technet/prodtechnol/sms/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node20');
+	this.items[n++] = new mnpPage('Windows Media Services', '/technet/prodtechnol/netshow/default.mspx', '', '', '_S1_Node1_S1_Node3_S1_Node21');
+}
+
+function mb5299326c85d4e869a5258a163150459()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Desktop Operating Systems: Overview', '/technet/prodtechnol/desktopos.mspx', '', '', '_S1_Node1_S1_Node4_S1_Node1');
+	this.items[n++] = new mnpPage('Windows XP Professional', '/technet/prodtechnol/winxppro/default.mspx', '', '', '_S1_Node1_S1_Node4_S1_Node2');
+	this.items[n++] = new mnpPage('Windows 2000 Professional', '/technet/prodtechnol/Windows2000Pro/default.mspx', '', '', '_S1_Node1_S1_Node4_S1_Node3');
+	this.items[n++] = new mnpPage('Windows NT Workstation 4.0', '/technet/prodtechnol/ntwrkstn/default.mspx', '', '', '_S1_Node1_S1_Node4_S1_Node4');
+}
+
+function m788546b32e70437fa679bbbd9faea042()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Desktop Products &amp; Technologies: Overview', '/technet/prodtechnol/desktoppt.mspx', '', '', '_S1_Node1_S1_Node5_S1_Node1');
+	this.items[n++] = new mnpPage('Internet Explorer', '/technet/prodtechnol/IE/default.mspx', '', '', '_S1_Node1_S1_Node5_S1_Node2');
+	this.items[n++] = new mnpPage('Microsoft CRM', '/technet/prodtechnol/mscrm/default.mspx', '', '', '_S1_Node1_S1_Node5_S1_Node3');
+	this.items[n++] = new mnpPage('Microsoft Office', '/technet/prodtechnol/office/default.mspx', '', '', '_S1_Node1_S1_Node5_S1_Node4');
+	this.items[n++] = new mnpPage('Microsoft Project', '/technet/prodtechnol/project/default.mspx', '', '', '_S1_Node1_S1_Node5_S1_Node5');
+	this.items[n++] = new mnpPage('NetMeeting', '/technet/prodtechnol/netmting/default.mspx', '', '', '_S1_Node1_S1_Node5_S1_Node6');
+	this.items[n++] = new mnpPage('Visio', '/technet/prodtechnol/visio/default.mspx', '', '', '_S1_Node1_S1_Node5_S1_Node7');
+}
+
+function m32f1e55c2df1406da67988a28de84c67()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Embedded Operating Systems: Overview', '/technet/prodtechnol/embeddedos.mspx', '', '', '_S1_Node1_S1_Node6_S1_Node1');
+	this.items[n++] = new mnpPage('Windows NT Embedded', '/technet/prodtechnol/ntembed/default.mspx', '', '', '_S1_Node1_S1_Node6_S1_Node2');
+	this.items[n++] = new mnpPage('Windows CE', '/technet/prodtechnol/wce/default.mspx', '', '', '_S1_Node1_S1_Node6_S1_Node3');
+}
+
+function m8fa9ef38cd4745e0bed9195ff4ad0d44()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('IT Solutions: Overview', '/technet/itsolutions/default.mspx', '', '', '_S1_Node2_S1_Node1');
+	this.items[n++] = new mnpPage('Technical Guidance', '/technet/itsolutions/techguide/default.mspx', '', 'm5ff1547e7205447397abb91fae8add42', '_S1_Node2_S1_Node2');
+	this.items[n++] = new mnpPage('How Microsoft Does IT', '/technet/itsolutions/msit/default.mspx', '', '', '_S1_Node2_S1_Node3');
+	this.items[n++] = new mnpPage('.NET Infrastructure &amp; Services', '/technet/itsolutions/net/default.mspx', '', '', '_S1_Node2_S1_Node4');
+	this.items[n++] = new mnpPage('Desktop Deployment', '/technet/itsolutions/desktopdeployment/default.mspx', '', '', '_S1_Node2_S1_Node5');
+	this.items[n++] = new mnpPage('E-Commerce', '/technet/itsolutions/ecommerce/default.mspx', '', '', '_S1_Node2_S1_Node6');
+	this.items[n++] = new mnpPage('Interoperability', '/technet/itsolutions/interop/default.mspx', '', '', '_S1_Node2_S1_Node7');
+	this.items[n++] = new mnpPage('Migration', '/technet/itsolutions/migration/default.mspx', '', '', '_S1_Node2_S1_Node8');
+	this.items[n++] = new mnpPage('Mobility', '/technet/itsolutions/mobile/default.mspx', '', '', '_S1_Node2_S1_Node9');
+	this.items[n++] = new mnpPage('Networking', '/technet/itsolutions/network/default.mspx', '', '', '_S1_Node2_S1_Node10');
+	this.items[n++] = new mnpPage('Reliability', '/technet/itsolutions/reliable/default.mspx', '', '', '_S1_Node2_S1_Node11');
+	this.items[n++] = new mnpPage('Server Consolidation', '/technet/itsolutions/consolidation/default.mspx', '', '', '_S1_Node2_S1_Node12');
+	this.items[n++] = new mnpPage('How-to Index', '/technet/itsolutions/howto/default.mspx', '', '', '_S1_Node2_S1_Node13');
+	this.items[n++] = new mnpPage('Product Documentation Index', '/technet/itsolutions/proddocs/default.mspx', '', '', '_S1_Node2_S1_Node14');
+	this.items[n++] = new mnpPage('Resource Kit Index', '/technet/itsolutions/reskits/rktmain.mspx', '', '', '_S1_Node2_S1_Node15');
+	this.items[n++] = new mnpPage('Solutions for Small &amp; Medium Business', '/technet/itsolutions/smbiz/default.mspx', '', '', '_S1_Node2_S1_Node16');
+	this.items[n++] = new mnpPage('TechNet Driver Resources', '/technet/itsolutions/drivers/default.mspx', '', '', '_S1_Node2_S1_Node17');
+}
+
+function m5ff1547e7205447397abb91fae8add42()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Technical Guidance: Overview', '/technet/itsolutions/techguide/default.mspx', '', '', '_S1_Node2_S1_Node2_S1_Node1');
+	this.items[n++] = new mnpPage('Microsoft Solutions Framework', '/technet/itsolutions/techguide/msf/default.mspx', '', '', '_S1_Node2_S1_Node2_S1_Node2');
+	this.items[n++] = new mnpPage('Microsoft Operations Framework', '/technet/itsolutions/techguide/mof/default.mspx', '', '', '_S1_Node2_S1_Node2_S1_Node3');
+	this.items[n++] = new mnpPage('Microsoft Solution Offerings', '/technet/itsolutions/techguide/mso/default.mspx', '', '', '_S1_Node2_S1_Node2_S1_Node4');
+	this.items[n++] = new mnpPage('Microsoft Systems Architecture', '/technet/itsolutions/techguide/msa/default.mspx', '', '', '_S1_Node2_S1_Node2_S1_Node5');
+	this.items[n++] = new mnpPage('Microsoft Solutions for Management', '/technet/itsolutions/techguide/msm/default.mspx', '', '', '_S1_Node2_S1_Node2_S1_Node6');
+	this.items[n++] = new mnpPage('Windows Server System Reference Architecture', '/technet/itsolutions/techguide/wssra/default.mspx', '', '', '_S1_Node2_S1_Node2_S1_Node7');
+}
+
+function m5264cae8f56d47aca2297d3819dd4d88()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Security: Overview', '/technet/Security/default.mspx', '', '', '_S1_Node3_S1_Node1');
+	this.items[n++] = new mnpPage('Security Bulletin Search', '/technet/security/current.aspx', '', '', '_S1_Node3_S1_Node2');
+	this.items[n++] = new mnpPage('Virus Alerts', '/technet/Security/alerts/default.mspx', '', '', '_S1_Node3_S1_Node3');
+	this.items[n++] = new mnpPage('Security Tools', '/technet/Security/tools/default.mspx', '', '', '_S1_Node3_S1_Node4');
+	this.items[n++] = new mnpPage('Security Guidance', '/technet/security/guidance/default.mspx', '', '', '_S1_Node3_S1_Node5');
+	this.items[n++] = new mnpPage('Product &amp; Technology Security Centers', '/technet/Security/prodtech/default.mspx', '', 'me7652de7f0114dbdbe5e5529a00af6d0', '_S1_Node3_S1_Node6');
+	this.items[n++] = new mnpPage('Security Topics', '/technet/Security/topics/default.mspx', '', 'mb4544ba00ecb4ab58f02d0cb947b8a49', '_S1_Node3_S1_Node7');
+}
+
+function me7652de7f0114dbdbe5e5529a00af6d0()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Active Directory', '/technet/security/prodtech/ad/default.mspx', '', '', '_S1_Node3_S1_Node6_S1_Node1');
+	this.items[n++] = new mnpPage('Exchange Server', '/technet/security/prodtech/mailexch/default.mspx', '', '', '_S1_Node3_S1_Node6_S1_Node2');
+	this.items[n++] = new mnpPage('Internet Explorer', '/technet/security/prodtech/ie/default.mspx', '', '', '_S1_Node3_S1_Node6_S1_Node3');
+	this.items[n++] = new mnpPage('Internet Information Services (IIS)', '/technet/security/prodtech/iis/default.mspx', '', '', '_S1_Node3_S1_Node6_S1_Node4');
+	this.items[n++] = new mnpPage('Internet Security and Acceleration (ISA) Server', '/technet/security/prodtech/isa/default.mspx', '', '', '_S1_Node3_S1_Node6_S1_Node5');
+	this.items[n++] = new mnpPage('Microsoft Office', '/technet/security/prodtech/office/default.mspx', '', '', '_S1_Node3_S1_Node6_S1_Node6');
+	this.items[n++] = new mnpPage('Microsoft Operations Manager (MOM)', '/technet/security/prodtech/mom/default.mspx', '', '', '_S1_Node3_S1_Node6_S1_Node7');
+	this.items[n++] = new mnpPage('Microsoft Outlook', '/technet/security/prodtech/outlook/default.mspx', '', '', '_S1_Node3_S1_Node6_S1_Node8');
+	this.items[n++] = new mnpPage('SharePoint Products &amp; Technologies', '/technet/security/prodtech/sharept/default.mspx', '', '', '_S1_Node3_S1_Node6_S1_Node9');
+	this.items[n++] = new mnpPage('SQL Server', '/technet/security/prodtech/dbsql/default.mspx', '', '', '_S1_Node3_S1_Node6_S1_Node10');
+	this.items[n++] = new mnpPage('Systems Management Server', '/technet/security/prodtech/sms/default.mspx', '', '', '_S1_Node3_S1_Node6_S1_Node11');
+	this.items[n++] = new mnpPage('Windows 2000 Server', '/technet/security/prodtech/win2000/default.mspx', '', '', '_S1_Node3_S1_Node6_S1_Node12');
+	this.items[n++] = new mnpPage('Windows Clients', '/technet/security/prodtech/winclnt/default.mspx', '', '', '_S1_Node3_S1_Node6_S1_Node13');
+	this.items[n++] = new mnpPage('Windows NT Server 4.0', '/technet/security/prodtech/winnt/default.mspx', '', '', '_S1_Node3_S1_Node6_S1_Node14');
+	this.items[n++] = new mnpPage('Windows Server 2003', '/technet/security/prodtech/win2003/default.mspx', '', '', '_S1_Node3_S1_Node6_S1_Node15');
+}
+
+function mb4544ba00ecb4ab58f02d0cb947b8a49()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Access Control and Smart Cards', '/technet/security/topics/smrtcard/default.mspx', '', '', '_S1_Node3_S1_Node7_S1_Node1');
+	this.items[n++] = new mnpPage('Architecture, Deployment, and Management', '/technet/Security/topics/architec/default.mspx', '', '', '_S1_Node3_S1_Node7_S1_Node2');
+	this.items[n++] = new mnpPage('Cryptography and Secure Communications', '/technet/Security/topics/crypto/default.mspx', '', '', '_S1_Node3_S1_Node7_S1_Node3');
+	this.items[n++] = new mnpPage('Developing Secure Applications and Web Services', '/technet/Security/topics/secapps/default.mspx', '', '', '_S1_Node3_S1_Node7_S1_Node4');
+	this.items[n++] = new mnpPage('Digital Identity, Authorization, and Authentication', '/technet/Security/topics/identity/default.mspx', '', '', '_S1_Node3_S1_Node7_S1_Node5');
+	this.items[n++] = new mnpPage('Disaster Recovery and Incident Response', '/technet/Security/topics/disaster/default.mspx', '', '', '_S1_Node3_S1_Node7_S1_Node6');
+	this.items[n++] = new mnpPage('Hardening Systems and Servers: Checklists and Guides', '/technet/Security/topics/hardsys/default.mspx', '', '', '_S1_Node3_S1_Node7_S1_Node7');
+	this.items[n++] = new mnpPage('Microsoft Security and Privacy Policies', '/technet/Security/topics/policy/default.mspx', '', '', '_S1_Node3_S1_Node7_S1_Node8');
+	this.items[n++] = new mnpPage('Mobile Devices and Remote Access', '/technet/Security/topics/mobile/default.mspx', '', '', '_S1_Node3_S1_Node7_S1_Node9');
+	this.items[n++] = new mnpPage('Patch Management, Security Updates, and Downloads', '/technet/Security/topics/patch/default.mspx', '', '', '_S1_Node3_S1_Node7_S1_Node10');
+	this.items[n++] = new mnpPage('Protecting Your Network: Wireless, Firewall, and Perimeter Security', '/technet/Security/topics/network/default.mspx', '', '', '_S1_Node3_S1_Node7_S1_Node11');
+	this.items[n++] = new mnpPage('Security Policy, Assessment, and Vulnerability Analysis', '/technet/Security/topics/assess/default.mspx', '', '', '_S1_Node3_S1_Node7_S1_Node12');
+	this.items[n++] = new mnpPage('Standards, Regulations, and Government Issues', '/technet/Security/topics/issues/default.mspx', '', '', '_S1_Node3_S1_Node7_S1_Node13');
+	this.items[n++] = new mnpPage('Virus Protection Strategies', '/technet/Security/topics/virus/default.mspx', '', '', '_S1_Node3_S1_Node7_S1_Node14');
+}
+
+function mab3d2d3e364941588303d9c88abbe6fa()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Community: Overview', '/technet/community/default.mspx', '', '', '_S1_Node5_S1_Node1');
+	this.items[n++] = new mnpPage('Newsgroups', '/technet/community/newsgroups/default.mspx', '', 'm97b9485e7733411da2beba2ce3a0d1e8', '_S1_Node5_S1_Node2');
+	this.items[n++] = new mnpPage('Chats', '/technet/community/chats/default.mspx', '', 'm74612859dc9a4267bc41562b5387cdda', '_S1_Node5_S1_Node3');
+	this.items[n++] = new mnpPage('Webcasts', '/technet/community/webcasts/default.mspx', '', '', '_S1_Node5_S1_Node4');
+	this.items[n++] = new mnpPage('Events', '/technet/community/events/default.mspx', '', 'ma01979ebf9dd4d0099a724aabdafa642', '_S1_Node5_S1_Node5');
+	this.items[n++] = new mnpPage('Columns', '/technet/community/columns/default.mspx', '', 'm749067abbf1348909bf948eb0d9858b4', '_S1_Node5_S1_Node6');
+}
+
+function m97b9485e7733411da2beba2ce3a0d1e8()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Newsgroups: Overview', '/technet/community/newsgroups/default.mspx', '', '', '_S1_Node5_S1_Node2_S1_Node1');
+	this.items[n++] = new mnpPage('Security', '/technet/community/newsgroups/security/default.mspx', '', '', '_S1_Node5_S1_Node2_S1_Node2');
+	this.items[n++] = new mnpPage('Server Operating Systems', '/technet/community/newsgroups/serveros/default.mspx', '', '', '_S1_Node5_S1_Node2_S1_Node3');
+	this.items[n++] = new mnpPage('Microsoft Servers', '/technet/community/newsgroups/server/default.mspx', '', '', '_S1_Node5_S1_Node2_S1_Node4');
+	this.items[n++] = new mnpPage('Desktop Operating Systems', '/technet/community/newsgroups/desktopos/default.mspx', '', '', '_S1_Node5_S1_Node2_S1_Node5');
+	this.items[n++] = new mnpPage('Desktop Products and Technologies', '/technet/community/newsgroups/desktoppt/default.mspx', '', '', '_S1_Node5_S1_Node2_S1_Node6');
+	this.items[n++] = new mnpPage('Topics', '/technet/community/newsgroups/topics/default.mspx', '', '', '_S1_Node5_S1_Node2_S1_Node7');
+}
+
+function m74612859dc9a4267bc41562b5387cdda()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Upcoming Chats', '/technet/community/chats/default.mspx', '', '', '_S1_Node5_S1_Node3_S1_Node1');
+	this.items[n++] = new mnpPage('Chat Transcripts', '/technet/community/chats/trans/default.mspx', '', '', '_S1_Node5_S1_Node3_S1_Node2');
+}
+
+function ma01979ebf9dd4d0099a724aabdafa642()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Events: Overview', '/technet/community/events/default.mspx', '', '', '_S1_Node5_S1_Node5_S1_Node1');
+	this.items[n++] = new mnpPage('TechNet Briefings Presentations', '/technet/community/events/listing.mspx', '', '', '_S1_Node5_S1_Node5_S1_Node2');
+}
+
+function m749067abbf1348909bf948eb0d9858b4()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Columns: Overview', '/technet/community/columns/default.mspx', '', '', '_S1_Node5_S1_Node6_S1_Node1');
+	this.items[n++] = new mnpPage('Hey, Scripting Guy!', '/technet/scriptcenter/resources/qanda/default.mspx', '', '', '_S1_Node5_S1_Node6_S1_Node2');
+	this.items[n++] = new mnpPage('IIS Insider', '/technet/community/columns/insider/default.mspx', '', '', '_S1_Node5_S1_Node6_S1_Node3');
+	this.items[n++] = new mnpPage('Professor Windows', '/technet/community/columns/profwin/default.mspx', '', '', '_S1_Node5_S1_Node6_S1_Node4');
+	this.items[n++] = new mnpPage('Security Management', '/technet/community/columns/secmgmt/default.mspx', '', '', '_S1_Node5_S1_Node6_S1_Node5');
+	this.items[n++] = new mnpPage('Tales from the Script', '/technet/community/columns/scripts/default.mspx', '', '', '_S1_Node5_S1_Node6_S1_Node6');
+	this.items[n++] = new mnpPage('The Cable Guy', '/technet/community/columns/cableguy/default.mspx', '', '', '_S1_Node5_S1_Node6_S1_Node7');
+	this.items[n++] = new mnpPage('What\'s New on TechNet?', '/technet/community/columns/whatsnew/default.mspx', '', '', '_S1_Node5_S1_Node6_S1_Node8');
+	this.items[n++] = new mnpPage('5-Minute Security Advisor', '/technet/community/columns/5min/default.mspx', '', '', '_S1_Node5_S1_Node6_S1_Node9');
+}
+
+function mef44bc2f7609440eb006d56b8333499f()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('IT Training &amp; Certification: Overview', '/technet/traincert/default.mspx', '', '', '_S1_Node7_S1_Node1');
+	this.items[n++] = new mnpPage('TechNet Virtual Lab', '/technet/traincert/virtuallab/default.mspx', '', '', '_S1_Node7_S1_Node2');
+}
+
+function m5e12a2c9d0c7412f82cc6eb09e254595()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('Troubleshooting &amp; Support: Overview', '/technet/support/default.mspx', '', '', '_S1_Node8_S1_Node1');
+	this.items[n++] = new mnpPage('Knowledge Base Search', 'http://support.microsoft.com/default.aspx?scid=fh;en-us;kbhowto', '', '', '_S1_Node8_S1_Node2');
+	this.items[n++] = new mnpPage('Events &amp; Errors Message Center', '/technet/support/eventserrors.mspx', '', '', '_S1_Node8_S1_Node3');
+	this.items[n++] = new mnpPage('Product Support Centers', 'http://support.microsoft.com/default.aspx?scid=fh;en-us;faqs&amp;amp;sd=tech', '', '', '_S1_Node8_S1_Node4');
+}
+
+function mecbfdfe8e58b4cdc8b2052d10a6d7dfa()
+{
+	this.items = new Array();
+	var n = 0;
+	this.items[n++] = new mnpPage('TechNet Program: Overview', '/technet/abouttn/default.mspx', '', '', '_S1_Node9_S1_Node1');
+	this.items[n++] = new mnpPage('Subscriptions', '/technet/abouttn/Subscriptions/default.mspx', '', '', '_S1_Node9_S1_Node2');
+	this.items[n++] = new mnpPage('Briefings', '/technet/community/events/default.mspx', '', '', '_S1_Node9_S1_Node3');
+	this.items[n++] = new mnpPage('Newsletter', '/technet/abouttn/subscriptions/flash_register.mspx', '', '', '_S1_Node9_S1_Node4');
+}
+

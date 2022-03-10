@@ -1,0 +1,1563 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0074)http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx -->
+<HTML dir=ltr><HEAD><TITLE>Comparing Windows XP Professional Multilingual Options</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content=en-us name=MS.LOCALE>
+<META 
+content="This article explains similarities and differences between the Windows XP Multilingual User Interface Pack and localized versions of Windows XP Professional, including how Windows handles multilingual data and considerations for Windows XP Embedded." 
+name=description>
+<META content=multiligual,mui,localized name=keywords><LINK 
+href="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/templatecss" 
+type=text/css rel=Stylesheet>
+<SCRIPT language=Javascript 
+src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/js.aspx" 
+type=text/javascript></SCRIPT>
+<LINK 
+href="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/css.aspx" 
+type=text/css rel=Stylesheet>
+<SCRIPT language=Javascript 
+src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/menujs" 
+type=text/javascript></SCRIPT>
+<LINK 
+href="F:\My Documents\Download\microsoft\fixed\Comparing Windows XP Professional Multilingual Options_files\css(1).aspx" 
+type=text/css rel=stylesheet>
+<SCRIPT language=JavaScript>var doImage=doImage;var TType=TType;
+function mhHover(tbl,idx,cls){var t,d;if(document.getElementById)t=document.getElementById(tbl);else t=document.all(tbl);if(t==null)return;if(t.getElementsByTagName)d=t.getElementsByTagName("TD");else d=t.all.tags("TD");if(d==null)return;if(d.length<=idx)return;d[idx].className=cls;}
+function setMSResearch(){var time=new Date();if(document.cookie.indexOf('msresearch=1 ')==-1){document.cookie='msresearch='+time.getTime()+':'+escape(document.location)+':'+escape(document.referrer)+'; path=/; domain=.microsoft.com; ';}}
+function footerjs(doc){if(doImage==null){var tt=TType==null?"PV":TType;doc.write('<layer visibility="hide"><div style="display:none"><img src="http://c.microsoft.com/trans_pixel.asp?source=www&TYPE=' + tt + '&p=technet_prodtechnol_winxppro_evaluate" width=0 height=0 hspace=0 vspace=0 border=0 /></div></layer>');}if((document.cookie.indexOf('msresearch=1 ')==-1)&&(document.cookie.indexOf('msresearch=')!=-1)){setInterval("setMSResearch()",1000);}}</SCRIPT>
+
+<SCRIPT language=Javascript>
+					if (self.name == "MNPMainFrame") top.location.href = self.location.href;
+				</SCRIPT>
+
+<META content=favorite name=save>
+<META content="MSHTML 6.00.2800.1106" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff leftMargin=0 topMargin=0 marginheight="0" 
+marginwidth="0"><A name=top></A>
+<DIV id=msviMasthead 
+xmlns:Utility="http://www.microsoft.com/MSCOM/VisualIdentity/Utility">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD width="100%">
+      <TABLE height=22 cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD id=msviRegionIdGraphic bgColor=#ffffff></TD>
+          <TD id=msviRegionGradient1 
+          style="FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#C5C5C5', gradientType='1')" 
+          width="50%"></TD>
+          <TD id=msviRegionGradient2 
+          style="FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#C5C5C5', endColorStr='#8B8B8B', gradientType='1')" 
+          width="50%"></TD></TR></TBODY></TABLE></TD>
+    <TD id=msviGlobalToolbar dir=ltr noWrap align=left bgColor=#8b8b8b 
+height=22>
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD class=gt0 onmouseover="mhHover('msviGlobalToolbar', 0, 'gt1')" 
+          onmouseout="mhHover('msviGlobalToolbar', 0, 'gt0')" noWrap><A 
+            onclick=trackInfo(this) href="http://www.microsoft.com/" 
+            LinkID="GT_Drop1" LinkArea="GlobalToolbar">Microsoft.com Home</A></TD>
+          <TD class=gtsep>|</TD>
+          <TD class=gt0 onmouseover="mhHover('msviGlobalToolbar', 2, 'gt1')" 
+          onmouseout="mhHover('msviGlobalToolbar', 2, 'gt0')" noWrap><A 
+            onclick=trackInfo(this) 
+            href="http://www.microsoft.com/library/toolbar/3.0/sitemap/en-us.mspx" 
+            LinkID="GT_Drop2" LinkArea="GlobalToolbar">Site 
+      Map</A></TD></TR></TBODY></TABLE></TD></TR>
+  <TR vAlign=top>
+    <TD width="100%">
+      <TABLE height=42 cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR vAlign=top>
+          <TD id=msviBrandBanner bgColor=#ffffff><A onclick=trackInfo(this) 
+            href="http://www.microsoft.com/technet" LinkID="Banner" 
+            LinkArea="Masthead"><IMG title="" height=42 alt=TechNet 
+            src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/TechNet_masthead_ltr.gif" 
+            width=225 border=0></A></TD>
+          <TD 
+          style="FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#ADADAD', gradientType='1')" 
+          width="100%"></TD></TR></TBODY></TABLE></TD>
+    <TD id=msviGlobalSearch bgColor=#adadad>Search Microsoft.com for:<BR>
+      <FORM id=msviSearchForm 
+      onsubmit="return trackSearch(msviSearchLink, msviSearchBox)" 
+      action=/library/toolbar/3.0/search.aspx><INPUT type=hidden value=en-us 
+      name=View><INPUT type=hidden value=iso-8859-1 name=charset><NOBR>
+      <DIV style="HEIGHT: 18px"><INPUT id=msviSearchBox maxLength=255 name=qu><INPUT id=msviGoButton type=submit value=Go></DIV></NOBR><A 
+      id=msviSearchLink style="DISPLAY: none" 
+      href="http://www.microsoft.com/library/toolbar/3.0/search.aspx?View=en-us&amp;charset=iso-8859-1&amp;qu=" 
+      LinkID="Search" LinkArea="Search"></A></FORM></TD></TR></TBODY></TABLE>
+<DIV id=msviMastheadHR></DIV></DIV>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR vAlign=top>
+    <TD style="OVERFLOW-X: hidden" width=181 height="100%">
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD class=mnpQuickSearch dir=ltr 
+          style="BACKGROUND: #cccccc; COLOR: #000000">
+            <FORM style="MARGIN: 0px" 
+            action=http://search.microsoft.com/search/redirector/searchredir.aspx><NOBR><FONT 
+            color=#000000>Search for</FONT><BR><INPUT class=mnpSearchBox id=qu 
+            style="WIDTH: 165px" maxLength=255 name=qu><BR>
+            <TABLE style="MARGIN-TOP: 2px" cellSpacing=0 cellPadding=0 
+            width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD class=mnpQuickSearch 
+                style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px" 
+                width="100%"><SELECT class=mnpSearchScopes 
+                  style="WIDTH: 137px" name=id><OPTION 
+                    value=6|0|iso-8859-1|en-us selected>TechNet</OPTION><OPTION 
+                    value=1|0|iso-8859-1|en-us>Knowledge Base</OPTION></SELECT></TD>
+                <TD><INPUT class=mnpSearchButton type=submit value=Go><BR></TD></TR></TBODY></TABLE></NOBR></FORM></TD></TR></TBODY></TABLE>
+      <DIV class=mnpMenuTop id=mnpMenuTop dir=ltr 
+      style="OVERFLOW-X: hidden; WIDTH: 181px" 
+      parent="/technet/prodtechnol/winxppro/evaluate/default.mspx" 
+      url="/technet/prodtechnol/winxppro/evaluate/muiovw.mspx">
+      <DIV class=mnpInherit>
+            <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1"><IMG 
+      class=mnpMenuArrow title="" style="LEFT: 166px; VISIBILITY: hidden" 
+      height=7 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://www.microsoft.com/technet/default.mspx">TechNet Home</A></DIV>
+            <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1" 
+      menu="m717e01f5d0d04cbf8780cf133a62ee36"><IMG class=mnpMenuArrow title="" 
+      style="LEFT: 166px; VISIBILITY: hidden" height=7 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://www.microsoft.com/technet/prodtechnol/default.mspx">Products 
+              &amp; Technologies</A></DIV>
+            <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1" 
+      menu="m8fa9ef38cd4745e0bed9195ff4ad0d44"><IMG class=mnpMenuArrow title="" 
+      style="LEFT: 166px; VISIBILITY: hidden" height=7 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://www.microsoft.com/technet/itsolutions/default.mspx">IT Solutions</A></DIV>
+            <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1" 
+      menu="m5264cae8f56d47aca2297d3819dd4d88"><IMG class=mnpMenuArrow title="" 
+      style="LEFT: 166px; VISIBILITY: hidden" height=7 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://www.microsoft.com/technet/Security/default.mspx">Security</A></DIV>
+            <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1"><IMG 
+      class=mnpMenuArrow title="" style="LEFT: 166px; VISIBILITY: hidden" 
+      height=7 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://www.microsoft.com/technet/scriptcenter/default.mspx">Script 
+              Center</A></DIV>
+            <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1" 
+      menu="mab3d2d3e364941588303d9c88abbe6fa"><IMG class=mnpMenuArrow title="" 
+      style="LEFT: 166px; VISIBILITY: hidden" height=7 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://www.microsoft.com/technet/community/default.mspx">Community</A></DIV>
+            <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1"><IMG 
+      class=mnpMenuArrow title="" style="LEFT: 166px; VISIBILITY: hidden" 
+      height=7 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://www.microsoft.com/technet/Downloads/default.mspx">Downloads</A></DIV>
+            <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1" 
+      menu="mef44bc2f7609440eb006d56b8333499f"><IMG class=mnpMenuArrow title="" 
+      style="LEFT: 166px; VISIBILITY: hidden" height=7 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://www.microsoft.com/technet/traincert/default.mspx">IT Training 
+              &amp; Certification</A></DIV>
+            <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1" 
+      menu="m5e12a2c9d0c7412f82cc6eb09e254595"><IMG class=mnpMenuArrow title="" 
+      style="LEFT: 166px; VISIBILITY: hidden" height=7 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://www.microsoft.com/technet/support/default.mspx">Troubleshooting 
+              &amp; Support</A></DIV>
+            <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1" 
+      menu="mecbfdfe8e58b4cdc8b2052d10a6d7dfa"><IMG class=mnpMenuArrow title="" 
+      style="LEFT: 166px; VISIBILITY: hidden" height=7 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://www.microsoft.com/technet/abouttn/default.mspx">TechNet Program</A></DIV>
+      <DIV class=mnpMenuBorder style="WIDTH: 180px"></DIV>
+            <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1"><IMG 
+      class=mnpMenuArrow title="" style="LEFT: 166px; VISIBILITY: hidden" 
+      height=7 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://www.microsoft.com/technet/archive/default.mspx" 
+      target=_blank>Archive</A></DIV>
+            <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1"><IMG 
+      class=mnpMenuArrow title="" style="LEFT: 166px; VISIBILITY: hidden" 
+      height=7 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://www.microsoft.com/technet/sitemap.mspx">TechNet Site Map</A></DIV>
+            <DIV class=mnpMenuRow 
+      style="BORDER-LEFT-COLOR: #f1f1f1; BACKGROUND: #f1f1f1; OVERFLOW-X: hidden; BORDER-BOTTOM-COLOR: #f1f1f1; WIDTH: 176px; BORDER-TOP-COLOR: #f1f1f1; BORDER-RIGHT-COLOR: #f1f1f1"><IMG 
+      class=mnpMenuArrow title="" style="LEFT: 166px; VISIBILITY: hidden" 
+      height=7 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrowLTR.gif" 
+      width=4 border=0><A 
+      href="http://www.microsoft.com/technet/worldwide/default.mspx">TechNet Worldwide</A></DIV>
+      <DIV class=mnpMenuBorder 
+      style="MARGIN-BOTTOM: 0px; WIDTH: 180px"></DIV></DIV></DIV>
+      <DIV class=mnpAds 
+      style="BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 0px solid; BACKGROUND: #f1f1f1; PADDING-BOTTOM: 20px; BORDER-LEFT: #999999 0px solid; WIDTH: 181px; BORDER-BOTTOM: #999999 0px solid; HEIGHT: 100%">
+      <CENTER>
+      <DIV 
+      style="BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 20px"></DIV><IFRAME 
+      id=rad_CMSTN1F3 style="BACKGROUND: #f1f1f1" marginWidth=0 marginHeight=0 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/ADSAdClient31.htm" 
+      frameBorder=0 width=120 scrolling=no height=240 
+      allowTransparency></IFRAME><BR></CENTER></DIV></TD>
+    <TD dir=ltr oncopy="e++; SetFirst('5');" width="100%">
+      <DIV 
+      style="PADDING-RIGHT: 15px; PADDING-LEFT: 20px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">
+      <DIV class=ancestorLinks><NOBR><A 
+      href="http://www.microsoft.com/technet/default.mspx">TechNet Home</A> &gt; 
+      </NOBR><NOBR><A 
+      href="http://www.microsoft.com/technet/prodtechnol/default.mspx">Products 
+      &amp; Technologies</A> &gt; </NOBR><NOBR><A 
+      href="http://www.microsoft.com/technet/prodtechnol/desktopos.mspx">Desktop 
+      Operating Systems</A> &gt; </NOBR><NOBR><A 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/default.mspx">Windows 
+      XP Professional</A> &gt; </NOBR><NOBR><A 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/default.mspx">Evaluate</A></NOBR></DIV>
+      <H1>Comparing Windows XP Professional Multilingual Options</H1>
+      <DIV class=date>Published: December 1, 2001<SPAN class=datePipe> | 
+      </SPAN>Updated: April 11, 2003</DIV>
+      <DIV class=overview>
+      <P><I>Operating System</I></P>
+      <P><B>Abstract</B></P>
+      <P>This article explains the similarities and differences between the 
+      Microsoft® Windows® XP Multilingual User Interface Pack and localized 
+      versions of Windows XP Professional. Although many customers deploy 
+      localized versions of Windows XP Professional in a multilingual 
+      environment, the localization quality of Windows XP Multilingual User 
+      Interface Pack equals a localized version, plus it comes with added 
+      benefits. For this reason, the Multilingual User Interface Technology is 
+      the default architecture for future localized versions of Windows.</P>
+      <P><B>Acknowledgements</B></P>
+      <P>Edward Ye, Program Manager, Microsoft Corporation</P>
+      <P>Steve Jang, Program Manager, Microsoft Corporation</P></DIV>
+      <CENTER><IMG title="" height=6 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/3squares.gif" 
+      width=30 border=0></CENTER>
+      <DIV style="HEIGHT: 18px"></DIV>
+      <H5 style="PADDING-TOP: 2px">On This Page</H5>
+      <TABLE style="MARGIN-TOP: 7px; MARGIN-BOTTOM: 12px" cellSpacing=0 
+      cellPadding=0 border=0>
+        <TBODY>
+        <TR vAlign=top>
+          <TD><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#EIAA"><IMG 
+            height=9 alt=Introduction hspace=4 
+            src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_down.gif" 
+            width=7 vspace=2 border=0></A></TD>
+          <TD class=onThisPage><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#EIAA">Introduction</A></TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#EHAA"><IMG 
+            height=9 
+            alt="The Windows Architecture for Handling Multilingual Data" 
+            hspace=4 
+            src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_down.gif" 
+            width=7 vspace=2 border=0></A></TD>
+          <TD class=onThisPage><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#EHAA">The 
+            Windows Architecture for Handling Multilingual Data</A></TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#EGAA"><IMG 
+            height=9 alt="Engineering Process for Localization" hspace=4 
+            src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_down.gif" 
+            width=7 vspace=2 border=0></A></TD>
+          <TD class=onThisPage><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#EGAA">Engineering 
+            Process for Localization</A></TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#EFAA"><IMG 
+            height=9 
+            alt="Additional Benefits of Windows XP Multilingual User Interface Pack" 
+            hspace=4 
+            src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_down.gif" 
+            width=7 vspace=2 border=0></A></TD>
+          <TD class=onThisPage><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#EFAA">Additional 
+            Benefits of Windows XP Multilingual User Interface Pack</A></TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#EEAA"><IMG 
+            height=9 alt="Special considerations for Windows XP Embedded" 
+            hspace=4 
+            src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_down.gif" 
+            width=7 vspace=2 border=0></A></TD>
+          <TD class=onThisPage><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#EEAA">Special 
+            considerations for Windows XP Embedded</A></TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#EDAA"><IMG 
+            height=9 alt=Summary hspace=4 
+            src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_down.gif" 
+            width=7 vspace=2 border=0></A></TD>
+          <TD class=onThisPage><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#EDAA">Summary</A></TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#ECAA"><IMG 
+            height=9 
+            alt="Appendix A: Localized Versions of Windows XP Professional" 
+            hspace=4 
+            src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_down.gif" 
+            width=7 vspace=2 border=0></A></TD>
+          <TD class=onThisPage><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#ECAA">Appendix 
+            A: Localized Versions of Windows XP Professional</A></TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#EBAA"><IMG 
+            height=9 
+            alt="Appendix B: Windows XP Multilingual User Interface Pack Languages" 
+            hspace=4 
+            src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_down.gif" 
+            width=7 vspace=2 border=0></A></TD>
+          <TD class=onThisPage><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#EBAA">Appendix 
+            B: Windows XP Multilingual User Interface Pack Languages</A></TD></TR>
+        <TR vAlign=top>
+          <TD><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#EAAA"><IMG 
+            height=9 alt="Related Links" hspace=4 
+            src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_down.gif" 
+            width=7 vspace=2 border=0></A></TD>
+          <TD class=onThisPage><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#EAAA">Related 
+            Links</A></TD></TR></TBODY></TABLE><A name=EIAA></A>
+      <H2>Introduction</H2>
+      <P>Microsoft always ships localized versions of the Windows® operating 
+      system for use in multilingual environments. The international Windows 
+      team releases localized versions of the operating system within a 
+      predictable period of time after the release of each English version. With 
+      this history and experience, the engineering process for localizing the 
+      Windows user interface has improved steadily over time. Today, Microsoft 
+      ships 24 localized versions of Windows XP (for a complete list, see 
+      Appendix A).</P>
+      <P>With Windows 2000 Professional, Microsoft introduced Multilanguage User 
+      Interface technology, which enabled multiple localized user interfaces on 
+      the same installation of English Windows 2000 Professional. The 
+      Multilingual User Interface Pack for Windows 2000 Professional was 
+      supported on both Windows 2000 Professional and Windows 2000 Server and 
+      Advanced Server and was also released as a separate version. International 
+      enterprise customers could choose between localized versions of Windows 
+      2000 Professional and Windows 2000 Multilingual User Interface Version. 
+      Now the Windows Multilingual User Interface Pack is available for Windows 
+      XP Professional and Windows XP Embedded and will be available for the 
+      Windows Server 2003 Family. Windows XP Multilingual User Interface Pack 
+      supports 33 languages, nine of which are new (for a complete list, see 
+      Appendix B).</P>
+      <P>Windows XP advances Multilingual User Interface technology to the next 
+      generation. The next version of Windows is expected to take this 
+      technology even further with a single, language-independent binary 
+      supporting multiple language skins.</P>
+      <P>How robust is Multilingual User Interface technology at this stage? How 
+      good is the localization quality? How does Windows XP Multilingual User 
+      Interface Pack compare to localized versions? Do applications behave 
+      differently on localized versions versus the English version with 
+      Multilingual User Interface Pack? What concerns have been raised over 
+      deploying the Multilingual User Interface Pack?</P>
+      <P>This article addresses these questions by examining the fundamental 
+      architecture of Windows XP Professional for handling multilingual data and 
+      the engineering process for building localized versions vs. the 
+      Multilingual User Interface Pack.</P>
+      <DIV style="MARGIN-TOP: 3px; MARGIN-BOTTOM: 10px"><A 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top"><IMG 
+      height=9 alt="Top of page" 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_up.gif" 
+      width=7 border=0></A><A class=topOfPage 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top">Top 
+      of page</A></DIV><A name=EHAA></A>
+      <H2>The Windows Architecture for Handling Multilingual Data</H2>
+      <P><B>Windows XP Professional, a World-Ready Operating System</B></P>
+      <P>Windows is developed with English as the default user interface. From 
+      its initial design, the Microsoft Windows NT® operating system 
+      incorporated international support through the Unicode character encoding 
+      system. Unicode is a 16-bit character encoding capable of representing 
+      most of the languages in common use throughout the world. The Unicode 
+      Character Standard primarily encodes scripts rather than languages; that 
+      is, when two or more languages share a set of symbols that have a 
+      historically related derivation, the union of the set of symbols of each 
+      language is unified into a single collection identified as a script. These 
+      collections of symbols (scripts) then serve as inventories of symbols, 
+      which are drawn upon to write particular languages. In many cases, a 
+      single script may write several languages (e.g., the Latin script). In 
+      other cases only one language employs a particular script (an example is 
+      Hangul, which is used only for the Korean language). Additionally, the 
+      writing systems for some languages use more than one script—Japanese 
+      traditionally uses the Han (Kanji), Hiragana, and Katakana scripts, and 
+      modern Japanese usage mixes in the Latin script as well. As a result of 
+      this encoding system, Windows XP, Windows Embedded, and Windows Server 
+      2003 allow users to write, edit, and print documents in hundreds of 
+      languages.</P>
+      <DIV style="WIDTH: 335px"><IMG height=402 
+      alt="Figure 1: Regional and Language Options, installing additional language collections" 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/muiovw01.gif" 
+      width=335 border=0><BR>
+      <P class=figureCaption><B>Figure 1: Regional and Language Options, 
+      installing additional language collections</B><BR><A 
+      href="http://www.microsoft.com/technet/images/prodtechnol/winxppro/evaluate/images/muiovw01_BIG.gif" 
+      target=_blank>See full-sized image.</A></P>
+      <DIV class=figureRule></DIV></DIV>
+      <P>In Windows XP most languages are installed by default. Collections can 
+      be added through direct user intervention or on demand by applications. 
+      The basic language collection is always installed, and the East Asian and 
+      Complex Script collections can be added.</P>
+      <P>The base operating system, as well as all included programs, including 
+      file names, objects names, strings in registry, and any other internal 
+      strings used by Windows XP, is Unicode based and thus has a format that is 
+      language independent. With international support built in, Windows XP is a 
+      truly global operating system that adapts hundreds of languages. Any 
+      version of Windows XP can host Windows applications in any language.</P>
+      <P>Given the Unicode support in Windows, there's little excuse not to 
+      write Unicode-compatible software. A common misconception about coding 
+      using Unicode is that it's difficult. In fact, writing Unicode-savvy code 
+      is easier than implementing DBCS-enabled software. The Win32® API is 
+      designed so that all system functions that accept string parameters exist 
+      in a form that expects the string to be expressed as Unicode characters, 
+      as well as in the form that accepts "regular" Windows characters. Please 
+      visit the <A 
+      href="http://www.microsoft.com/globaldev/default.mspx">Microsoft Global 
+      Software Development Web site</A> at <A 
+      href="http://www.microsoft.com/globaldev/default.mspx">http://www.microsoft.com/globaldev/default.mspx</A> 
+      for more information on developing Unicode-based applications.</P>
+      <DIV style="WIDTH: 335px"><IMG height=403 
+      alt="Figure 2: Regional and Language Options, setting the system ANSI code page" 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/muiovw02.gif" 
+      width=335 border=0><BR>
+      <P class=figureCaption><B>Figure 2: Regional and Language Options, setting 
+      the system ANSI code page</B><BR><A 
+      href="http://www.microsoft.com/technet/images/prodtechnol/winxppro/evaluate/images/muiovw02_BIG.gif" 
+      target=_blank>See full-sized image.</A></P>
+      <DIV class=figureRule></DIV></DIV>
+      <P>To understand the way Windows handles multilingual data, it is 
+      important to first define a few basic concepts.</P>
+      <P>A locale is a set of preferences related to the user's language and 
+      sublanguage. An example of a language is "French," whereas the sublanguage 
+      could be French as spoken in Canada, France, Belgium, or Switzerland. 
+      Locale information includes currency symbol; date, time, and number 
+      formatting norms; localized days of the week and months of the year; the 
+      standard abbreviation for the name of the country/region; and character 
+      encoding information.</P>
+      <P>National Language Support includes input support, such as IMM/IME, 
+      fonts, and conversion tables that are included in the core operating 
+      system. Windows XP comes with Input Method Manager (IMM) and Input Method 
+      Editor (IME) for users or applications that require an input mechanism 
+      more complex than typing on an English keyboard. For instance, 
+      applications that require Asian language character input use IME. The API 
+      to access IMM and IME functionality is part of the standard Win32 API on 
+      Windows XP. Windows XP also offers a new text input service that supports 
+      advanced input technologies such as speech and handwriting, as well as 
+      traditional IME with improvements.</P>
+      <P>A keyboard layout maps between key codes and character codes. A 
+      keyboard layout also specifies language, keyboard type and version, 
+      modifiers, and so on. Users can switch to a specific keyboard layout to 
+      generate different character codes using the same physical keyboard.</P>
+      <P>The NLS API is a collection of APIs that help write locale-aware 
+      applications. A programmer must use these to make an application usable 
+      across multiple language platforms. The NLS API provides functions to get 
+      or modify locale-related settings; it facilitates locale-dependent 
+      operations, such as string sorting, time and date formatting, currency 
+      formatting, and calendar formatting; and it provides code page API and 
+      string conversion support for applications using ANSI or DBCS strings</P>
+      <P>Windows XP provides APIs that takes non-Unicode character codes (ANSI 
+      or DBCS) as parameters in order to maintain backward compatibility with 
+      applications written for Windows 9X and Windows ME. Corresponding API take 
+      Unicode character codes as parameters. Essentially, the non-Unicode API 
+      will translate the character code in parameters to Unicode before calling 
+      the corresponding Unicode API. In this translation, the operating system 
+      uses the system default code page set by the user or administrator. Only 
+      one system default code page can be set at a time.</P>
+      <P>Figure 3 describes the way English or localized Win32 applications 
+      interact with Windows XP.</P>
+      <DIV style="WIDTH: 335px"><IMG height=288 
+      alt="Figure 3: Win32 Interactions with Windows XP" 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/muiovw03.gif" 
+      width=335 border=0><BR>
+      <P class=figureCaption><B>Figure 3: Win32 Interactions with Windows 
+      XP</B><BR><A 
+      href="http://www.microsoft.com/technet/images/prodtechnol/winxppro/evaluate/images/muiovw03_BIG.gif" 
+      target=_blank>See full-sized image.</A></P>
+      <DIV class=figureRule></DIV></DIV>
+      <P>Locale-unaware applications use either Unicode or ANSI<SUP>1</SUP> 
+      character encoding internally. They call the Unicode or ANSI version of 
+      the Win32 API to access services of the operating system. However, the 
+      Win32 subsystem itself is Unicode based, and the ANSI API layer simply 
+      converts ANSI characters to Unicode characters before calling the Unicode 
+      versions of the same API.</P>
+      <P>The system default code page is used in the ANSI Win32 API in order to 
+      convert a character from ANSI to Unicode. Therefore, if you are running an 
+      ANSI-localized application on Windows XP, you must set the system default 
+      code page to match the encoding scheme for that application. Otherwise, 
+      the application will display garbage characters caused by an 
+      ANSI-to-Unicode translation error. This diagram also depicts that 
+      locale-aware applications use the NLS API.</P>
+      <P><B>Windows XP Multilingual User Interface</B></P>
+      <P>The Multilingual User Interface Pack is installed on the English 
+      version of Windows XP. There are no binary differences between the English 
+      version and the English version with the Multilingual User Interface Pack. 
+      The English Windows XP is built with support for the Multilingual User 
+      Interface mechanism in its final form.</P>
+      <P>The Multilingual User Interface is implemented by redirecting resource 
+      load calls to an alternate path. With the Windows XP Multilingual User 
+      Interface Pack, the operating system loads the localized resource specific 
+      to the current language setting, instead of the resource in the English 
+      section of the executable.</P>
+      <P>Figure 4 depicts the resource loading on English Windows XP.</P>
+      <DIV style="WIDTH: 335px"><IMG height=206 
+      alt="Figure 4: Resource loading on English or Localized Windows XP" 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/muiovw04.gif" 
+      width=335 border=0><BR>
+      <P class=figureCaption><B>Figure 4: Resource loading on English or 
+      Localized Windows XP</B><BR><A 
+      href="http://www.microsoft.com/technet/images/prodtechnol/winxppro/evaluate/images/muiovw04_BIG.gif" 
+      target=_blank>See full-sized image.</A></P>
+      <DIV class=figureRule></DIV></DIV>
+      <P>Figure 5 depicts the resource loading on the Windows XP Multilingual 
+      User Interface Pack.</P>
+      <DIV style="WIDTH: 335px"><IMG height=279 
+      alt="Figure 5: Resource loading on the Windows XP Multilingual User Interface Pack" 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/muiovw05.gif" 
+      width=335 border=0><BR>
+      <P class=figureCaption><B>Figure 5: Resource loading on the Windows XP 
+      Multilingual User Interface Pack</B><BR><A 
+      href="http://www.microsoft.com/technet/images/prodtechnol/winxppro/evaluate/images/muiovw05_BIG.gif" 
+      target=_blank>See full-sized image.</A></P>
+      <DIV class=figureRule></DIV></DIV>
+      <P>Given this architecture, there is no reason to expect that an 
+      application running on the English Windows XP will not run on the Windows 
+      XP Multilingual User Interface Pack.</P>
+      <P>Microsoft put considerable effort into increasing compatibility in 
+      Windows XP. The application compatibility technologies fall into two 
+      distinct groups:</P>
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P>Help with migration applications when upgrading from previous 
+            versions of Windows.</P></TD></TR>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P>Fixes, including compatibility modes and Application Help, that 
+            support the installation and operation of applications on Windows 
+            XP.</P></TD></TR></TBODY></TABLE>
+      <P>These technologies, described in detail in the technical article "<A 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/plan/appcmpxp.mspx">Windows 
+      XP Application Compatibility Technologies"</A> at <A 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/plan/appcmpxp.mspx">http://www.microsoft.com/technet/prodtechnol/winxppro/plan/appcmpxp.mspx</A>, 
+      result in a much higher compatibility score for Windows XP than any 
+      earlier version of Windows.</P>
+      <P>In international markets, however, many customers run applications on 
+      localized versions of Windows NT or Windows 2000. These customers express 
+      concerns about compatibility issues running localized applications on the 
+      Windows XP Multilingual User Interface Pack. This article aims to 
+      alleviate those concerns and clear up misconceptions.</P>
+      <P>Non-Unicode applications will break if the code page is not set up 
+      correctly on the Windows XP Multilingual User Interface Pack. This can be 
+      prevented by setting the correct default system code page.</P>
+      <P><B>Localized Versions of Windows XP</B></P>
+      <P>Localized versions of Windows XP have exactly the same set of 
+      international features as the English version and the same architecture as 
+      described in Figure 1. A localized version of Windows XP provides binary 
+      compatible APIs for IME, NLS, and Complex Script APIs. From a feature and 
+      architecture point of view, localized versions of Windows XP are the same 
+      as English Windows XP. What, then, are the differences between them?</P>
+      <P>In a localized version of Windows XP:</P>
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P>The User Interface resources are fully localized.</P></TD></TR>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P>The Windows Setup information, such as system locale, user 
+            locale, keyboard layout, etc, is customized for a specific 
+            language/country. This is a policy setting with the Multilingual 
+            User Interface Pack</P></TD></TR>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P>Support is included for upgrades from localized versions of 
+            Windows 9.X or Windows 2000. The Multilingual User Interface Pack 
+            only supports upgrades from English versions.</P></TD></TR>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P>Additional country-specific device drivers are included in the 
+            East Asian versions.</P></TD></TR></TBODY></TABLE>
+      <P>Let's examine these differences by looking at the engineering process 
+      for a localized version of Windows.</P>
+      <DIV style="MARGIN-TOP: 3px; MARGIN-BOTTOM: 10px"><A 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top"><IMG 
+      height=9 alt="Top of page" 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_up.gif" 
+      width=7 border=0></A><A class=topOfPage 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top">Top 
+      of page</A></DIV><A name=EGAA></A>
+      <H2>Engineering Process for Localization</H2>
+      <P>English and localized versions of Windows XP are generated from the 
+      same source code. This includes headers and make-files, except for a few 
+      operating system loader and setup binaries<SUP>2</SUP>. The localized 
+      versions become different during a process applied to the release build of 
+      the English version.</P>
+      <P>The process is simplified here and does not include quality check and 
+      testing cycles.</P>
+      <P>The build lab compiles the source code with the English resources and 
+      creates the English Windows Build. After verification, the build is 
+      released to manufacturing and to localization teams. The localization 
+      teams extract the resource portions from the binaries, translate the 
+      tokens, and test them before returning them to the build lab. There they 
+      replace the English resource files. The build lab creates localized INF 
+      files and compiles the specific binaries for the localized version, thus 
+      producing a localized version.</P>
+      <P>The process of creating localized INF files is very simple. INF files 
+      contain install sections and a strings section. Install sections contain 
+      the logic for installing software, and use strings that are defined in the 
+      strings section. The strings section contains localizable strings that may 
+      be displayed to the user during setup. With exceptions to a few setup INF 
+      files, the build lab just attaches a localized strings section to a 
+      template INF file that contains only install sections.</P>
+      <P>The process described here represents great progress from the early 
+      days of Windows when many core binaries had to be recompiled to generate 
+      localized versions. The fact that only resource sections and INF files 
+      change now means that the executable portion of Windows XP is truly 
+      world-ready.</P>
+      <P>The Windows XP Multilingual User Interface Pack contains six CDs. One 
+      CD contains the English version of Windows XP and the other five contain 
+      Multilingual User Interface Pack localized resources and the muisetup 
+      program. The user first installs the English version, and then installs 
+      Multilingual User Interface Pack resources on top of it.</P>
+      <P>The mostly automated process of creating a Windows XP Multilingual User 
+      Interface Pack is very similar to the process used to create the localized 
+      versions of Windows XP. Once a localized version has been built, an 
+      automated process is run to extract the localized resources from the 
+      binaries and repackage them as Multilingual User Interface Pack resource 
+      DLLs. These are part of the media packages, including muisetup, that get 
+      shipped to customers and original equipment manufacturers (OEMs). The 
+      contents of these resources go through the same tests as those performed 
+      on the localized version.</P>
+      <P>Streamlining the process enables the Microsoft international team to 
+      release a build of Multilingual User Interface Pack resources for a 
+      particular language within just three days of the release of the localized 
+      version from which the resource DLLs were created.</P>
+      <P>The Windows XP Multilingual User Interface Pack contains resources for 
+      33 languages. It also contains muisetup.exe, which allows users or 
+      administrators to select the languages they want to install, then installs 
+      the appropriate language resource files onto a running Windows XP 
+      system.</P>
+      <P>Customers evaluating the Windows XP Professional Multilingual User 
+      Interface Pack are usually concerned about the degree of localization.</P>
+      <P>Because the resources in a localized version are used to create the 
+      Multilingual User Interface Pack, there is no difference between the 
+      actual translations. All resources in a localized build are extracted and 
+      used to create the Multilingual User Interface Pack resource files. This 
+      results in nearly full localization, apart from small elements that are 
+      dependent on:</P>
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P>INF files.</P></TD></TR>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P>UI strings stored in the registry.</P></TD></TR>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P>ANSI components such as hyperterminal.</P></TD></TR>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P>16-bit applications in ANSI format.</P></TD></TR></TBODY></TABLE>
+      <P>Localization coverage in the Windows 2000 Multilingual User Interface 
+      Pack was about 90 percent. The Windows 2000 Multilingual User Interface 
+      Pack had many visible strings that appeared in English. One of the most 
+      noticeable areas was the Start menu, which was populated directly using 
+      file and folder names created at setup. Because English was the original 
+      installation language, these file and folder names appeared in English 
+      even if you were running on the Multilingual User Interface Pack with a 
+      Japanese user interface. This discrepancy has been corrected in Windows 
+      XP, resulting in a much better localization for the system user.</P>
+      <P>Much of the additional localized coverage in Windows XP is achieved 
+      through an Multilingual User Interface that enables Windows XP system 
+      modules and applications. Specifically, it does this by:</P>
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P>Transferring user interface strings from the registry to Windows 
+            resource files.</P></TD></TR>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P>Removing user interface strings from the kernel.</P></TD></TR>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P>Using the Multilingual User Interface-enabled shell to display 
+            localized strings for Start menu items, desktop shortcuts, shell 
+            menu items, file type names, and shell verbs (right-click menu 
+            items).</P></TD></TR>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P>Making Windows services impersonate the current interactive user 
+            instead of the system default when displaying user interface 
+            elements.</P></TD></TR>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P>Baring the use of hard-coded file paths when loading resource 
+            files, including help files, so that an alternate resource path can 
+            be used to load the resource file.</P></TD></TR>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P>Providing special code in each component to install and load the 
+            user interface resource if a nontraditional Win-32 resource is used 
+            (such as XML or an HTML-based resource).</P></TD></TR></TBODY></TABLE>
+      <P>Implementing these changes for the Windows XP Multilingual User 
+      Interface Pack resulted in much higher localization quality and improves 
+      the user experience considerably.</P>
+      <P>The biggest difference between the feature set of a localized version 
+      and the Windows XP Multilingual User Interface Pack are country-specific 
+      device drivers that ship with a particular localized version. Other than 
+      these country-specific binary modules, there are virtually no differences 
+      between using the Windows XP Multilingual User Interface Pack and a 
+      localized version in terms of operating system features.</P>
+      <DIV style="MARGIN-TOP: 3px; MARGIN-BOTTOM: 10px"><A 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top"><IMG 
+      height=9 alt="Top of page" 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_up.gif" 
+      width=7 border=0></A><A class=topOfPage 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top">Top 
+      of page</A></DIV><A name=EFAA></A>
+      <H2>Additional Benefits of Windows XP Multilingual User Interface 
+Pack</H2>
+      <P>In addition to the high quality localization, Windows XP Multilingual 
+      User Interface Pack further eases deployment and maintenance of 
+      multilingual computing environments by:</P>
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P><B>Helping administrators define a single corporate standard for 
+            desktops worldwide.</B> The Windows XP Multilingual User Interface 
+            Pack makes it easier and more efficient to centrally define, create, 
+            and manage desktop configurations, including desktop productivity 
+            tools and business applications, and then deploy them with the 
+            appropriate language interface to give users an excellent localized 
+            experience. For example, a U.S. corporation with subsidiary offices 
+            in Tokyo, Athens, and Rome can now deploy the English version of 
+            Windows XP with the Multilingual User Interface Pack in each office, 
+            rather than deploying the Windows XP Japanese version in Tokyo, the 
+            Windows XP Greek version in Athens, and the Windows XP Italian 
+            version in Rome.</P></TD></TR>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P><B>Enabling administrators to apply service packs or updates once 
+            for all supported language environments.</B> Because the 
+            Multilingual User Interface Pack is installed on top of the English 
+            version of Windows XP, applying a service pack or update is greatly 
+            simplified for a global organization. Rather than waiting for and 
+            then applying, tracking, and maintaining a different service pack, 
+            tool, and application set for each localized version, administrators 
+            can apply the same software to every machine in the company, 
+            regardless of location. The result: significantly lower costs for 
+            maintaining a global desktop computing environment.</P></TD></TR>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P><B>Allowing workstations to be shared by users who speak 
+            different languages. </B>This eliminates the need for dual-boot 
+            configurations or dedicated machines for each language, resulting in 
+            lower cost. In addition, it helps workers be more productive by 
+            providing them with a system environment in their native 
+            language.</P></TD></TR>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P><B>Letting users log on anywhere and get the user interface in 
+            their own language.</B> In Windows XP, a user's language settings 
+            are stored in a user profile. This enables that user to move from 
+            one Windows XP-based machine to another in a network and retain 
+            personal multilingual and international settings, as well as a 
+            consistent UI language. For example, a sales representative based in 
+            Zurich, Switzerland, can maintain a German UI when working on 
+            machines in both the Geneva and Zurich offices, rather than having 
+            to use a French UI in the Geneva office.</P></TD></TR></TBODY></TABLE>
+      <DIV style="MARGIN-TOP: 3px; MARGIN-BOTTOM: 10px"><A 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top"><IMG 
+      height=9 alt="Top of page" 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_up.gif" 
+      width=7 border=0></A><A class=topOfPage 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top">Top 
+      of page</A></DIV><A name=EEAA></A>
+      <H2>Special considerations for Windows XP Embedded</H2>
+      <P>Windows XP Embedded is based on the unmodified, release binaries of 
+      Windows XP. The architectural discussion earlier in this article is 
+      relevant to Windows XP Embedded. The Windows XP Embedded product provides 
+      a component database and authoring tools that let an OEM create highly 
+      customized, run-time images of Windows XP for dedicated purposes.</P>
+      <P>For a detailed discussion of the Windows XP Embedded system, see the <A 
+      href="http://msdn.microsoft.com/embedded/default.aspx">Windows XP Embedded 
+      Web site</A> at <A 
+      href="http://msdn.microsoft.com/embedded/default.aspx">http://msdn.microsoft.com/embedded/default.aspx</A>.</P>
+      <P>Also, the resource files for each supported language in the Windows XP 
+      Multilingual User Interface Pack are repackaged into individual language 
+      components, allowing an OEM to simply add these language components to 
+      customized configurations and thereby change the user interface language 
+      of their embedded appliance.</P>
+      <P><B>Concerns</B></P>
+      <P>Just as customers in the PC desktop and server PC markets raised 
+      concerns about translation quality using the Multilingual User Interface 
+      Pack, industry customers interested in Windows XP Embedded also had 
+      doubts.</P>
+      <P>One concern that was unique to the embedded industry was the potential 
+      for footprint increase. And if we compare an English-only configuration 
+      against an Multilingual User Interface-enabled configuration, there 
+      certainly will be an increase in disk footprint due to the additional 
+      language components.</P>
+      <P>For a fairer comparison, it's necessary to evaluate an Multilingual 
+      User Interface-enabled image against a localized image of an embedded 
+      operating system. Typically, a localized image (especially for Far East 
+      Asian languages) has a significant size increase even if it isn't using 
+      the Multilingual User Interface Pack modules<SUP>3</SUP>. This increase is 
+      much more significant in bare minimum configurations than in larger 
+      configurations, because the minimum language modules required by a 
+      localized image are generally larger than the rest of the core operating 
+      system image itself. For example, a required font on a Japanese system can 
+      be 8 MB in size. Add the IME and dictionary files, and you will end up 
+      with a localized image that is triple the size of the corresponding 
+      English-only image.</P>
+      <P>Given this, the size of the additional English resources contained in 
+      an Multilingual User Interface-enabled image is relatively insignificant 
+      compared with the size of required additional language modules for a 
+      localized image. This is true whether using Multilingual User Interface 
+      modules or not.</P>
+      <P>Also, the size difference will be further minimized on smaller 
+      configurations that contain only core operating system components. Fewer 
+      language resources need to be localized in these core components, and only 
+      a small number of the Multilingual User Interface Pack components are 
+      required by them.</P>
+      <P><B>Added Benefits</B></P>
+      <P>With initial concerns alleviated, the benefits of Multilingual User 
+      Interface technology become magnified in an embedded industry context.</P>
+      <P>Language components in Windows XP Embedded greatly reduce the 
+      engineering effort involved in localizing run-time images for embedded 
+      applications. For example, suppose a multinational OEM wants to ship an 
+      appliance in five different languages. If they create five configurations 
+      based on five localized versions of an operating system, they will have to 
+      increase their engineering efforts in integration, testing, packaging, and 
+      release management by fivefold. However, if they use a single version of 
+      Windows with language components, they can create and validate a single 
+      configuration by simply adding language components to localize their 
+      product UI. Better yet, they could even release a single version of the 
+      appliance containing all five languages and have it reconfigured, with a 
+      flip of a switch, at their regional distribution sites worldwide.</P>
+      <P>Releasing a single, worldwide configuration for embedded applications 
+      means there can be one centralized support organization supporting 
+      products around the world. The result is reduced management costs as well 
+      as reduced support engineering costs. A fix in one country can be applied 
+      to all the other countries.</P>
+      <P>Multilingual User Interface technology also allows language switching 
+      on the same system. An OEM can take advantage of this feature to create 
+      multilingual devices. This feature is useful in embedded applications 
+      found at places where individual users may speak different languages, such 
+      as an airport terminal.</P>
+      <DIV style="MARGIN-TOP: 3px; MARGIN-BOTTOM: 10px"><A 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top"><IMG 
+      height=9 alt="Top of page" 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_up.gif" 
+      width=7 border=0></A><A class=topOfPage 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top">Top 
+      of page</A></DIV><A name=EDAA></A>
+      <H2>Summary</H2>
+      <P>While the Windows XP Multilingual User Interface Pack provides several 
+      key advantages over language-specific localized versions of Windows XP, 
+      customers expressed concerns that the localization would be inferior 
+      quality.</P>
+      <P>However, Windows XP is a world-ready operating system that can run 
+      applications in any language. Further, Windows XP contains globalization 
+      features that enable localized applications to run successfully.</P>
+      <P>A localized version of Windows XP provides the same set of 
+      international features as the English version of Windows XP. In additions 
+      to these features, the localized version provides a user interface 
+      suitable for a particular language. By comparison, the Windows XP 
+      Multilingual User Interface Pack supports user interface in multiple 
+      languages on the same installation. This is the natural evolution of 
+      localized versions of Windows, given the architecture behind the Windows 
+      XP operating system, the engineering process to produce it, and the high 
+      level of localization coverage it provides.</P>
+      <P>Windows XP Embedded takes advantage of Multilingual User Interface 
+      technology to localize embedded run-time images. Multilingual User 
+      Interface technology holds special values in an embedded environment 
+      context, and initial concerns about Multilingual User Interface technology 
+      in desktop/server PC markets are even less of an issue in an embedded 
+      environment.</P>
+      <DIV style="MARGIN-TOP: 3px; MARGIN-BOTTOM: 10px"><A 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top"><IMG 
+      height=9 alt="Top of page" 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_up.gif" 
+      width=7 border=0></A><A class=topOfPage 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top">Top 
+      of page</A></DIV><A name=ECAA></A>
+      <H2>Appendix A: Localized Versions of Windows XP Professional</H2>
+      <P>There are 24 fully localized versions of Windows XP Professional.</P>
+      <TABLE class=dataTable id=EACAA cellSpacing=0 cellPadding=0>
+        <THEAD></THEAD>
+        <TBODY>
+        <TR class=record vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Arabic</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Hebrew</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=evenRecord vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Portuguese 
+          (Brazil)</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Hungarian</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=record vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Chinese Hong 
+          Kong</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Italian</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=evenRecord vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Chinese 
+          Simplified</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Japanese</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=record vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Chinese 
+          Traditional</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Korean</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=evenRecord vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Czech</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Norwegian</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=record vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Danish</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Polish</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=evenRecord vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Dutch</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Portuguese 
+            (Portugal)</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=record vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Finnish</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Russian</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=evenRecord vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>French</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Spanish</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=record vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>German</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Swedish</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=evenRecord vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Greek</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P 
+        class=lastInCell>Turkish</P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+      <DIV class=dataTableBottomMargin></DIV>
+      <DIV style="MARGIN-TOP: 3px; MARGIN-BOTTOM: 10px"><A 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top"><IMG 
+      height=9 alt="Top of page" 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_up.gif" 
+      width=7 border=0></A><A class=topOfPage 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top">Top 
+      of page</A></DIV><A name=EBAA></A>
+      <H2>Appendix B: Windows XP Multilingual User Interface Pack Languages</H2>
+      <P>There are 33 languages available in the Windows XP Professional 
+      Multilingual User Interface Pack, which is an add-on to the English 
+      version of Windows XP Professional:</P>
+      <TABLE class=dataTable id=ECBAA cellSpacing=0 cellPadding=0>
+        <THEAD></THEAD>
+        <TBODY>
+        <TR class=record vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Arabic</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Hebrew</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=evenRecord vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Portuguese 
+          (Brazil)</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Hungarian</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=record vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Chinese 
+          Simplified</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Italian</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=evenRecord vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Chinese 
+          Traditional</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Japanese</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=record vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Czech</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Korean</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=evenRecord vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Danish</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Norwegian</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=record vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Dutch</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Polish</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=evenRecord vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>English</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Portuguese 
+            (Portugal)</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=record vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Finnish</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Russian</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=evenRecord vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>French</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Spanish</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=record vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>German</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Swedish</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=evenRecord vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Greek</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P 
+        class=lastInCell>Turkish</P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+      <DIV class=dataTableBottomMargin></DIV>
+      <P><B>Note</B>: Any of the following supported languages that do not have 
+      an official localized version listed in Appendix A are recognized as the 
+      only localized version in their corresponding geographic areas.</P>
+      <TABLE class=dataTable id=EABAA cellSpacing=0 cellPadding=0>
+        <THEAD></THEAD>
+        <TBODY>
+        <TR class=record vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Bulgarian</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Romanian</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=evenRecord vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Croatian</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Slovak</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=record vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Estonian</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Slovenian</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=evenRecord vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Latvian</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Thai</P></TD></TR></TBODY></TABLE></TD></TR>
+        <TR class=record vAlign=top>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD class=listBullet vAlign=top>•</TD>
+                <TD class=listItem>
+                  <P class=lastInCell>Lithuanian</P></TD></TR></TBODY></TABLE></TD>
+          <TD style="BORDER-RIGHT: #cccccc 1px solid">
+            <P class=lastInCell>&nbsp;</P></TD></TR></TBODY></TABLE>
+      <DIV class=dataTableBottomMargin></DIV>
+      <DIV style="MARGIN-TOP: 3px; MARGIN-BOTTOM: 10px"><A 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top"><IMG 
+      height=9 alt="Top of page" 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_up.gif" 
+      width=7 border=0></A><A class=topOfPage 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top">Top 
+      of page</A></DIV><A name=EAAA></A>
+      <H2>Related Links</H2>
+      <P>See the following resources for further information:</P>
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD class=listBullet vAlign=top>•</TD>
+          <TD class=listItem>
+            <P><A 
+            href="http://www.microsoft.com/resources/documentation/windows/xp/all/reskit/en-us/prff_mul_xjgd.asp" 
+            target=_blank>Multilingual Features in Windows XP Professional</A> 
+            at <A 
+            href="http://www.microsoft.com/resources/documentation/windows/xp/all/reskit/en-us/prff_mul_xjgd.asp" 
+            target=_blank>http://www.microsoft.com/resources/documentation/windows/xp/all/reskit/en-us/prff_mul_xjgd.asp</A>.</P></TD></TR></TBODY></TABLE>
+      <P>For the latest information about Windows XP, see the <A 
+      href="http://www.microsoft.com/windowsxp/default.asp">Windows XP Web 
+      site</A> at <A 
+      href="http://www.microsoft.com/windowsxp/default.asp">http://www.microsoft.com/windowsxp/default.asp</A>.</P>
+      <P><SUP>1 </SUP>ANSI here is liberally used to mean "non-Unicode" 
+      characters. ANSI code pages represent the character encoding schemes that 
+      older versions of Windows used.</P>
+      <P><SUP>2</SUP> The following files are compiled from different source 
+      code for different language versions: Ntldr, osloader.exe, setupldr.bin, 
+      setupldr.exe (these files run before Windows XP is up and running, and no 
+      globalization features can be used at that time).</P>
+      <P><SUP>3 </SUP>With Windows NT Embedded 4.0, a minimum bootable image 
+      with networking would take approximately 16 MB of disk space. An 
+      equivalent bootable image in Japanese would larger than 40MB due to 
+      language specific modules such as IME and dictionary files.</P>
+      <P>The information contained in this document represents the current view 
+      of Microsoft Corporation on the issues discussed as of the date of 
+      publication. Because Microsoft must respond to changing market conditions, 
+      it should not be interpreted to be a commitment on the part of Microsoft, 
+      and Microsoft cannot guarantee the accuracy of any information presented 
+      after the date of publication.</P>
+      <P>This article is for informational purposes only. MICROSOFT MAKES NO 
+      WARRANTIES, EXPRESS OR IMPLIED, IN THIS DOCUMENT.</P>
+      <P>Complying with all applicable copyright laws is the responsibility of 
+      the user. Without limiting the rights under copyright, no part of this 
+      document may be reproduced, stored in or introduced into a retrieval 
+      system, or transmitted in any form or by any means (electronic, 
+      mechanical, photocopying, recording, or otherwise), or for any purpose, 
+      without the express written permission of Microsoft Corporation.</P>
+      <P>Microsoft may have patents, patent applications, trademarks, 
+      copyrights, or other intellectual property rights covering subject matter 
+      in this document. Except as expressly provided in any written license 
+      agreement from Microsoft, the furnishing of this document does not give 
+      you any license to these patents, trademarks, copyrights, or other 
+      intellectual property.</P>
+      <P>© 2001 Microsoft Corporation. All rights reserved. Microsoft, Win32, 
+      and Windows are either registered trademarks or trademarks of Microsoft 
+      Corporation in the United States and/or other countries.</P>
+      <P>Other product and company names mentioned herein may be the trademarks 
+      of their respective owners.</P>
+      <P>Microsoft Corporation · One Microsoft Way · Redmond, WA 98052-6399 · 
+      USA</P><BR style="FONT-SIZE: 0pt" clear=all>
+      <DIV style="MARGIN-TOP: 16px; MARGIN-BOTTOM: 20px; WIDTH: 100%">
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD><A 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top"><IMG 
+            height=9 alt="Top of page" 
+            src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/arrow_px_up.gif" 
+            width=7 border=0></A><A class=topOfPage 
+            href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx#top">Top 
+            of page</A></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE><?xml version="1.0" encoding="utf-16"?>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0 xmlns:asp="null" 
+xmlns:user="http://www.microsoft.com/MSCOM/MNP25/Schemas" 
+xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:shell="null">
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD class=mnpMenuTop width=180>&nbsp;</TD>
+    <TD>
+      <DIV id=pagetools style="BEHAVIOR: url(#default#savefavorite)" 
+      onsave="c++; SetFirst('3');"><A 
+      onmouseover="window.status='View a printer-friendly version of this page'; return true" 
+      onclick="a++; SetFirst('1');" onmouseout="window.status=''; return true" 
+      href="http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx?pf=true" 
+      target=_new><IMG title="" height=16 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/print.gif" 
+      width=16 align=absMiddle border=0></IMG>&nbsp;Printer-Friendly 
+      Version</A><A onmouseover="window.status='Send this page'; return true" 
+      onclick="b++; SetFirst('2');" onmouseout="window.status=''; return true" 
+      href="mailto:?subject=Comparing Windows XP Professional Multilingual Options&amp;body=http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx"><IMG 
+      title="" height=16 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/mail.gif" 
+      width=16 align=absMiddle border=0></IMG>&nbsp;Send This Page</A><A 
+      onmouseover="window.status='Add this page to your favorites'; return true" 
+      onclick=fnAddToFavs() onmouseout="window.status=''; return true" 
+      href="javascript:void(0);"><IMG title="" height=16 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/favs.gif" 
+      width=16 align=absMiddle border=0></IMG>&nbsp;Add to Favorites</A><A 
+      onmouseover="window.status='Comment on this page'; return true" 
+      onclick="d++; SetFirst('4');" onmouseout="window.status=''; return true" 
+      href="http://register.microsoft.com/contactus30/feedback40.asp?domain=technet" 
+      target=_new><IMG title="" height=16 alt=* 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/feedback.gif" 
+      width=16 align=absMiddle border=0></IMG>&nbsp;Comments</A></DIV><IFRAME 
+      id=ListenerFrame style="DISPLAY: none" src="javascript:void(0);" 
+      frameBorder=0></IFRAME>
+      <SCRIPT language=JavaScript>
+      FavUrl = "http://www.microsoft.com/technet/prodtechnol/winxppro/evaluate/muiovw.mspx"; FavTitle = "Comparing Windows XP Professional Multilingual Options"; Rate = 0.0;
+      DialogWidth = 306; lc = "en-us"; DialogHeight = 290;
+      Host = "www.microsoft.com"; HostUrl = "/technet/prodtechnol/winxppro/evaluate/muiovw.mspx";
+      </SCRIPT>
+    </TD></TR></TBODY></TABLE><BR style="OVERFLOW: hidden; LINE-HEIGHT: 1px" 
+clear=all>
+<TABLE id=msviFooter cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD id=msviFooter2 
+    style="FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#ADADAD', gradientType='1')">
+      <DIV id=msviLocalFooter><NOBR><A onclick=trackInfo(this) 
+      href="http://go.microsoft.com/?linkid=317027" LinkID="Footer_Link1" 
+      LinkArea="Footer">Manage Your Profile</A> |</NOBR><WBR><NOBR><A 
+      onclick=trackInfo(this) 
+      href="http://www.microsoft.com/technet/contactus.mspx" 
+      LinkID="Footer_Link2" LinkArea="Footer">Contact Us</A> 
+      |</NOBR><WBR><NOBR><A onclick=trackInfo(this) 
+      href="http://www.microsoft.com/technet/abouttn/subscriptions/flash_register.mspx" 
+      LinkID="Footer_Link3" LinkArea="Footer">Newsletter</A></NOBR></DIV>
+      <DIV id=msviGlobalFooter><SPAN dir=ltr>©2004 Microsoft Corporation. All 
+      rights reserved.&nbsp;</SPAN><NOBR><A onclick=trackInfo(this) 
+      href="http://www.microsoft.com/info/cpyright.mspx" LinkID="Footer_Link4" 
+      LinkArea="Footer">Terms of Use</A> |</NOBR><WBR><NOBR><A 
+      onclick=trackInfo(this) 
+      href="http://www.microsoft.com/library/toolbar/3.0/trademarks/en-us.mspx" 
+      LinkID="Footer_Link5" LinkArea="Footer">Trademarks</A> 
+      |</NOBR><WBR><NOBR><A onclick=trackInfo(this) 
+      href="http://www.microsoft.com/info/privacy.mspx" LinkID="Footer_Link6" 
+      LinkArea="Footer">Privacy Statement</A></NOBR></DIV></TD>
+    <TD width=105 bgColor=#adadad><IMG title="" height=29 alt=Microsoft 
+      src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/text.jpg" 
+      width=105 border=0></TD></TR></TBODY></TABLE>
+<SCRIPT language=javascript>var msviFooter2;if (document.getElementById){msviFooter2 = document.getElementById("msviFooter2");msviFooter2.style.filter = "";}</SCRIPT>
+
+<TABLE height=58 cellSpacing=0 cellPadding=0 width="100%">
+  <TBODY>
+  <TR vAlign=top>
+    <TD>
+      <DIV style="WIDTH: 200px"></DIV></TD>
+    <TD 
+    style="FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#ADADAD', gradientType='1')" 
+    width="100%"></TD></TR></TBODY></TABLE><LAYER visibility="hide">
+<DIV style="DISPLAY: none"><IMG height=0 hspace=0 
+src="Comparing%20Windows%20XP%20Professional%20Multilingual%20Options_files/trans_pixel.gif" 
+width=0 border=0></DIV></LAYER></BODY></HTML>

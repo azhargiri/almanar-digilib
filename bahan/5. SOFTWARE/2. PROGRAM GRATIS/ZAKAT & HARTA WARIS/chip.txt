@@ -1,0 +1,20 @@
+Zakat & Harta Waris  
+
+Program ini dapat menghitung Banyaknya Zakat yang harus dikeluarkan, sesuai dengan jenis zakat yang telah dipilih. Menentukan  Ahli Waris yang berhak mendapatkan bagian dan besarnya bagian masing-masing ahli waris. Cocok untuk digunakan sebagai Database Amil Zakat di Masjid.
+
+Apabila Anda menemukan bug atau permasalahan, silakan kirim surat ke:
+A. Nuzul Fajri A. N.
+D/A.  WISMA "C I T R A"
+Jalan Akses UI Gang Jamir Indah No. 16 
+Pondok Cina. D e p o k . 16424.
+Telp. 7871201 (hub. ARI).
+
+Password program: <spasi>ArrA<spasi>
+
+CHIP-Info: Baca dokumentasi program yang ada agar lebih jelas dalam penggunaan dan pemakaian
+
+Jenis: FREEWARE
+Author: A. Nuzul Fajri A. N.
+Harddisk: 3,0 MB
+Sistem operasi: Windows 95/98
+

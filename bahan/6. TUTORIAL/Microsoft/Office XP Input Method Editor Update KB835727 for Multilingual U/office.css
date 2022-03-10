@@ -1,0 +1,201 @@
+BODY {
+	FONT-SIZE: 80%; COLOR: black; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 80%; COLOR: black; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.HomeBody {
+	FONT-SIZE: 71%; COLOR: black; LINE-HEIGHT: 15px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.white {
+	COLOR: #ffffff
+}
+.componentBodyText {
+	FONT-WEIGHT: bold; FONT-SIZE: 70%; CURSOR: default; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+.teaserhead {
+	FONT-SIZE: 107%; COLOR: black; LINE-HEIGHT: 19px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.rightnavblack {
+	FONT-WEIGHT: normal; FONT-SIZE: 66%; LINE-HEIGHT: 14px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.dtH1 {
+	FONT-SIZE: 140%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+H1 {
+	FONT-SIZE: 140%; LINE-HEIGHT: 23px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+H1.logo {
+	FONT-SIZE: 140%; COLOR: #000000; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+H2 {
+	FONT-SIZE: 130%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+H3 {
+	FONT-SIZE: 120%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+H3.dtH3 {
+	FONT-SIZE: 105%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+H4.dtH4 {
+	FONT-SIZE: 100%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+H4 {
+	FONT-SIZE: 100%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+H5 {
+	FONT-SIZE: 90%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.indent {
+	PADDING-LEFT: 20px
+}
+.AnnounceTbl {
+	BORDER-RIGHT: #999999 0.025cm solid; BORDER-TOP: #999999 0.025cm solid; BORDER-LEFT: #999999 0.025cm solid; BORDER-BOTTOM: #999999 0.025cm solid
+}
+.Sidebar {
+	BORDER-RIGHT: #999999 0.025cm solid; BORDER-TOP: #999999 0.025cm solid; BORDER-LEFT: #999999 0.025cm solid; BORDER-BOTTOM: #999999 0.025cm solid
+}
+.LeadBox {
+	BORDER-RIGHT: #333366 0.025cm solid; BORDER-TOP: #333366 0.025cm solid; BORDER-LEFT: #333366 0.025cm solid; BORDER-BOTTOM: #333366 0.025cm solid
+}
+UNKNOWN {
+	TEXT-DECORATION: underline
+}
+.rabbit {
+	FONT-WEIGHT: normal; FONT-SIZE: 85%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.blackrabbit:visited {
+	FONT-WEIGHT: bolder; FONT-SIZE: 75%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.nohov {
+	TEXT-DECORATION: none
+}
+.nohov:visited {
+	TEXT-DECORATION: none
+}
+.nohov:hover {
+	TEXT-DECORATION: underline
+}
+.copy {
+	FONT-WEIGHT: normal; FONT-SIZE: 65%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.ork {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #0000cc; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.ork:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #663399; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.ork:hover {
+	TEXT-DECORATION: underline
+}
+.navSub {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.navSub:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 80%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.navSub:hover {
+	TEXT-DECORATION: underline
+}
+.navSub2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 70%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.navSub3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 84%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.topic1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 85%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.topic1:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 85%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.topic1:hover {
+	TEXT-DECORATION: underline
+}
+A.topic10 {
+	FONT-WEIGHT: normal; FONT-SIZE: 100%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.clsTocHead {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.clsTocHead:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.clsTocHead:hover {
+	TEXT-DECORATION: underline
+}
+A.tbar {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.tbar:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A {
+	COLOR: #0000cc; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #663399; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #ff3300; TEXT-DECORATION: underline
+}
+.notile {
+	BACKGROUND-REPEAT: no-repeat
+}
+.ha {
+	FONT-WEIGHT: bold; FONT-SIZE: 160%; COLOR: #000000; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+B.tbara {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.boxtitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 70%; COLOR: #555555; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.hb {
+	FONT-WEIGHT: bold; FONT-SIZE: 105%; COLOR: #000000; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.hc {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #000000; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.tl {
+	MARGIN-LEFT: 30px
+}
+.text2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.text3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 65%; FONT-STYLE: italic; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.text4 {
+	FONT-WEIGHT: normal; FONT-SIZE: 75%; FONT-STYLE: italic; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.space {
+	FONT-WEIGHT: 100; FONT-SIZE: 6px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.left4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 200%; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+DIV.clsTocItem1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 90%; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.code {
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TH {
+	FONT-SIZE: 80%; TEXT-ALIGN: left
+}
+.ind {
+	MARGIN-LEFT: 15px
+}
+.qared {
+	FONT-WEIGHT: bold; FONT-SIZE: 130%; COLOR: #ff3300; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.qared01 {
+	COLOR: #ff3300
+}
+LI.spot {
+	LIST-STYLE-IMAGE: url(/office/ork/xp/images/bluedot.gif)
+}
+#idToolbar A:hover {
+	TEXT-DECORATION: none
+}

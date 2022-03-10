@@ -1,0 +1,1740 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0069)http://www.globalknowledge.org/gkps_portal/SGSIP/registrationform.cfm -->
+<HTML><HEAD><TITLE>GKP Seed Grant and Small Innovative Projects Fund</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META http-equiv=Content-Language content=en-us>
+<META content="MSHTML 6.00.2600.0" name=GENERATOR>
+<META content=FrontPage.Editor.Document name=ProgId><LINK 
+href="GKP%20Seed%20Grant%20and%20Small%20Innovative%20Projects%20Fund_files/cc.css" 
+type=text/css rel=stylesheet>
+<SCRIPT language=JavaScript>
+
+
+function ValidateForm()
+{
+	formObj = document.regform;
+	
+	
+		
+	
+	
+	if (formObj.title.value == "") {
+		alert("Please type in your title.");
+		formObj.title.focus();
+		return false;
+	}
+	
+	if (formObj.family_name.value == "") {
+		alert("Please type in your name.");
+		formObj.family_name.focus();
+		return false;
+	}
+	
+	if (formObj.Gender.value == "") {
+		alert("choose your country.");
+		formObj.Gender.focus();
+		return false;
+	}
+	/*
+	if (formObj.designation.value == "") {
+		alert("Please type in your designation.");
+		formObj.designation.focus();
+		return false;
+	}
+	
+	
+	if ((formObj.gender[0].checked || formObj.gender[1].checked) == false) {
+		alert("Please Choose your gender.");
+		window.location = "#gender";
+		return false;
+	}
+	
+	if (formObj.dob.value == "") {
+		alert("Please type in your Date of Birth.");
+		formObj.dob.focus();
+		return false;
+	}
+	*/
+	
+		
+	
+	if (formObj.org_name.value == "") {
+		alert("Please type in your organisation name.");
+		formObj.org_name.focus();
+		return false;
+	}
+	
+	
+	
+	if (formObj.address.value == "") {
+		alert("Please type in your address.");
+		formObj.address.focus();
+		return false;
+	}
+	
+	if (formObj.tel_number.value == "") {
+		alert("Please type in your telephone number.");
+		formObj.tel_number.focus();
+		return false;
+	}
+
+	
+	if (formObj.email_add.value == ""){
+		alert("Please type in your email.");
+		formObj.email_add.focus();
+		return false;}
+	
+		var theIndex = formObj.email_add.value.indexOf("@");
+
+		if (theIndex == -1 || formObj.email_add.value.indexOf(".", theIndex) == -1) {
+		alert("Invalid email address");
+		formObj.email_add.focus();
+		return false;
+	}
+	if ((formObj.Nationality[0].checked || formObj.Nationality[1].checked || formObj.Nationality[2].checked || formObj.Nationality[3].checked || formObj.Nationality[4].checked) == false) {		
+		alert("Please choose field of interest.");
+		window.location = "#Nationality";
+		return false;
+	}
+	
+	if (formObj.Nationality[4].checked == true && formObj.Other_nationality.value == "")
+	{
+		alert("Please type in your other field of interest ");
+		formObj.Other_nationality.focus();
+		return false;
+	
+	}
+	
+	/*
+	
+	if (formObj.project_title.value == "") {
+		alert("Please type in your project title.");
+		formObj.project_title.focus();
+		return false;
+	}
+
+
+	
+	if (formObj.countryselected.value == ",") {
+		alert("Please choose your project Geographic.");
+		formObj.org_fundedby.focus();
+		return false;
+	}
+	*/
+	if (formObj.noofmember.value == "") {
+		alert("Please type in amount requsted.");
+		formObj.noofmember.focus();
+		return false;
+	}
+	else 
+	{ if (isNaN(formObj.noofmember.value))
+	  {
+	  	alert("Invalid Format. Must be a number");
+		formObj.noofmember.value = "";
+		formObj.noofmember.focus();
+		return false;
+	  }
+	}
+	
+	if (!formObj.q3.value)
+	{
+		alert('Please key in Opening Paragraph');
+		formObj.q3.focus();
+		return false;
+	}
+	if (!formObj.q4.value)
+	{
+		alert('Please key in Statement of Need');
+		formObj.q4.focus();
+		return false;
+	}
+	if (!formObj.q5.value)
+	{
+		alert('Please key in Project of Activity');
+		formObj.q5.focus();
+		return false;
+	}
+	if (!formObj.q6.value)
+	{
+		alert('Please key in Outcomes');
+		formObj.q6.focus();
+		return false;
+	}
+	if (!formObj.q7.value)
+	{
+		alert('Please key in Credentials');
+		formObj.q7.focus();
+		return false;
+	}
+	if (!formObj.q8.value)
+	{
+		alert('Please key in Budget');
+		formObj.q8.focus();
+		return false;
+	}
+	if (!formObj.q9.value)
+	{
+		alert('Please key in Closing');
+		formObj.q9.focus();
+		return false;
+	}
+	
+	/*
+	if (formObj.q1.value == "") {
+		alert("Incomplete form.");
+		formObj.q1.focus();
+		return false;
+	}
+	
+	if (formObj.q2.value == "") {
+		alert("Incomplete form.");
+		formObj.q2.focus();
+		return false;
+	}
+	
+	if (formObj.q3.value == "") {
+		alert("Incomplete form.");
+		formObj.q3.focus();
+		return false;
+	}
+	
+	if (formObj.q4.value == "") {
+		alert("Incomplete form.");
+		formObj.q4.focus();
+		return false;
+	}
+	
+	if (formObj.q5.value == "") {
+		alert("Incomplete form.");
+		formObj.q5.focus();
+		return false;
+	}
+	
+	if (formObj.q6.value == "") {
+		alert("Incomplete form.");
+		formObj.q6.focus();
+		return false;
+	}
+	
+	if (formObj.q7.value == "") {
+		alert("Incomplete form.");
+		formObj.q7.focus();
+		return false;
+	}
+	
+	if (formObj.q8.value == "") {
+		alert("Incomplete form.");
+		formObj.q8.focus();
+		return false;
+	}
+	
+	if (formObj.q9.value == "") {
+		alert("Incomplete form.");
+		formObj.q9.focus();
+		return false;
+	}
+	
+	if (formObj.q10.value == "") {
+		alert("Incomplete form.");
+		formObj.q10.focus();
+		return false;
+	}
+	
+	if (formObj.q11.value == "") {
+		alert("Incomplete form.");
+		formObj.q11.focus();
+		return false;
+	}
+	
+	if (formObj.q12.value == "") {
+		alert("Incomplete form.");
+		formObj.q12.focus();
+		return false;
+	}
+	
+	if (formObj.q13.value == "") {
+		alert("Incomplete form.");
+		formObj.q13.focus();
+		return false;
+	}
+	
+	if (formObj.q14.value == "") {
+		alert("Incomplete form.");
+		formObj.q14.focus();
+		return false;
+	}
+	
+	if (formObj.q15.value == "") {
+		alert("Incomplete form.");
+		formObj.q15.focus();
+		return false;
+	}
+	
+	if (formObj.q16.value == "") {
+		alert("Incomplete form.");
+		formObj.q16.focus();
+		return false;
+	}
+	
+	if (formObj.q17.value == "") {
+		alert("Incomplete form.");
+		formObj.q17.focus();
+		return false;
+	}
+	
+	if (formObj.q18.value == "") {
+		alert("Incomplete form.");
+		formObj.q18.focus();
+		return false;
+	}
+	
+	if (formObj.q19.value == "") {
+		alert("Incomplete form.");
+		formObj.q19.focus();
+		return false;
+	}
+	
+	
+	
+	if (formObj.ref_name1.value == "") {
+		alert("Please type in your first referance name");
+		formObj.ref_name1.focus();
+		return false;
+	}
+	
+	if (formObj.ref_email1.value == ""){
+		alert("Please type in your first reference email.");
+		formObj.ref_email1.focus();
+		return false;}
+	
+		var theIndex = formObj.ref_email1.value.indexOf("@");
+
+		if (theIndex == -1 || formObj.ref_email1.value.indexOf(".", theIndex) == -1) {
+		alert("Invalid email address");
+		formObj.ref_email1.focus();
+		return false;
+	}
+	
+	if (formObj.ref_designation1.value == "") {
+		alert("Please type in your first referance designation");
+		formObj.ref_designation1.focus();
+		return false;
+	}
+	
+	if (formObj.ref_contact1.value == "") {
+		alert("Please type in your first referance contact information");
+		formObj.ref_contact1.focus();
+		return false;
+	}
+	
+	if (formObj.ref_name2.value == "") {
+		alert("Please type in your second referance name");
+		formObj.ref_name2.focus();
+		return false;
+	}
+	
+	if (formObj.ref_email2.value == ""){
+		alert("Please type in your second reference email.");
+		formObj.ref_email2.focus();
+		return false;}
+	
+		var theIndex = formObj.ref_email2.value.indexOf("@");
+
+		if (theIndex == -1 || formObj.ref_email2.value.indexOf(".", theIndex) == -1) {
+		alert("Invalid email address");
+		formObj.ref_email2.focus();
+		return false;
+	}
+	
+	if (formObj.ref_designation2.value == "") {
+		alert("Please type in your second referance designation");
+		formObj.ref_designation2.focus();
+		return false;
+	}
+
+	
+	if (formObj.ref_contact2.value == "") {
+		alert("Please type in your second referance contact information");
+		formObj.ref_contact2.focus();
+		return false;
+	}
+	
+	
+	if (formObj.ref_name3.value == "") {
+		alert("Please type in your third referance name");
+		formObj.ref_name3.focus();
+		return false;
+	}
+	
+	if (formObj.ref_email3.value == ""){
+		alert("Please type in your third reference email.");
+		formObj.ref_email3.focus();
+		return false;}
+	
+		var theIndex = formObj.ref_email3.value.indexOf("@");
+
+		if (theIndex == -1 || formObj.ref_email3.value.indexOf(".", theIndex) == -1) {
+		alert("Invalid email address");
+		formObj.ref_email3.focus();
+		return false;
+	}
+	
+	if (formObj.ref_designation3.value == "") {
+		alert("Please type in your third referance designation");
+		formObj.ref_designation3.focus();
+		return false;
+	}
+
+
+	if (formObj.ref_contact3.value == "") {
+		alert("Please type in your third referance contact information");
+		formObj.ref_contact3.focus();
+		return false;
+	}
+	*/
+	
+   ae_onSubmit();
+
+
+	
+	
+	
+	
+	
+}
+
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM name=regform action=registrationform_upd.cfm method=post 
+encType=multipart/form-data>
+<TABLE class=sm borderColor=#ffffff cellSpacing=1 cellPadding=4 width=600 
+align=center borderColorLight=#808080 border=0>
+  <TBODY>
+  <TR>
+    <TD colSpan=2><B><FONT face=Verdana color=#0084c4 size=2><FONT size=4>GKP 
+      Seed Grant and Small Innovative Projects Fund - Letter of Inquiry 
+      Submission Form</FONT></FONT></B> <BR></TD></TR>
+  <TR bgColor=#000064>
+    <TD colSpan=2><A name=status></A><FONT face=Verdana color=#ffffff 
+      size=2><STRONG>Contact details of 
+applicant/initiator</STRONG></FONT></TD></TR>
+  <TR>
+    <TD vAlign=top align=right 
+      bgColor=#f2f2f2><STRONG>Title/<BR>Salutation:</STRONG></TD>
+    <TD bgColor=#f2f2f2><INPUT class=sm size=70 name=title> <BR><FONT 
+      face=Verdana size=1>Mr. / Ms. / Dr. / Prof. / Other</FONT> </TD></TR>
+  <TR>
+    <TD vAlign=top align=right bgColor=#f2f2f2><B><FONT face=Verdana 
+      size=1>Full Name :</FONT></B></TD>
+    <TD bgColor=#f2f2f2><INPUT class=sm size=70 name=family_name> </TD></TR><INPUT 
+  type=hidden name=designation> 
+  <TR>
+    <TD vAlign=top align=right bgColor=#f2f2f2><STRONG>Country:</STRONG></TD>
+    <TD bgColor=#f2f2f2><SELECT class=sm size=1 name=Gender> <OPTION 
+        value="" selected>Select One</OPTION> <OPTION 
+        value=Albania>Albania</OPTION> <OPTION value=Algeria>Algeria</OPTION> 
+        <OPTION value=Angola>Angola</OPTION> <OPTION 
+        value="Antigua and Berbuda">Antigua and Berbuda</OPTION> <OPTION 
+        value=Argentina>Argentina</OPTION> <OPTION 
+        value=Armenia>Armenia</OPTION> <OPTION 
+        value=Australia>Australia</OPTION> <OPTION 
+        value=Austria>Austria</OPTION> <OPTION 
+        value=Azerbaijan>Azerbaijan</OPTION> <OPTION 
+        value=Bahamas>Bahamas</OPTION> <OPTION value=Bahrain>Bahrain</OPTION> 
+        <OPTION value=Bangladesh>Bangladesh</OPTION> <OPTION 
+        value=Barbados>Barbados</OPTION> <OPTION value=Belarus>Belarus</OPTION> 
+        <OPTION value=Belgium>Belgium</OPTION> <OPTION 
+        value=Belize>Belize</OPTION> <OPTION value=Benin>Benin</OPTION> <OPTION 
+        value=Bhutan>Bhutan</OPTION> <OPTION value=Bolivia>Bolivia</OPTION> 
+        <OPTION value=Botswana>Botswana</OPTION> <OPTION 
+        value=Brazil>Brazil</OPTION> <OPTION value=Brunei>Brunei</OPTION> 
+        <OPTION value=Bulgaria>Bulgaria</OPTION> <OPTION 
+        value="Burkina Faso">Burkina Faso</OPTION> <OPTION 
+        value=Burundi>Burundi</OPTION> <OPTION value=Cambodia>Cambodia</OPTION> 
+        <OPTION value=Cameroon>Cameroon</OPTION> <OPTION 
+        value=Canada>Canada</OPTION> <OPTION value="Cape Verde">Cape 
+        Verde</OPTION> <OPTION value="Central African Repulic">Central African 
+        Repulic</OPTION> <OPTION value=Chad>Chad</OPTION> <OPTION 
+        value=Chile>Chile</OPTION> <OPTION value=China>China</OPTION> <OPTION 
+        value=Columbia>Columbia</OPTION> <OPTION value=Comoros>Comoros</OPTION> 
+        <OPTION value=Congo>Congo</OPTION> <OPTION 
+        value="Congo, Dem.Rep. Of the">Congo, Dem.Rep. Of the</OPTION> <OPTION 
+        value="Costa Rica">Costa Rica</OPTION> <OPTION 
+        value="Cote d'lvoire">Cote d'lvoire</OPTION> <OPTION 
+        value=Croatia>Croatia</OPTION> <OPTION value=Cuba>Cuba</OPTION> <OPTION 
+        value=Cyprus>Cyprus</OPTION> <OPTION value="Czech Republic">Czech 
+        Republic</OPTION> <OPTION value=Denmark>Denmark</OPTION> <OPTION 
+        value=Djibouti>Djibouti</OPTION> <OPTION 
+        value=Dominica>Dominica</OPTION> <OPTION 
+        value="Dominican Republic">Dominican Republic</OPTION> <OPTION 
+        value=Ecuador>Ecuador</OPTION> <OPTION value=Egypt>Egypt</OPTION> 
+        <OPTION value="El Salvador">El Salvador</OPTION> <OPTION 
+        value="Equatorial Guinea">Equatorial Guinea</OPTION> <OPTION 
+        value=Eritorea>Eritorea</OPTION> <OPTION value=Estonia>Estonia</OPTION> 
+        <OPTION value=Ethiopia>Ethiopia</OPTION> <OPTION 
+        value=Fiji>Fiji</OPTION> <OPTION value=Finland>Finland</OPTION> <OPTION 
+        value=France>France</OPTION> <OPTION value=Gabon>Gabon</OPTION> <OPTION 
+        value=Gambia>Gambia</OPTION> <OPTION value=Georgia>Georgia</OPTION> 
+        <OPTION value=Germany>Germany</OPTION> <OPTION 
+        value=Ghana>Ghana</OPTION> <OPTION 
+        value=Guinea-Bissau>Guinea-Bissau</OPTION> <OPTION 
+        value=Greece>Greece</OPTION> <OPTION value=Grenada>Grenada</OPTION> 
+        <OPTION value=Guatemala>Guatemala</OPTION> <OPTION 
+        value=Guinea>Guinea</OPTION> <OPTION value=Guyana>Guyana</OPTION> 
+        <OPTION value=Haiti>Haiti</OPTION> <OPTION 
+        value=Honduras>Honduras</OPTION> <OPTION 
+        value="Hong Kong, China (SAR)">Hong Kong, China (SAR)</OPTION> <OPTION 
+        value=Hungary>Hungary</OPTION> <OPTION value=Iceland>Iceland</OPTION> 
+        <OPTION value=India>India</OPTION> <OPTION 
+        value=Indonesia>Indonesia</OPTION> <OPTION 
+        value="Iran, Islamic Rep.of">Iran, Islamic Rep.of</OPTION> <OPTION 
+        value=Iraq>Iraq</OPTION> <OPTION value=Ireland>Ireland</OPTION> <OPTION 
+        value=Israel>Israel</OPTION> <OPTION value=Italy>Italy</OPTION> <OPTION 
+        value=Jamaica>Jamaica</OPTION> <OPTION value=Japan>Japan</OPTION> 
+        <OPTION value=Jordan>Jordan</OPTION> <OPTION 
+        value=Kazakhstan>Kazakhstan</OPTION> <OPTION value=Kenya>Kenya</OPTION> 
+        <OPTION value=Kiribati>Kiribati</OPTION> <OPTION 
+        value="South Korea">South Korea</OPTION> <OPTION 
+        value=Kuwait>Kuwait</OPTION> <OPTION 
+        value=Kyrgyzstan>Kyrgyzstan</OPTION> <OPTION value=Laos>Laos</OPTION> 
+        <OPTION value=Latvia>Latvia</OPTION> <OPTION 
+        value=Lebanon>Lebanon</OPTION> <OPTION value=Lesotho>Lesotho</OPTION> 
+        <OPTION value=Liberia>Liberia</OPTION> <OPTION 
+        value=Libya>Libya</OPTION> <OPTION value=Lithuania>Lithuania</OPTION> 
+        <OPTION value=Luxembourg>Luxembourg</OPTION> <OPTION 
+        value="Macedonia, TFYR">Macedonia, TFYR</OPTION> <OPTION 
+        value=Madagascar>Madagascar</OPTION> <OPTION 
+        value=Malawi>Malawi</OPTION> <OPTION value=Malaysia>Malaysia</OPTION> 
+        <OPTION value=Maldives>Maldives</OPTION> <OPTION 
+        value=Mali>Mali</OPTION> <OPTION value=Malta>Malta</OPTION> <OPTION 
+        value=Mauritania>Mauritania</OPTION> <OPTION 
+        value=Mauritius>Mauritius</OPTION> <OPTION value=Mexico>Mexico</OPTION> 
+        <OPTION value="Moldova, Rep.of">Moldova, Rep.of</OPTION> <OPTION 
+        value=Mongolia>Mongolia</OPTION> <OPTION value=Morocco>Morocco</OPTION> 
+        <OPTION value=Mozambique>Mozambique</OPTION> <OPTION 
+        value=Myanmar>Myanmar</OPTION> <OPTION value=Namibia>Namibia</OPTION> 
+        <OPTION value=Nauru>Nauru</OPTION> <OPTION value=Nepal>Nepal</OPTION> 
+        <OPTION value=Netherlands>Netherlands</OPTION> <OPTION 
+        value="New Zealand">New Zealand</OPTION> <OPTION 
+        value=Nicaragua>Nicaragua</OPTION> <OPTION value=Niger>Niger</OPTION> 
+        <OPTION value=Nigeria>Nigeria</OPTION> <OPTION 
+        value=Norway>Norway</OPTION> <OPTION value=Oman>Oman</OPTION> <OPTION 
+        value=Pakistan>Pakistan</OPTION> <OPTION value=Panama>Panama</OPTION> 
+        <OPTION value="Papua New Guinea">Papua New Guinea</OPTION> <OPTION 
+        value=Paraguay>Paraguay</OPTION> <OPTION value=Peru>Peru</OPTION> 
+        <OPTION value=Philippines>Philippines</OPTION> <OPTION 
+        value=Poland>Poland</OPTION> <OPTION value=Portugal>Portugal</OPTION> 
+        <OPTION value=Qatar>Qatar</OPTION> <OPTION 
+        value=Romania>Romania</OPTION> <OPTION 
+        value="Russian Federation">Russian Federation</OPTION> <OPTION 
+        value=Rwanda>Rwanda</OPTION> <OPTION 
+        value="Saint Christopher &amp; Nevis">Saint Christopher &amp; 
+        Nevis</OPTION> <OPTION value="American Samoa">American Samoa</OPTION> 
+        <OPTION value="Sao Tome and Pricipe">Sao Tome and Pricipe</OPTION> 
+        <OPTION value="Saudi Arabia">Saudi Arabia</OPTION> <OPTION 
+        value=Senegal>Senegal</OPTION> <OPTION 
+        value=Seychelles>Seychelles</OPTION> <OPTION value="Sierra Leone">Sierra 
+        Leone</OPTION> <OPTION value=Singapore>Singapore</OPTION> <OPTION 
+        value=Slovakia>Slovakia</OPTION> <OPTION 
+        value=Slovenia>Slovenia</OPTION> <OPTION value="Solomon Islands">Solomon 
+        Islands</OPTION> <OPTION value="South Africa">South Africa</OPTION> 
+        <OPTION value=Spain>Spain</OPTION> <OPTION value="Sri Lanka">Sri 
+        Lanka</OPTION> <OPTION value="St. Lucia">St. Lucia</OPTION> <OPTION 
+        value="St. Vincent">St. Vincent</OPTION> <OPTION 
+        value=Sudan>Sudan</OPTION> <OPTION value=Suriname>Suriname</OPTION> 
+        <OPTION value=Swaziland>Swaziland</OPTION> <OPTION 
+        value=Sweden>Sweden</OPTION> <OPTION 
+        value=Switzerland>Switzerland</OPTION> <OPTION 
+        value=Syria>Syria</OPTION> <OPTION 
+        value=Tadzhikistan>Tadzhikistan</OPTION> <OPTION 
+        value=Tanzania>Tanzania</OPTION> <OPTION 
+        value=Thailand>Thailand</OPTION> <OPTION value="The  Grenadines">The 
+        Grenadines</OPTION> <OPTION value=Togo>Togo</OPTION> <OPTION 
+        value=Tonga>Tonga</OPTION> <OPTION value="Trinidad and Tobago">Trinidad 
+        and Tobago</OPTION> <OPTION value=Tunisia>Tunisia</OPTION> <OPTION 
+        value=Turkey>Turkey</OPTION> <OPTION 
+        value=Turkmenistan>Turkmenistan</OPTION> <OPTION 
+        value=Tuvalu>Tuvalu</OPTION> <OPTION value=Uganda>Uganda</OPTION> 
+        <OPTION value=Ukraine>Ukraine</OPTION> <OPTION 
+        value="United Arab Emirates">United Arab Emirates</OPTION> <OPTION 
+        value="United Kingdom">United Kingdom</OPTION> <OPTION 
+        value=Uruguay>Uruguay</OPTION> <OPTION value=USA>USA</OPTION> <OPTION 
+        value=Uzbekistan>Uzbekistan</OPTION> <OPTION 
+        value=Vanuatu>Vanuatu</OPTION> <OPTION 
+        value=Venezuela>Venezuela</OPTION> <OPTION 
+        value=Vietnam>Vietnam</OPTION> <OPTION value=Yemen>Yemen</OPTION> 
+        <OPTION value=Yugoslavia>Yugoslavia</OPTION> <OPTION 
+        value=Zambia>Zambia</OPTION> <OPTION value=Zimbabwe>Zimbabwe</OPTION> 
+        <OPTION value=Samoa>Samoa</OPTION> <OPTION value=Taiwan>Taiwan</OPTION> 
+        <OPTION value="East Timor">East Timor</OPTION> <OPTION 
+        value=Afghanistan>Afghanistan</OPTION> <OPTION 
+        value=Bosnia-Herzegovina>Bosnia-Herzegovina</OPTION> <OPTION 
+        value=Somalia>Somalia</OPTION> <OPTION value="North Korea">North 
+        Korea</OPTION> <OPTION value="Serbia and Montenegro">Serbia and 
+        Montenegro</OPTION> <OPTION value=Tajikistan>Tajikistan</OPTION> <OPTION 
+        value="Palau, Republic of">Palau, Republic of</OPTION> <OPTION 
+        value=Kosovo>Kosovo</OPTION></SELECT> </TD></TR>
+  <TR>
+    <TD vAlign=top align=right bgColor=#f2f2f2><B>Organisation Name:</B></TD>
+    <TD bgColor=#f2f2f2><INPUT class=sm size=70 name=org_name> </TD></TR>
+  <TR>
+    <TD vAlign=top align=right bgColor=#f2f2f2><B>Organization Url:</B></TD>
+    <TD bgColor=#f2f2f2><INPUT class=sm size=70 value=http:// name=org_url> 
+  </TD></TR>
+  <TR>
+    <TD vAlign=top align=right bgColor=#f2f2f2><B><FONT face=Verdana 
+      size=1><STRONG>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address</STRONG>:</FONT></B></TD>
+    <TD bgColor=#f2f2f2><B><TEXTAREA class=sm name=address rows=5 cols=48></TEXTAREA> 
+      </B></TD></TR>
+  <TR>
+    <TD vAlign=top align=right width="22%" bgColor=#f2f2f2><B><FONT 
+      face=Verdana size=1><STRONG>Tel</STRONG>:</FONT></B></TD>
+    <TD width="78%" bgColor=#f2f2f2>
+      <TABLE cellSpacing=0 cellPadding=0 width=400 border=0>
+        <TBODY>
+        <TR>
+          <TD width=400><INPUT class=sm size=31 name=tel_number> <STRONG><FONT 
+            face=Verdana color=#ff0000 size=2><BR></FONT></STRONG><FONT 
+            face=Verdana size=1>Ctry - City&nbsp;-Area-Phone 
+        Number</FONT></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD vAlign=top align=right width="22%" bgColor=#f2f2f2><B><STRONG><FONT 
+      face=Verdana size=1>Fax:</FONT></STRONG></B></TD>
+    <TD width="78%" bgColor=#f2f2f2>
+      <TABLE cellSpacing=0 cellPadding=0 width=400 border=0>
+        <TBODY>
+        <TR>
+          <TD width=400><INPUT class=sm size=31 name=fax_number> <BR><FONT 
+            face=Verdana size=1>Ctry - City&nbsp;-Area-Phone Number</FONT> 
+        </TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD vAlign=top align=right width="22%" bgColor=#f2f2f2><B><FONT 
+      face=Verdana size=1><STRONG>E-mail</STRONG>:</FONT></B></TD>
+    <TD width="78%" bgColor=#f2f2f2><INPUT class=sm size=70 name=email_add> 
+      <BR>(single email only) </TD></TR>
+  <TR>
+    <TD vAlign=top align=right bgColor=#f2f2f2><B><STRONG>Field of interest: 
+      </STRONG></B></TD>
+    <TD bgColor=#f2f2f2><A name=Nationality></A><INPUT type=radio 
+      value="ICT for Women’s Empowerment" name=Nationality> ICT for Women’s 
+      Empowerment<BR><INPUT type=radio value="ICT for Youth Participation" 
+      name=Nationality> ICT for Youth Participation<BR><INPUT type=radio 
+      value="ICT for Poverty Reduction" name=Nationality> ICT for Poverty 
+      Reduction<BR><INPUT type=radio 
+      value="Indigenous and Displaced Communities and ICTs" name=Nationality> 
+      Indigenous and Displaced Communities and ICTs<BR><INPUT type=radio 
+      value="" name=Nationality> Other <INPUT class=sm type=type size=48 
+      name=Other_nationality> </TD></TR>
+  <TR>
+    <TD vAlign=top align=right bgColor=#f2f2f2><STRONG>Project 
+    Title:</STRONG></TD>
+    <TD vAlign=top bgColor=#f2f2f2><INPUT class=sm size=70 
+    name=project_title></TD></TR>
+  <TR>
+    <TD vAlign=top align=right bgColor=#f2f2f2><STRONG>Project 
+URL:</STRONG></TD>
+    <TD vAlign=top bgColor=#f2f2f2><INPUT class=sm size=70 value=http:// 
+      name=project_url></TD></TR>
+  <TR>
+    <TD vAlign=top align=right bgColor=#f2f2f2><STRONG>Amount Requested 
+      US$:</STRONG></TD>
+    <TD bgColor=#f2f2f2><INPUT class=sm size=10 name=noofmember></TD></TR>
+  <TR bgColor=#000064>
+    <TD colSpan=2><STRONG><FONT face=Verdana color=#ffffff size=2>Letter of 
+      Inquiry</FONT></STRONG></TD></TR>
+  <TR>
+    <TD colSpan=2><STRONG><FONT face=Verdana size=2>Some Basic 
+      Principles</FONT></STRONG> <BR><BR>A Letter of Inquiry is not a vague 
+      exploration of an idea. It is assumed that you have already thought 
+      through your proposed project and are just presenting an abbreviated 
+      description. This abbreviated description would still have to include a 
+      budget. <BR><BR>Your Letter of Inquiry should be concise as far as 
+      possible. Please avoid jargon, flattery, and/or flowery subjective 
+      statements that cannot be supported by facts or others' statements. 
+      <BR><BR>A Letter of Inquiry, in essence, contains a condensed version of 
+      the basic components of a proposal. You should give the highlights of the 
+      same information in much the same order. For example, where you might use 
+      a page to write up an executive summary, in a Letter of Inquiry, you would 
+      cover the same content within a paragraph. <BR><BR>Your Letter of Inquiry 
+      to the Global Knowledge Partnership Secretariat should not be more than 
+      three pages long. <BR><FONT color=#ff0000 size=2><STRONG>(not exceeding 
+      1500 words)</STRONG></FONT><BR><BR></TD></TR>
+  <TR bgColor=#f2f2f2>
+    <TD colSpan=2>1. Opening Paragraph<BR><BR><!-- Trial placeholder --><!-- Trial placeholder --><!-- begin cf_activedit v:2.5 -->
+      <SCRIPT language=JavaScript>
+				
+				var alloweditsource = new Array();
+				var tabview = new Array();
+				var ae_fieldname = new Array();				
+				var ae_imagedata = new Array();				
+				var ae_imageurl = new Array();
+				var ae_defaultfont = new Array();				
+				var ae_baseurl = new Array();				
+				var ae_breakonenter = new Array();
+				var inc = '../inc/';
+				
+
+				var errlevel = 2;
+
+				ae_breakonenter[1] = true;
+				ae_baseurl[1] = "";
+				ae_defaultfont[1] = "8pt Verdana";
+				tabview[1] = false;
+				alloweditsource[1] = true;
+				ae_imagedata[1] = 'M%29LM7%28ZM64%2BF%28JJQ%3FNN72UQ%3EJ%5D%5D%2C%3ARMT%22QMNC5VM%5EB9B%2E%3C9%2E83%28WHGT2%3D3%3AWS%0A%29PIQ%3CD%29%5EJ%2B%2BOH';				
+				ae_imageurl[1] = 'http%3A%2F%2F64%2E118%2E66%2E186%2Fgkps%5Fportal%2Faeimages';
+			</SCRIPT>
+
+      <SCRIPT language=JavaScript 
+      src="GKP%20Seed%20Grant%20and%20Small%20Innovative%20Projects%20Fund_files/dhtmled.js"></SCRIPT>
+
+      <SCRIPT language=JavaScript id=clientEventHandlersJS 
+      src="GKP%20Seed%20Grant%20and%20Small%20Innovative%20Projects%20Fund_files/editjs.html"></SCRIPT>
+
+      <SCRIPT language=JavaScript>
+			//declare global javascript variables
+			if (errlevel == 2){
+				//error catching
+				document.write("<BR>The file editjs.cfm did not load properly. Make sure the the inc attribute is specified correctly<br>");
+				document.write("Current Value: inc=" + inc + "<br>");
+				document.write("<comment>"); // Keeps the rest of the page from displaying
+			}
+		</SCRIPT>
+
+      <SCRIPT language=javascript 
+      src="GKP%20Seed%20Grant%20and%20Small%20Innovative%20Projects%20Fund_files/user.js"></SCRIPT>
+
+      <STYLE type=text/css>.disabled {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FILTER: mask() mask(color=buttonshadow) dropshadow(offX=1,offY=1,color=buttonhighlight,positive=1); VISIBILITY: visible; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 1px; VERTICAL-ALIGN: middle; WIDTH: 23px; PADDING-TOP: 0px; HEIGHT: 22px; BORDER-RIGHT-WIDTH: 0px
+}
+.flat {
+	BORDER-RIGHT: buttonface 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: buttonface 1px solid; PADDING-LEFT: 0px; VISIBILITY: visible; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: buttonface 1px solid; WIDTH: 23px; PADDING-TOP: 0px; BORDER-BOTTOM: buttonface 1px solid; HEIGHT: 22px
+}
+.outset {
+	BORDER-RIGHT: buttonshadow 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: buttonhighlight 1px solid; PADDING-LEFT: 0px; VISIBILITY: visible; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: buttonhighlight 1px solid; WIDTH: 23px; PADDING-TOP: 0px; BORDER-BOTTOM: buttonshadow 1px solid; HEIGHT: 22px
+}
+.inset {
+	BORDER-RIGHT: 1px inset; PADDING-RIGHT: 0px; BORDER-TOP: 1px inset; PADDING-LEFT: 0px; VISIBILITY: visible; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: 1px inset; WIDTH: 23px; PADDING-TOP: 0px; BORDER-BOTTOM: 1px inset; HEIGHT: 22px
+}
+.latched {
+	BORDER-RIGHT: 1px inset; PADDING-RIGHT: 0px; BORDER-TOP: 1px inset; PADDING-LEFT: 0px; VISIBILITY: visible; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: 1px inset; WIDTH: 23px; PADDING-TOP: 0px; BORDER-BOTTOM: 1px inset; HEIGHT: 22px; BACKGROUND-COLOR: #eeeeee
+}
+.spc {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; PADDING-TOP: 0px
+}
+TABLE.ae_tableClass {
+	BORDER-RIGHT: buttonface 0px; BORDER-TOP: buttonface 0px; BORDER-LEFT: buttonface 0px; CURSOR: default; BORDER-BOTTOM: buttonface 0px; BACKGROUND-COLOR: buttonface
+}
+TR.ae_trClass {
+	BACKGROUND-COLOR: buttonface
+}
+TD.ae_tdClass {
+	BACKGROUND-COLOR: buttonface
+}
+</STYLE>
+
+      <TABLE class=ae_tableClass onselectstart=window.event.returnValue=false; 
+      ondragstart=window.event.returnValue=false; height=300 cellSpacing=0 
+      cellPadding=0 width="100%" bgColor=buttonface>
+        <TBODY>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass vAlign=bottom colSpan=2><IFRAME id=frame1 
+            style="Z-INDEX: 2; VISIBILITY: hidden; WIDTH: 10px; POSITION: absolute; HEIGHT: 10px" 
+            marginWidth=0 marginHeight=0 
+            src="GKP%20Seed%20Grant%20and%20Small%20Innovative%20Projects%20Fund_files/blank.html" 
+            scrolling=no></IFRAME>
+            <TABLE cellSpacing=2 cellPadding=0 border=0>
+              <TBODY>
+              <TR vAlign=center>
+                <TD width=10 
+                background="GKP%20Seed%20Grant%20and%20Small%20Innovative%20Projects%20Fund_files/toolbar.gif"><IMG 
+                  height=24 alt="" src="../inc/images/spacer.gif" width=9></TD>
+                <TD><SPAN onmouseup=ae_m_up(window.event.srcElement); 
+                  onselectstart=window.event.returnValue=false; 
+                  onmousedown=ae_m_down(window.event.srcElement); id=ae_tbar1 
+                  ondragstart=window.event.returnValue=false; 
+                  onmouseover=ae_m_over(window.event.srcElement); 
+                  onmouseout=ae_m_out(window.event.srcElement);><NOBR><IMG 
+                  class=flat onclick="ae_onCommand(null, 1)" alt=Font 
+                  src="../inc/images/fgcolor.gif" status="Change font and color" 
+                  cid="5009" type="btn"><IMG style="VERTICAL-ALIGN: middle" 
+                  height=24 src="../inc/images/spacer.gif" width=1> <SELECT 
+                  id=oQuickFontSize1 
+                  style="FONT: 8pt Verdana; VERTICAL-ALIGN: middle; WIDTH: 40px" 
+                  onchange=ae_quickfontsize(1); size=1> <OPTION value=1 
+                    selected name="ae_fs1">8<OPTION value=2 
+                    name="ae_fs2">10<OPTION value=3 name="ae_fs3">12<OPTION 
+                    value=4 name="ae_fs4">14<OPTION value=5 
+                    name="ae_fs5">18<OPTION value=6 name="ae_fs6">24<OPTION 
+                    value=7 name="ae_fs7">36</OPTION></SELECT> <IMG class=flat 
+                  onclick="ae_onCommand(null, 1)" alt=Bold 
+                  src="../inc/images/bold.gif" status="Make selected text bold" 
+                  cid="5000" type="btn"><IMG class=flat 
+                  onclick="ae_onCommand(null, 1)" alt=Italic 
+                  src="../inc/images/italic.gif" 
+                  status="Make selected text italic" cid="5023" type="btn"><IMG 
+                  class=flat onclick="ae_onCommand(null, 1)" alt=Underline 
+                  src="../inc/images/under.gif" 
+                  status="Underline the selected text" cid="5048" 
+                  type="btn"><IMG class=spc 
+                  src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  onclick="ae_onCommand(null, 1)" alt="Decrease Indent" 
+                  src="../inc/images/deindent.gif" 
+                  status="Reverse indent the current line" cid="5031" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 1)" 
+                  alt=Indent src="../inc/images/inindent.gif" 
+                  status="Indent the current line" cid="5018" type="btn"><IMG 
+                  class=spc src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  onclick="ae_onCommand(null, 1)" alt="Align Left" 
+                  src="../inc/images/left.gif" 
+                  status="Left justify the current line" cid="5025" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 1)" 
+                  alt=Center src="../inc/images/center.gif" 
+                  status="Center the current line" cid="5024" type="btn"><IMG 
+                  class=flat onclick="ae_onCommand(null, 1)" alt="Align Right" 
+                  src="../inc/images/right.gif" 
+                  status="Right justify the current line" cid="5026" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 1)" 
+                  alt=Bullets src="../inc/images/bullist.gif" 
+                  status="Insert a bullet on current line" cid="5051" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 1)" 
+                  alt=Numbering src="../inc/images/numlist.gif" 
+                  status="Insert a numbered list on current line" cid="5030" 
+                  type="btn"><IMG class=spc 
+                  src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  ondragstart="return false" onmouseover=ae_m_over(ae_tdrop1); 
+                  onclick="ae_onCommand(null, 1)" 
+                  onmouseout=ae_m_out(ae_tdrop1); alt="Insert Table" 
+                  src="../inc/images/instable.gif" name=ae_tbtn1 
+                  status="Insert a table" cid="5022" type="btn"><IMG class=flat 
+                  ondragstart="return false" onmouseover=ae_m_over(ae_tbtn1); 
+                  style="WIDTH: 9px" onclick=onTable(1) 
+                  onmouseout=ae_m_out(ae_tbtn1); alt="Quick Table" 
+                  src="../inc/images/tbdown.gif" name=ae_tdrop1 
+                  status="Insert a table" cid="5022" type="btn"></NOBR><BR><IMG 
+                  height=1 alt="" src="../inc/images/spacer.gif" 
+                width=1></SPAN></TD></TR></TBODY></TABLE></TD>
+          <TD class=ae_tdClass>&nbsp;</TD></TR>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass>&nbsp; </TD>
+          <TD class=ae_tdClass width="100%" height="100%">
+            <OBJECT id=DHTMLSafe1 style="Z-INDEX: 1" height="100%" width="100%" 
+            classid=clsid:2D360201-FFF5-11d1-8D03-00A0C959BC0A><PARAM NAME="ScrollbarAppearance" VALUE="0"></OBJECT>
+            <SCRIPT language=javascript event=ShowContextMenu for=DHTMLSafe1>
+						return ShowMenu(1);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onkeypress for=DHTMLSafe1>
+						return ae_onkeypress(1);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onmousedown for=DHTMLSafe1>
+						return ae_onmousedown(1);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onclick for=DHTMLSafe1>
+						return ae_onclick(1);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=DisplayChanged for=DHTMLSafe1>
+						return ae_ondisplaychange(1);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=ContextMenuAction(itemIndex) 
+            for=DHTMLSafe1>
+						return ae_onmenuaction(itemIndex);
+					</SCRIPT>
+          </TD>
+          <TD class=ae_tdClass>&nbsp;</TD></TR>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass colSpan=3>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><IMG height=1 src="../inc/images/spacer.gif" width=20></TD>
+                <TD align=right><A style="COLOR: gray; TEXT-DECORATION: none" 
+                  href="javascript:ae_about()"><SPAN 
+                  style="FONT-SIZE: 10px; FONT-FAMILY: Arial">CFDEV.COM © 
+                  2000&nbsp; </SPAN></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><TEXTAREA id=ae_tx_content1 style="VISIBILITY: hidden; POSITION: absolute" name=q3>        
+        </TEXTAREA>
+      <SCRIPT>ae_initialize(1);</SCRIPT>
+
+      <SCRIPT>
+			//</comment>
+		</SCRIPT>
+       <!-- end cf_activedit v:2.5 --><BR></TD></TR>
+  <TR bgColor=#f2f2f2>
+    <TD colSpan=2>2. Statement of Need<BR><BR><!-- Trial placeholder --><!-- Trial placeholder --><!-- begin cf_activedit v:2.5 -->
+      <SCRIPT language=JavaScript>
+				
+
+				var errlevel = 2;
+
+				ae_breakonenter[2] = true;
+				ae_baseurl[2] = "";
+				ae_defaultfont[2] = "8pt Verdana";
+				tabview[2] = false;
+				alloweditsource[2] = true;
+				ae_imagedata[2] = 'M%29LM7%28ZM64%2BF%28JJQ%3FNN72UQ%3EJ%5D%5D%2C%3ARMT%22QMNC5VM%5EB9B%2E%3C9%2E83%28WHGT2%3D3%3AWS%0A%29PIQ%3CD%29%5EJ%2B%2BOH';				
+				ae_imageurl[2] = 'http%3A%2F%2F64%2E118%2E66%2E186%2Fgkps%5Fportal%2Faeimages';
+			</SCRIPT>
+
+      <TABLE class=ae_tableClass onselectstart=window.event.returnValue=false; 
+      ondragstart=window.event.returnValue=false; height=300 cellSpacing=0 
+      cellPadding=0 width="100%" bgColor=buttonface>
+        <TBODY>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass vAlign=bottom colSpan=2>
+            <TABLE cellSpacing=2 cellPadding=0 border=0>
+              <TBODY>
+              <TR vAlign=center>
+                <TD width=10 
+                background="GKP%20Seed%20Grant%20and%20Small%20Innovative%20Projects%20Fund_files/toolbar.gif"><IMG 
+                  height=24 alt="" src="../inc/images/spacer.gif" width=9></TD>
+                <TD><SPAN onmouseup=ae_m_up(window.event.srcElement); 
+                  onselectstart=window.event.returnValue=false; 
+                  onmousedown=ae_m_down(window.event.srcElement); id=ae_tbar2 
+                  ondragstart=window.event.returnValue=false; 
+                  onmouseover=ae_m_over(window.event.srcElement); 
+                  onmouseout=ae_m_out(window.event.srcElement);><NOBR><IMG 
+                  class=flat onclick="ae_onCommand(null, 2)" alt=Font 
+                  src="../inc/images/fgcolor.gif" status="Change font and color" 
+                  cid="5009" type="btn"><IMG style="VERTICAL-ALIGN: middle" 
+                  height=24 src="../inc/images/spacer.gif" width=1> <SELECT 
+                  id=oQuickFontSize2 
+                  style="FONT: 8pt Verdana; VERTICAL-ALIGN: middle; WIDTH: 40px" 
+                  onchange=ae_quickfontsize(2); size=1> <OPTION value=1 
+                    selected name="ae_fs1">8<OPTION value=2 
+                    name="ae_fs2">10<OPTION value=3 name="ae_fs3">12<OPTION 
+                    value=4 name="ae_fs4">14<OPTION value=5 
+                    name="ae_fs5">18<OPTION value=6 name="ae_fs6">24<OPTION 
+                    value=7 name="ae_fs7">36</OPTION></SELECT> <IMG class=flat 
+                  onclick="ae_onCommand(null, 2)" alt=Bold 
+                  src="../inc/images/bold.gif" status="Make selected text bold" 
+                  cid="5000" type="btn"><IMG class=flat 
+                  onclick="ae_onCommand(null, 2)" alt=Italic 
+                  src="../inc/images/italic.gif" 
+                  status="Make selected text italic" cid="5023" type="btn"><IMG 
+                  class=flat onclick="ae_onCommand(null, 2)" alt=Underline 
+                  src="../inc/images/under.gif" 
+                  status="Underline the selected text" cid="5048" 
+                  type="btn"><IMG class=spc 
+                  src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  onclick="ae_onCommand(null, 2)" alt="Decrease Indent" 
+                  src="../inc/images/deindent.gif" 
+                  status="Reverse indent the current line" cid="5031" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 2)" 
+                  alt=Indent src="../inc/images/inindent.gif" 
+                  status="Indent the current line" cid="5018" type="btn"><IMG 
+                  class=spc src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  onclick="ae_onCommand(null, 2)" alt="Align Left" 
+                  src="../inc/images/left.gif" 
+                  status="Left justify the current line" cid="5025" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 2)" 
+                  alt=Center src="../inc/images/center.gif" 
+                  status="Center the current line" cid="5024" type="btn"><IMG 
+                  class=flat onclick="ae_onCommand(null, 2)" alt="Align Right" 
+                  src="../inc/images/right.gif" 
+                  status="Right justify the current line" cid="5026" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 2)" 
+                  alt=Bullets src="../inc/images/bullist.gif" 
+                  status="Insert a bullet on current line" cid="5051" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 2)" 
+                  alt=Numbering src="../inc/images/numlist.gif" 
+                  status="Insert a numbered list on current line" cid="5030" 
+                  type="btn"><IMG class=spc 
+                  src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  ondragstart="return false" onmouseover=ae_m_over(ae_tdrop2); 
+                  onclick="ae_onCommand(null, 2)" 
+                  onmouseout=ae_m_out(ae_tdrop2); alt="Insert Table" 
+                  src="../inc/images/instable.gif" name=ae_tbtn2 
+                  status="Insert a table" cid="5022" type="btn"><IMG class=flat 
+                  ondragstart="return false" onmouseover=ae_m_over(ae_tbtn2); 
+                  style="WIDTH: 9px" onclick=onTable(2) 
+                  onmouseout=ae_m_out(ae_tbtn2); alt="Quick Table" 
+                  src="../inc/images/tbdown.gif" name=ae_tdrop2 
+                  status="Insert a table" cid="5022" type="btn"></NOBR><BR><IMG 
+                  height=1 alt="" src="../inc/images/spacer.gif" 
+                width=1></SPAN></TD></TR></TBODY></TABLE></TD>
+          <TD class=ae_tdClass>&nbsp;</TD></TR>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass>&nbsp; </TD>
+          <TD class=ae_tdClass width="100%" height="100%">
+            <OBJECT id=DHTMLSafe2 style="Z-INDEX: 1" height="100%" width="100%" 
+            classid=clsid:2D360201-FFF5-11d1-8D03-00A0C959BC0A><PARAM NAME="ScrollbarAppearance" VALUE="0"></OBJECT>
+            <SCRIPT language=javascript event=ShowContextMenu for=DHTMLSafe2>
+						return ShowMenu(2);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onkeypress for=DHTMLSafe2>
+						return ae_onkeypress(2);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onmousedown for=DHTMLSafe2>
+						return ae_onmousedown(2);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onclick for=DHTMLSafe2>
+						return ae_onclick(2);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=DisplayChanged for=DHTMLSafe2>
+						return ae_ondisplaychange(2);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=ContextMenuAction(itemIndex) 
+            for=DHTMLSafe2>
+						return ae_onmenuaction(itemIndex);
+					</SCRIPT>
+          </TD>
+          <TD class=ae_tdClass>&nbsp;</TD></TR>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass colSpan=3>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><IMG height=1 src="../inc/images/spacer.gif" width=20></TD>
+                <TD align=right><A style="COLOR: gray; TEXT-DECORATION: none" 
+                  href="javascript:ae_about()"><SPAN 
+                  style="FONT-SIZE: 10px; FONT-FAMILY: Arial">CFDEV.COM © 
+                  2000&nbsp; </SPAN></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><TEXTAREA id=ae_tx_content2 style="VISIBILITY: hidden; POSITION: absolute" name=q4> 
+        
+        </TEXTAREA>
+      <SCRIPT>ae_initialize(2);</SCRIPT>
+
+      <SCRIPT>
+			//</comment>
+		</SCRIPT>
+       <!-- end cf_activedit v:2.5 --><BR></TD></TR>
+  <TR bgColor=#f2f2f2>
+    <TD colSpan=2>3. Project Activity<BR><BR><!-- Trial placeholder --><!-- Trial placeholder --><!-- begin cf_activedit v:2.5 -->
+      <SCRIPT language=JavaScript>
+				
+
+				var errlevel = 2;
+
+				ae_breakonenter[3] = true;
+				ae_baseurl[3] = "";
+				ae_defaultfont[3] = "8pt Verdana";
+				tabview[3] = false;
+				alloweditsource[3] = true;
+				ae_imagedata[3] = 'M%29LM7%28ZM64%2BF%28JJQ%3FNN72UQ%3EJ%5D%5D%2C%3ARMT%22QMNC5VM%5EB9B%2E%3C9%2E83%28WHGT2%3D3%3AWS%0A%29PIQ%3CD%29%5EJ%2B%2BOH';				
+				ae_imageurl[3] = 'http%3A%2F%2F64%2E118%2E66%2E186%2Fgkps%5Fportal%2Faeimages';
+			</SCRIPT>
+
+      <TABLE class=ae_tableClass onselectstart=window.event.returnValue=false; 
+      ondragstart=window.event.returnValue=false; height=300 cellSpacing=0 
+      cellPadding=0 width="100%" bgColor=buttonface>
+        <TBODY>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass vAlign=bottom colSpan=2>
+            <TABLE cellSpacing=2 cellPadding=0 border=0>
+              <TBODY>
+              <TR vAlign=center>
+                <TD width=10 
+                background="GKP%20Seed%20Grant%20and%20Small%20Innovative%20Projects%20Fund_files/toolbar.gif"><IMG 
+                  height=24 alt="" src="../inc/images/spacer.gif" width=9></TD>
+                <TD><SPAN onmouseup=ae_m_up(window.event.srcElement); 
+                  onselectstart=window.event.returnValue=false; 
+                  onmousedown=ae_m_down(window.event.srcElement); id=ae_tbar3 
+                  ondragstart=window.event.returnValue=false; 
+                  onmouseover=ae_m_over(window.event.srcElement); 
+                  onmouseout=ae_m_out(window.event.srcElement);><NOBR><IMG 
+                  class=flat onclick="ae_onCommand(null, 3)" alt=Font 
+                  src="../inc/images/fgcolor.gif" status="Change font and color" 
+                  cid="5009" type="btn"><IMG style="VERTICAL-ALIGN: middle" 
+                  height=24 src="../inc/images/spacer.gif" width=1> <SELECT 
+                  id=oQuickFontSize3 
+                  style="FONT: 8pt Verdana; VERTICAL-ALIGN: middle; WIDTH: 40px" 
+                  onchange=ae_quickfontsize(3); size=1> <OPTION value=1 
+                    selected name="ae_fs1">8<OPTION value=2 
+                    name="ae_fs2">10<OPTION value=3 name="ae_fs3">12<OPTION 
+                    value=4 name="ae_fs4">14<OPTION value=5 
+                    name="ae_fs5">18<OPTION value=6 name="ae_fs6">24<OPTION 
+                    value=7 name="ae_fs7">36</OPTION></SELECT> <IMG class=flat 
+                  onclick="ae_onCommand(null, 3)" alt=Bold 
+                  src="../inc/images/bold.gif" status="Make selected text bold" 
+                  cid="5000" type="btn"><IMG class=flat 
+                  onclick="ae_onCommand(null, 3)" alt=Italic 
+                  src="../inc/images/italic.gif" 
+                  status="Make selected text italic" cid="5023" type="btn"><IMG 
+                  class=flat onclick="ae_onCommand(null, 3)" alt=Underline 
+                  src="../inc/images/under.gif" 
+                  status="Underline the selected text" cid="5048" 
+                  type="btn"><IMG class=spc 
+                  src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  onclick="ae_onCommand(null, 3)" alt="Decrease Indent" 
+                  src="../inc/images/deindent.gif" 
+                  status="Reverse indent the current line" cid="5031" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 3)" 
+                  alt=Indent src="../inc/images/inindent.gif" 
+                  status="Indent the current line" cid="5018" type="btn"><IMG 
+                  class=spc src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  onclick="ae_onCommand(null, 3)" alt="Align Left" 
+                  src="../inc/images/left.gif" 
+                  status="Left justify the current line" cid="5025" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 3)" 
+                  alt=Center src="../inc/images/center.gif" 
+                  status="Center the current line" cid="5024" type="btn"><IMG 
+                  class=flat onclick="ae_onCommand(null, 3)" alt="Align Right" 
+                  src="../inc/images/right.gif" 
+                  status="Right justify the current line" cid="5026" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 3)" 
+                  alt=Bullets src="../inc/images/bullist.gif" 
+                  status="Insert a bullet on current line" cid="5051" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 3)" 
+                  alt=Numbering src="../inc/images/numlist.gif" 
+                  status="Insert a numbered list on current line" cid="5030" 
+                  type="btn"><IMG class=spc 
+                  src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  ondragstart="return false" onmouseover=ae_m_over(ae_tdrop3); 
+                  onclick="ae_onCommand(null, 3)" 
+                  onmouseout=ae_m_out(ae_tdrop3); alt="Insert Table" 
+                  src="../inc/images/instable.gif" name=ae_tbtn3 
+                  status="Insert a table" cid="5022" type="btn"><IMG class=flat 
+                  ondragstart="return false" onmouseover=ae_m_over(ae_tbtn3); 
+                  style="WIDTH: 9px" onclick=onTable(3) 
+                  onmouseout=ae_m_out(ae_tbtn3); alt="Quick Table" 
+                  src="../inc/images/tbdown.gif" name=ae_tdrop3 
+                  status="Insert a table" cid="5022" type="btn"></NOBR><BR><IMG 
+                  height=1 alt="" src="../inc/images/spacer.gif" 
+                width=1></SPAN></TD></TR></TBODY></TABLE></TD>
+          <TD class=ae_tdClass>&nbsp;</TD></TR>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass>&nbsp; </TD>
+          <TD class=ae_tdClass width="100%" height="100%">
+            <OBJECT id=DHTMLSafe3 style="Z-INDEX: 1" height="100%" width="100%" 
+            classid=clsid:2D360201-FFF5-11d1-8D03-00A0C959BC0A><PARAM NAME="ScrollbarAppearance" VALUE="0"></OBJECT>
+            <SCRIPT language=javascript event=ShowContextMenu for=DHTMLSafe3>
+						return ShowMenu(3);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onkeypress for=DHTMLSafe3>
+						return ae_onkeypress(3);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onmousedown for=DHTMLSafe3>
+						return ae_onmousedown(3);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onclick for=DHTMLSafe3>
+						return ae_onclick(3);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=DisplayChanged for=DHTMLSafe3>
+						return ae_ondisplaychange(3);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=ContextMenuAction(itemIndex) 
+            for=DHTMLSafe3>
+						return ae_onmenuaction(itemIndex);
+					</SCRIPT>
+          </TD>
+          <TD class=ae_tdClass>&nbsp;</TD></TR>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass colSpan=3>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><IMG height=1 src="../inc/images/spacer.gif" width=20></TD>
+                <TD align=right><A style="COLOR: gray; TEXT-DECORATION: none" 
+                  href="javascript:ae_about()"><SPAN 
+                  style="FONT-SIZE: 10px; FONT-FAMILY: Arial">CFDEV.COM © 
+                  2000&nbsp; </SPAN></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><TEXTAREA id=ae_tx_content3 style="VISIBILITY: hidden; POSITION: absolute" name=q5> 
+        
+        </TEXTAREA>
+      <SCRIPT>ae_initialize(3);</SCRIPT>
+
+      <SCRIPT>
+			//</comment>
+		</SCRIPT>
+       <!-- end cf_activedit v:2.5 --><BR></TD></TR>
+  <TR bgColor=#f2f2f2>
+    <TD colSpan=2>4. Outcomes<BR><BR><!-- Trial placeholder --><!-- Trial placeholder --><!-- begin cf_activedit v:2.5 -->
+      <SCRIPT language=JavaScript>
+				
+
+				var errlevel = 2;
+
+				ae_breakonenter[4] = true;
+				ae_baseurl[4] = "";
+				ae_defaultfont[4] = "8pt Verdana";
+				tabview[4] = false;
+				alloweditsource[4] = true;
+				ae_imagedata[4] = 'M%29LM7%28ZM64%2BF%28JJQ%3FNN72UQ%3EJ%5D%5D%2C%3ARMT%22QMNC5VM%5EB9B%2E%3C9%2E83%28WHGT2%3D3%3AWS%0A%29PIQ%3CD%29%5EJ%2B%2BOH';				
+				ae_imageurl[4] = 'http%3A%2F%2F64%2E118%2E66%2E186%2Fgkps%5Fportal%2Faeimages';
+			</SCRIPT>
+
+      <TABLE class=ae_tableClass onselectstart=window.event.returnValue=false; 
+      ondragstart=window.event.returnValue=false; height=300 cellSpacing=0 
+      cellPadding=0 width="100%" bgColor=buttonface>
+        <TBODY>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass vAlign=bottom colSpan=2>
+            <TABLE cellSpacing=2 cellPadding=0 border=0>
+              <TBODY>
+              <TR vAlign=center>
+                <TD width=10 
+                background="GKP%20Seed%20Grant%20and%20Small%20Innovative%20Projects%20Fund_files/toolbar.gif"><IMG 
+                  height=24 alt="" src="../inc/images/spacer.gif" width=9></TD>
+                <TD><SPAN onmouseup=ae_m_up(window.event.srcElement); 
+                  onselectstart=window.event.returnValue=false; 
+                  onmousedown=ae_m_down(window.event.srcElement); id=ae_tbar4 
+                  ondragstart=window.event.returnValue=false; 
+                  onmouseover=ae_m_over(window.event.srcElement); 
+                  onmouseout=ae_m_out(window.event.srcElement);><NOBR><IMG 
+                  class=flat onclick="ae_onCommand(null, 4)" alt=Font 
+                  src="../inc/images/fgcolor.gif" status="Change font and color" 
+                  cid="5009" type="btn"><IMG style="VERTICAL-ALIGN: middle" 
+                  height=24 src="../inc/images/spacer.gif" width=1> <SELECT 
+                  id=oQuickFontSize4 
+                  style="FONT: 8pt Verdana; VERTICAL-ALIGN: middle; WIDTH: 40px" 
+                  onchange=ae_quickfontsize(4); size=1> <OPTION value=1 
+                    selected name="ae_fs1">8<OPTION value=2 
+                    name="ae_fs2">10<OPTION value=3 name="ae_fs3">12<OPTION 
+                    value=4 name="ae_fs4">14<OPTION value=5 
+                    name="ae_fs5">18<OPTION value=6 name="ae_fs6">24<OPTION 
+                    value=7 name="ae_fs7">36</OPTION></SELECT> <IMG class=flat 
+                  onclick="ae_onCommand(null, 4)" alt=Bold 
+                  src="../inc/images/bold.gif" status="Make selected text bold" 
+                  cid="5000" type="btn"><IMG class=flat 
+                  onclick="ae_onCommand(null, 4)" alt=Italic 
+                  src="../inc/images/italic.gif" 
+                  status="Make selected text italic" cid="5023" type="btn"><IMG 
+                  class=flat onclick="ae_onCommand(null, 4)" alt=Underline 
+                  src="../inc/images/under.gif" 
+                  status="Underline the selected text" cid="5048" 
+                  type="btn"><IMG class=spc 
+                  src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  onclick="ae_onCommand(null, 4)" alt="Decrease Indent" 
+                  src="../inc/images/deindent.gif" 
+                  status="Reverse indent the current line" cid="5031" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 4)" 
+                  alt=Indent src="../inc/images/inindent.gif" 
+                  status="Indent the current line" cid="5018" type="btn"><IMG 
+                  class=spc src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  onclick="ae_onCommand(null, 4)" alt="Align Left" 
+                  src="../inc/images/left.gif" 
+                  status="Left justify the current line" cid="5025" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 4)" 
+                  alt=Center src="../inc/images/center.gif" 
+                  status="Center the current line" cid="5024" type="btn"><IMG 
+                  class=flat onclick="ae_onCommand(null, 4)" alt="Align Right" 
+                  src="../inc/images/right.gif" 
+                  status="Right justify the current line" cid="5026" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 4)" 
+                  alt=Bullets src="../inc/images/bullist.gif" 
+                  status="Insert a bullet on current line" cid="5051" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 4)" 
+                  alt=Numbering src="../inc/images/numlist.gif" 
+                  status="Insert a numbered list on current line" cid="5030" 
+                  type="btn"><IMG class=spc 
+                  src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  ondragstart="return false" onmouseover=ae_m_over(ae_tdrop4); 
+                  onclick="ae_onCommand(null, 4)" 
+                  onmouseout=ae_m_out(ae_tdrop4); alt="Insert Table" 
+                  src="../inc/images/instable.gif" name=ae_tbtn4 
+                  status="Insert a table" cid="5022" type="btn"><IMG class=flat 
+                  ondragstart="return false" onmouseover=ae_m_over(ae_tbtn4); 
+                  style="WIDTH: 9px" onclick=onTable(4) 
+                  onmouseout=ae_m_out(ae_tbtn4); alt="Quick Table" 
+                  src="../inc/images/tbdown.gif" name=ae_tdrop4 
+                  status="Insert a table" cid="5022" type="btn"></NOBR><BR><IMG 
+                  height=1 alt="" src="../inc/images/spacer.gif" 
+                width=1></SPAN></TD></TR></TBODY></TABLE></TD>
+          <TD class=ae_tdClass>&nbsp;</TD></TR>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass>&nbsp; </TD>
+          <TD class=ae_tdClass width="100%" height="100%">
+            <OBJECT id=DHTMLSafe4 style="Z-INDEX: 1" height="100%" width="100%" 
+            classid=clsid:2D360201-FFF5-11d1-8D03-00A0C959BC0A><PARAM NAME="ScrollbarAppearance" VALUE="0"></OBJECT>
+            <SCRIPT language=javascript event=ShowContextMenu for=DHTMLSafe4>
+						return ShowMenu(4);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onkeypress for=DHTMLSafe4>
+						return ae_onkeypress(4);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onmousedown for=DHTMLSafe4>
+						return ae_onmousedown(4);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onclick for=DHTMLSafe4>
+						return ae_onclick(4);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=DisplayChanged for=DHTMLSafe4>
+						return ae_ondisplaychange(4);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=ContextMenuAction(itemIndex) 
+            for=DHTMLSafe4>
+						return ae_onmenuaction(itemIndex);
+					</SCRIPT>
+          </TD>
+          <TD class=ae_tdClass>&nbsp;</TD></TR>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass colSpan=3>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><IMG height=1 src="../inc/images/spacer.gif" width=20></TD>
+                <TD align=right><A style="COLOR: gray; TEXT-DECORATION: none" 
+                  href="javascript:ae_about()"><SPAN 
+                  style="FONT-SIZE: 10px; FONT-FAMILY: Arial">CFDEV.COM © 
+                  2000&nbsp; </SPAN></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><TEXTAREA id=ae_tx_content4 style="VISIBILITY: hidden; POSITION: absolute" name=q6>        
+        </TEXTAREA>
+      <SCRIPT>ae_initialize(4);</SCRIPT>
+
+      <SCRIPT>
+			//</comment>
+		</SCRIPT>
+       <!-- end cf_activedit v:2.5 --><BR></TD></TR>
+  <TR bgColor=#f2f2f2>
+    <TD colSpan=2>5. Credentials<BR><BR><!-- Trial placeholder --><!-- Trial placeholder --><!-- begin cf_activedit v:2.5 -->
+      <SCRIPT language=JavaScript>
+				
+
+				var errlevel = 2;
+
+				ae_breakonenter[5] = true;
+				ae_baseurl[5] = "";
+				ae_defaultfont[5] = "8pt Verdana";
+				tabview[5] = false;
+				alloweditsource[5] = true;
+				ae_imagedata[5] = 'M%29LM7%28ZM64%2BF%28JJQ%3FNN72UQ%3EJ%5D%5D%2C%3ARMT%22QMNC5VM%5EB9B%2E%3C9%2E83%28WHGT2%3D3%3AWS%0A%29PIQ%3CD%29%5EJ%2B%2BOH';				
+				ae_imageurl[5] = 'http%3A%2F%2F64%2E118%2E66%2E186%2Fgkps%5Fportal%2Faeimages';
+			</SCRIPT>
+
+      <TABLE class=ae_tableClass onselectstart=window.event.returnValue=false; 
+      ondragstart=window.event.returnValue=false; height=300 cellSpacing=0 
+      cellPadding=0 width="100%" bgColor=buttonface>
+        <TBODY>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass vAlign=bottom colSpan=2>
+            <TABLE cellSpacing=2 cellPadding=0 border=0>
+              <TBODY>
+              <TR vAlign=center>
+                <TD width=10 
+                background="GKP%20Seed%20Grant%20and%20Small%20Innovative%20Projects%20Fund_files/toolbar.gif"><IMG 
+                  height=24 alt="" src="../inc/images/spacer.gif" width=9></TD>
+                <TD><SPAN onmouseup=ae_m_up(window.event.srcElement); 
+                  onselectstart=window.event.returnValue=false; 
+                  onmousedown=ae_m_down(window.event.srcElement); id=ae_tbar5 
+                  ondragstart=window.event.returnValue=false; 
+                  onmouseover=ae_m_over(window.event.srcElement); 
+                  onmouseout=ae_m_out(window.event.srcElement);><NOBR><IMG 
+                  class=flat onclick="ae_onCommand(null, 5)" alt=Font 
+                  src="../inc/images/fgcolor.gif" status="Change font and color" 
+                  cid="5009" type="btn"><IMG style="VERTICAL-ALIGN: middle" 
+                  height=24 src="../inc/images/spacer.gif" width=1> <SELECT 
+                  id=oQuickFontSize5 
+                  style="FONT: 8pt Verdana; VERTICAL-ALIGN: middle; WIDTH: 40px" 
+                  onchange=ae_quickfontsize(5); size=1> <OPTION value=1 
+                    selected name="ae_fs1">8<OPTION value=2 
+                    name="ae_fs2">10<OPTION value=3 name="ae_fs3">12<OPTION 
+                    value=4 name="ae_fs4">14<OPTION value=5 
+                    name="ae_fs5">18<OPTION value=6 name="ae_fs6">24<OPTION 
+                    value=7 name="ae_fs7">36</OPTION></SELECT> <IMG class=flat 
+                  onclick="ae_onCommand(null, 5)" alt=Bold 
+                  src="../inc/images/bold.gif" status="Make selected text bold" 
+                  cid="5000" type="btn"><IMG class=flat 
+                  onclick="ae_onCommand(null, 5)" alt=Italic 
+                  src="../inc/images/italic.gif" 
+                  status="Make selected text italic" cid="5023" type="btn"><IMG 
+                  class=flat onclick="ae_onCommand(null, 5)" alt=Underline 
+                  src="../inc/images/under.gif" 
+                  status="Underline the selected text" cid="5048" 
+                  type="btn"><IMG class=spc 
+                  src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  onclick="ae_onCommand(null, 5)" alt="Decrease Indent" 
+                  src="../inc/images/deindent.gif" 
+                  status="Reverse indent the current line" cid="5031" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 5)" 
+                  alt=Indent src="../inc/images/inindent.gif" 
+                  status="Indent the current line" cid="5018" type="btn"><IMG 
+                  class=spc src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  onclick="ae_onCommand(null, 5)" alt="Align Left" 
+                  src="../inc/images/left.gif" 
+                  status="Left justify the current line" cid="5025" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 5)" 
+                  alt=Center src="../inc/images/center.gif" 
+                  status="Center the current line" cid="5024" type="btn"><IMG 
+                  class=flat onclick="ae_onCommand(null, 5)" alt="Align Right" 
+                  src="../inc/images/right.gif" 
+                  status="Right justify the current line" cid="5026" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 5)" 
+                  alt=Bullets src="../inc/images/bullist.gif" 
+                  status="Insert a bullet on current line" cid="5051" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 5)" 
+                  alt=Numbering src="../inc/images/numlist.gif" 
+                  status="Insert a numbered list on current line" cid="5030" 
+                  type="btn"><IMG class=spc 
+                  src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  ondragstart="return false" onmouseover=ae_m_over(ae_tdrop5); 
+                  onclick="ae_onCommand(null, 5)" 
+                  onmouseout=ae_m_out(ae_tdrop5); alt="Insert Table" 
+                  src="../inc/images/instable.gif" name=ae_tbtn5 
+                  status="Insert a table" cid="5022" type="btn"><IMG class=flat 
+                  ondragstart="return false" onmouseover=ae_m_over(ae_tbtn5); 
+                  style="WIDTH: 9px" onclick=onTable(5) 
+                  onmouseout=ae_m_out(ae_tbtn5); alt="Quick Table" 
+                  src="../inc/images/tbdown.gif" name=ae_tdrop5 
+                  status="Insert a table" cid="5022" type="btn"></NOBR><BR><IMG 
+                  height=1 alt="" src="../inc/images/spacer.gif" 
+                width=1></SPAN></TD></TR></TBODY></TABLE></TD>
+          <TD class=ae_tdClass>&nbsp;</TD></TR>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass>&nbsp; </TD>
+          <TD class=ae_tdClass width="100%" height="100%">
+            <OBJECT id=DHTMLSafe5 style="Z-INDEX: 1" height="100%" width="100%" 
+            classid=clsid:2D360201-FFF5-11d1-8D03-00A0C959BC0A><PARAM NAME="ScrollbarAppearance" VALUE="0"></OBJECT>
+            <SCRIPT language=javascript event=ShowContextMenu for=DHTMLSafe5>
+						return ShowMenu(5);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onkeypress for=DHTMLSafe5>
+						return ae_onkeypress(5);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onmousedown for=DHTMLSafe5>
+						return ae_onmousedown(5);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onclick for=DHTMLSafe5>
+						return ae_onclick(5);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=DisplayChanged for=DHTMLSafe5>
+						return ae_ondisplaychange(5);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=ContextMenuAction(itemIndex) 
+            for=DHTMLSafe5>
+						return ae_onmenuaction(itemIndex);
+					</SCRIPT>
+          </TD>
+          <TD class=ae_tdClass>&nbsp;</TD></TR>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass colSpan=3>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><IMG height=1 src="../inc/images/spacer.gif" width=20></TD>
+                <TD align=right><A style="COLOR: gray; TEXT-DECORATION: none" 
+                  href="javascript:ae_about()"><SPAN 
+                  style="FONT-SIZE: 10px; FONT-FAMILY: Arial">CFDEV.COM © 
+                  2000&nbsp; </SPAN></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><TEXTAREA id=ae_tx_content5 style="VISIBILITY: hidden; POSITION: absolute" name=q7> 
+        
+        </TEXTAREA>
+      <SCRIPT>ae_initialize(5);</SCRIPT>
+
+      <SCRIPT>
+			//</comment>
+		</SCRIPT>
+       <!-- end cf_activedit v:2.5 --><BR></TD></TR>
+  <TR bgColor=#f2f2f2>
+    <TD colSpan=2>6. Budget<BR><BR><!-- Trial placeholder --><!-- Trial placeholder --><!-- begin cf_activedit v:2.5 -->
+      <SCRIPT language=JavaScript>
+				
+
+				var errlevel = 2;
+
+				ae_breakonenter[6] = true;
+				ae_baseurl[6] = "";
+				ae_defaultfont[6] = "8pt Verdana";
+				tabview[6] = false;
+				alloweditsource[6] = true;
+				ae_imagedata[6] = 'M%29LM7%28ZM64%2BF%28JJQ%3FNN72UQ%3EJ%5D%5D%2C%3ARMT%22QMNC5VM%5EB9B%2E%3C9%2E83%28WHGT2%3D3%3AWS%0A%29PIQ%3CD%29%5EJ%2B%2BOH';				
+				ae_imageurl[6] = 'http%3A%2F%2F64%2E118%2E66%2E186%2Fgkps%5Fportal%2Faeimages';
+			</SCRIPT>
+
+      <TABLE class=ae_tableClass onselectstart=window.event.returnValue=false; 
+      ondragstart=window.event.returnValue=false; height=300 cellSpacing=0 
+      cellPadding=0 width="100%" bgColor=buttonface>
+        <TBODY>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass vAlign=bottom colSpan=2>
+            <TABLE cellSpacing=2 cellPadding=0 border=0>
+              <TBODY>
+              <TR vAlign=center>
+                <TD width=10 
+                background="GKP%20Seed%20Grant%20and%20Small%20Innovative%20Projects%20Fund_files/toolbar.gif"><IMG 
+                  height=24 alt="" src="../inc/images/spacer.gif" width=9></TD>
+                <TD><SPAN onmouseup=ae_m_up(window.event.srcElement); 
+                  onselectstart=window.event.returnValue=false; 
+                  onmousedown=ae_m_down(window.event.srcElement); id=ae_tbar6 
+                  ondragstart=window.event.returnValue=false; 
+                  onmouseover=ae_m_over(window.event.srcElement); 
+                  onmouseout=ae_m_out(window.event.srcElement);><NOBR><IMG 
+                  class=flat onclick="ae_onCommand(null, 6)" alt=Font 
+                  src="../inc/images/fgcolor.gif" status="Change font and color" 
+                  cid="5009" type="btn"><IMG style="VERTICAL-ALIGN: middle" 
+                  height=24 src="../inc/images/spacer.gif" width=1> <SELECT 
+                  id=oQuickFontSize6 
+                  style="FONT: 8pt Verdana; VERTICAL-ALIGN: middle; WIDTH: 40px" 
+                  onchange=ae_quickfontsize(6); size=1> <OPTION value=1 
+                    selected name="ae_fs1">8<OPTION value=2 
+                    name="ae_fs2">10<OPTION value=3 name="ae_fs3">12<OPTION 
+                    value=4 name="ae_fs4">14<OPTION value=5 
+                    name="ae_fs5">18<OPTION value=6 name="ae_fs6">24<OPTION 
+                    value=7 name="ae_fs7">36</OPTION></SELECT> <IMG class=flat 
+                  onclick="ae_onCommand(null, 6)" alt=Bold 
+                  src="../inc/images/bold.gif" status="Make selected text bold" 
+                  cid="5000" type="btn"><IMG class=flat 
+                  onclick="ae_onCommand(null, 6)" alt=Italic 
+                  src="../inc/images/italic.gif" 
+                  status="Make selected text italic" cid="5023" type="btn"><IMG 
+                  class=flat onclick="ae_onCommand(null, 6)" alt=Underline 
+                  src="../inc/images/under.gif" 
+                  status="Underline the selected text" cid="5048" 
+                  type="btn"><IMG class=spc 
+                  src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  onclick="ae_onCommand(null, 6)" alt="Decrease Indent" 
+                  src="../inc/images/deindent.gif" 
+                  status="Reverse indent the current line" cid="5031" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 6)" 
+                  alt=Indent src="../inc/images/inindent.gif" 
+                  status="Indent the current line" cid="5018" type="btn"><IMG 
+                  class=spc src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  onclick="ae_onCommand(null, 6)" alt="Align Left" 
+                  src="../inc/images/left.gif" 
+                  status="Left justify the current line" cid="5025" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 6)" 
+                  alt=Center src="../inc/images/center.gif" 
+                  status="Center the current line" cid="5024" type="btn"><IMG 
+                  class=flat onclick="ae_onCommand(null, 6)" alt="Align Right" 
+                  src="../inc/images/right.gif" 
+                  status="Right justify the current line" cid="5026" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 6)" 
+                  alt=Bullets src="../inc/images/bullist.gif" 
+                  status="Insert a bullet on current line" cid="5051" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 6)" 
+                  alt=Numbering src="../inc/images/numlist.gif" 
+                  status="Insert a numbered list on current line" cid="5030" 
+                  type="btn"><IMG class=spc 
+                  src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  ondragstart="return false" onmouseover=ae_m_over(ae_tdrop6); 
+                  onclick="ae_onCommand(null, 6)" 
+                  onmouseout=ae_m_out(ae_tdrop6); alt="Insert Table" 
+                  src="../inc/images/instable.gif" name=ae_tbtn6 
+                  status="Insert a table" cid="5022" type="btn"><IMG class=flat 
+                  ondragstart="return false" onmouseover=ae_m_over(ae_tbtn6); 
+                  style="WIDTH: 9px" onclick=onTable(6) 
+                  onmouseout=ae_m_out(ae_tbtn6); alt="Quick Table" 
+                  src="../inc/images/tbdown.gif" name=ae_tdrop6 
+                  status="Insert a table" cid="5022" type="btn"></NOBR><BR><IMG 
+                  height=1 alt="" src="../inc/images/spacer.gif" 
+                width=1></SPAN></TD></TR></TBODY></TABLE></TD>
+          <TD class=ae_tdClass>&nbsp;</TD></TR>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass>&nbsp; </TD>
+          <TD class=ae_tdClass width="100%" height="100%">
+            <OBJECT id=DHTMLSafe6 style="Z-INDEX: 1" height="100%" width="100%" 
+            classid=clsid:2D360201-FFF5-11d1-8D03-00A0C959BC0A><PARAM NAME="ScrollbarAppearance" VALUE="0"></OBJECT>
+            <SCRIPT language=javascript event=ShowContextMenu for=DHTMLSafe6>
+						return ShowMenu(6);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onkeypress for=DHTMLSafe6>
+						return ae_onkeypress(6);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onmousedown for=DHTMLSafe6>
+						return ae_onmousedown(6);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onclick for=DHTMLSafe6>
+						return ae_onclick(6);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=DisplayChanged for=DHTMLSafe6>
+						return ae_ondisplaychange(6);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=ContextMenuAction(itemIndex) 
+            for=DHTMLSafe6>
+						return ae_onmenuaction(itemIndex);
+					</SCRIPT>
+          </TD>
+          <TD class=ae_tdClass>&nbsp;</TD></TR>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass colSpan=3>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><IMG height=1 src="../inc/images/spacer.gif" width=20></TD>
+                <TD align=right><A style="COLOR: gray; TEXT-DECORATION: none" 
+                  href="javascript:ae_about()"><SPAN 
+                  style="FONT-SIZE: 10px; FONT-FAMILY: Arial">CFDEV.COM © 
+                  2000&nbsp; </SPAN></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><TEXTAREA id=ae_tx_content6 style="VISIBILITY: hidden; POSITION: absolute" name=q8> 
+        
+        </TEXTAREA>
+      <SCRIPT>ae_initialize(6);</SCRIPT>
+
+      <SCRIPT>
+			//</comment>
+		</SCRIPT>
+       <!-- end cf_activedit v:2.5 --><BR></TD></TR>
+  <TR bgColor=#f2f2f2>
+    <TD colSpan=2>7. Closing<BR><BR><!-- Trial placeholder --><!-- Trial placeholder --><!-- begin cf_activedit v:2.5 -->
+      <SCRIPT language=JavaScript>
+				
+
+				var errlevel = 2;
+
+				ae_breakonenter[7] = true;
+				ae_baseurl[7] = "";
+				ae_defaultfont[7] = "8pt Verdana";
+				tabview[7] = false;
+				alloweditsource[7] = true;
+				ae_imagedata[7] = 'M%29LM7%28ZM64%2BF%28JJQ%3FNN72UQ%3EJ%5D%5D%2C%3ARMT%22QMNC5VM%5EB9B%2E%3C9%2E83%28WHGT2%3D3%3AWS%0A%29PIQ%3CD%29%5EJ%2B%2BOH';				
+				ae_imageurl[7] = 'http%3A%2F%2F64%2E118%2E66%2E186%2Fgkps%5Fportal%2Faeimages';
+			</SCRIPT>
+
+      <TABLE class=ae_tableClass onselectstart=window.event.returnValue=false; 
+      ondragstart=window.event.returnValue=false; height=300 cellSpacing=0 
+      cellPadding=0 width="100%" bgColor=buttonface>
+        <TBODY>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass vAlign=bottom colSpan=2>
+            <TABLE cellSpacing=2 cellPadding=0 border=0>
+              <TBODY>
+              <TR vAlign=center>
+                <TD width=10 
+                background="GKP%20Seed%20Grant%20and%20Small%20Innovative%20Projects%20Fund_files/toolbar.gif"><IMG 
+                  height=24 alt="" src="../inc/images/spacer.gif" width=9></TD>
+                <TD><SPAN onmouseup=ae_m_up(window.event.srcElement); 
+                  onselectstart=window.event.returnValue=false; 
+                  onmousedown=ae_m_down(window.event.srcElement); id=ae_tbar7 
+                  ondragstart=window.event.returnValue=false; 
+                  onmouseover=ae_m_over(window.event.srcElement); 
+                  onmouseout=ae_m_out(window.event.srcElement);><NOBR><IMG 
+                  class=flat onclick="ae_onCommand(null, 7)" alt=Font 
+                  src="../inc/images/fgcolor.gif" status="Change font and color" 
+                  cid="5009" type="btn"><IMG style="VERTICAL-ALIGN: middle" 
+                  height=24 src="../inc/images/spacer.gif" width=1> <SELECT 
+                  id=oQuickFontSize7 
+                  style="FONT: 8pt Verdana; VERTICAL-ALIGN: middle; WIDTH: 40px" 
+                  onchange=ae_quickfontsize(7); size=1> <OPTION value=1 
+                    selected name="ae_fs1">8<OPTION value=2 
+                    name="ae_fs2">10<OPTION value=3 name="ae_fs3">12<OPTION 
+                    value=4 name="ae_fs4">14<OPTION value=5 
+                    name="ae_fs5">18<OPTION value=6 name="ae_fs6">24<OPTION 
+                    value=7 name="ae_fs7">36</OPTION></SELECT> <IMG class=flat 
+                  onclick="ae_onCommand(null, 7)" alt=Bold 
+                  src="../inc/images/bold.gif" status="Make selected text bold" 
+                  cid="5000" type="btn"><IMG class=flat 
+                  onclick="ae_onCommand(null, 7)" alt=Italic 
+                  src="../inc/images/italic.gif" 
+                  status="Make selected text italic" cid="5023" type="btn"><IMG 
+                  class=flat onclick="ae_onCommand(null, 7)" alt=Underline 
+                  src="../inc/images/under.gif" 
+                  status="Underline the selected text" cid="5048" 
+                  type="btn"><IMG class=spc 
+                  src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  onclick="ae_onCommand(null, 7)" alt="Decrease Indent" 
+                  src="../inc/images/deindent.gif" 
+                  status="Reverse indent the current line" cid="5031" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 7)" 
+                  alt=Indent src="../inc/images/inindent.gif" 
+                  status="Indent the current line" cid="5018" type="btn"><IMG 
+                  class=spc src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  onclick="ae_onCommand(null, 7)" alt="Align Left" 
+                  src="../inc/images/left.gif" 
+                  status="Left justify the current line" cid="5025" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 7)" 
+                  alt=Center src="../inc/images/center.gif" 
+                  status="Center the current line" cid="5024" type="btn"><IMG 
+                  class=flat onclick="ae_onCommand(null, 7)" alt="Align Right" 
+                  src="../inc/images/right.gif" 
+                  status="Right justify the current line" cid="5026" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 7)" 
+                  alt=Bullets src="../inc/images/bullist.gif" 
+                  status="Insert a bullet on current line" cid="5051" 
+                  type="btn"><IMG class=flat onclick="ae_onCommand(null, 7)" 
+                  alt=Numbering src="../inc/images/numlist.gif" 
+                  status="Insert a numbered list on current line" cid="5030" 
+                  type="btn"><IMG class=spc 
+                  src="../inc/images/space.gif"><WBR><IMG class=flat 
+                  ondragstart="return false" onmouseover=ae_m_over(ae_tdrop7); 
+                  onclick="ae_onCommand(null, 7)" 
+                  onmouseout=ae_m_out(ae_tdrop7); alt="Insert Table" 
+                  src="../inc/images/instable.gif" name=ae_tbtn7 
+                  status="Insert a table" cid="5022" type="btn"><IMG class=flat 
+                  ondragstart="return false" onmouseover=ae_m_over(ae_tbtn7); 
+                  style="WIDTH: 9px" onclick=onTable(7) 
+                  onmouseout=ae_m_out(ae_tbtn7); alt="Quick Table" 
+                  src="../inc/images/tbdown.gif" name=ae_tdrop7 
+                  status="Insert a table" cid="5022" type="btn"></NOBR><BR><IMG 
+                  height=1 alt="" src="../inc/images/spacer.gif" 
+                width=1></SPAN></TD></TR></TBODY></TABLE></TD>
+          <TD class=ae_tdClass>&nbsp;</TD></TR>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass>&nbsp; </TD>
+          <TD class=ae_tdClass width="100%" height="100%">
+            <OBJECT id=DHTMLSafe7 style="Z-INDEX: 1" height="100%" width="100%" 
+            classid=clsid:2D360201-FFF5-11d1-8D03-00A0C959BC0A><PARAM NAME="ScrollbarAppearance" VALUE="0"></OBJECT>
+            <SCRIPT language=javascript event=ShowContextMenu for=DHTMLSafe7>
+						return ShowMenu(7);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onkeypress for=DHTMLSafe7>
+						return ae_onkeypress(7);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onmousedown for=DHTMLSafe7>
+						return ae_onmousedown(7);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=onclick for=DHTMLSafe7>
+						return ae_onclick(7);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=DisplayChanged for=DHTMLSafe7>
+						return ae_ondisplaychange(7);
+					</SCRIPT>
+
+            <SCRIPT language=javascript event=ContextMenuAction(itemIndex) 
+            for=DHTMLSafe7>
+						return ae_onmenuaction(itemIndex);
+					</SCRIPT>
+          </TD>
+          <TD class=ae_tdClass>&nbsp;</TD></TR>
+        <TR class=ae_trClass>
+          <TD class=ae_tdClass colSpan=3>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD><IMG height=1 src="../inc/images/spacer.gif" width=20></TD>
+                <TD align=right><A style="COLOR: gray; TEXT-DECORATION: none" 
+                  href="javascript:ae_about()"><SPAN 
+                  style="FONT-SIZE: 10px; FONT-FAMILY: Arial">CFDEV.COM © 
+                  2000&nbsp; </SPAN></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><TEXTAREA id=ae_tx_content7 style="VISIBILITY: hidden; POSITION: absolute" name=q9> 
+        
+        </TEXTAREA>
+      <SCRIPT>ae_initialize(7);</SCRIPT>
+
+      <SCRIPT>
+			//</comment>
+		</SCRIPT>
+       <!-- end cf_activedit v:2.5 --><BR></TD></TR>
+  <TR bgColor=#000064>
+    <TD colSpan=2><STRONG></STRONG></TD></TR>
+  <TR align=middle bgColor=#f2f2f2>
+    <TD vAlign=top colSpan=2><BR><INPUT class=sm onclick=return(ValidateForm()); type=submit value="Preview This Form" name=Submit> 
+      <INPUT type=hidden value="Add Registration form" name=subaction> 
+    <BR><BR></TD></TR>
+  <TR>
+    <TD vAlign=top align=middle bgColor=#f2f2f2 colSpan=2><FONT face=Verdana 
+      size=2><B><BR></B><STRONG>The Global Knowledge Partnership 
+      Secretariat</STRONG><BR>Lot L2-1-4, Enterprise 4<BR>Technology Park 
+      Malaysia<BR>Bukit Jalil <BR>57000 Kuala Lumpur<BR>MALAYSIA<BR>URL: <A 
+      href="http://www.globalknowledge.org/">http://www.globalknowledge.org/</A> 
+      <BR><BR>E-mail: <A 
+      href="mailto:seedgrant@gkpsecretariat.org.my">mailto:seedgrant@gkpsecretariat.org.my</A></FONT></TD></TR>
+  <TR>
+    <TD vAlign=top align=middle bgColor=#f2f2f2 
+colSpan=2>&nbsp;</TD></TR></TBODY></TABLE></FORM></BODY></HTML>
